@@ -1,0 +1,1119 @@
+start	So, now we continue with another stretching exercise. And this is about the stretching of the neck muscles.	intro_halsdehnung
+<SILENCE>	Are you ready?	ask_ready
+Yes.	Ok, let your right arm hang down next to your body. Push both shoulders down and look straight ahead. Pull the fingers of the right hand upwards. The palm is pointing down. Tilt your head slightly to the left. Put your left hand on your head.	general_description
+Huh? Once again, slowly! 0111P	Ok, let your right arm hang down next to your body.	part_description_1
+<SILENCE>	Push both shoulders down.	part_description_2
+<SILENCE>	Look straight ahead.	part_description_3
+Yes.	Pull the fingers of the right hand upwards.	part_description_4
+<SILENCE>	The palm is facing down.	part_description_5
+Hm. Again! 0111P	Pull the fingers of the right hand upwards.	part_description_4
+<SILENCE>	The palm is facing down.	part_description_5
+Both palms, or which palm?	The palm is pointing down.	part_description_5
+200	Your heart rate is just too high. We should take a break.	init_rest
+ok, gladly!	<system waits 30 seconds>	wait_until_hundred
+100	Ok, your pulse is okay again.	resume_exercise
+<SILENCE>	Shall I repeat the instructions slowly?	ask_description
+Yes!	Ok, let your right arm hang down next to your body.	part_description_1
+Aha	Push both shoulders down.	part_description_2
+<SILENCE>	Look straight ahead.	part_description_3
+Mm, ok.	Pull the fingers of the right hand upwards.	part_description_4
+ok	The palm is pointing down.	part_description_5
+Ah, now I understand.	Pull the fingers of the right hand upwards.	part_description_4
+<SILENCE>	The palm is facing down.	part_description_5
+<SILENCE>	Tilt your head slightly to the left.	part_description_6
+OK.	Put your left hand on your head.	part_description_7
+Left hand on the head. OK.	Stay in this posture for thirty seconds.	part_description_8
+OK.	So, now the other side.	repeat_exercise
+<SILENCE>	Shall I read the instructions again?	ask_description
+No no.	Ok, repeat the exercise on the other side.	repeat_exercise
+ok	<system waits 30 seconds>	sys_wait
+<SILENCE>	Okay, we're done with the exercise.	closing
+
+start	So, now we continue with another stretching exercise. And this is about the stretching of the neck muscles.	intro_halsdehnung
+Oki Doki.	Are you ready?	ask_ready
+Yes.	Ok, let your right arm hang down next to your body. Push both shoulders down and look straight ahead. Pull the fingers of the right hand upwards. The palm is pointing down. Tilt your head slightly to the left. Put your left hand on your head.	general_description
+Once again.	Let the right arm hang down next to the body.	part_description_1
+<SILENCE>	Push both shoulders down	part_description_2
+Ok	Look straight ahead.	part_description_3
+Good	Pull the fingers of the right hand upwards.	part_description_4
+<SILENCE>	The palm is facing down.	part_description_5
+<SILENCE>	Tilt your head slightly to the left.	part_description_6
+Mhm	Put your left hand on your head.	part_description_7
+Ok, I know that.	Stay in this posture for thirty seconds.	part_description_8
+OK.	So, now the other side.	repeat_exercise
+<SILENCE>	Shall I read the instructions again?	ask_description
+No, that's ok	Ok, repeat the exercise to the other side.	repeat_exercise
+ok	<system waits 30 seconds>	sys_wait
+<SILENCE>	Okay, we're done with the exercise.	closing
+
+start	So, now we continue with another stretching exercise. And this is about the stretching of the neck muscles.	intro_halsdehnung
+200	Your heart rate is still high. We should take a little break.	init_rest
+With pleasure.	<system waits 30 seconds>	wait_until_hundred
+100	Ok, your pulse is okay again.	resume_exercise
+Super	Are you ready?	ask_ready
+Yes.	Ok, let your right arm hang down next to your body. Push both shoulders down and look straight ahead. Pull the fingers of the right hand upwards. The palm is pointing down. Tilt your head slightly to the left. Put your left hand on your head.	general_description
+That was too fast.	Shall I read the instructions to you again?	ask_description
+Yes, please.	Let the right arm hang down next to the body.	part_description_1
+<SILENCE>	Push both shoulders down.	part_description_2
+Ok.	Look straight ahead.	part_description_3
+yes, good.	Pull the fingers of the right hand upwards.	part_description_4
+Ok	The palm is pointing down.	part_description_5
+<SILENCE>	Tilt your head slightly to the left.	part_description_6
+<SILENCE>	Put your left hand on your head.	part_description_7
+What about the arm?	Let the right arm hang down next to the body. Push both shoulders down and look straight ahead.	summary
+<SILENCE>	Pull the fingers of the right hand upwards.	part_description_4
+<SILENCE>	The palm is facing down.	part_description_5
+<SILENCE>	Tilt your head slightly to the left.	part_description_6
+Ok.	Put your left hand on your head.	part_description_7
+OK.	Stay in this posture for thirty seconds.	part_description_8
+<SILENCE>	As always, pay attention to an upright posture.Please do not pull or push on the head. Let gravity work.	security
+<SILENCE>	Now take another side.	repeat_exercise
+<SILENCE>	Shall I read the instructions again?	ask_description
+No no.	Ok, repeat the exercise to the other side.	repeat_exercise
+ok	<system waits 30 seconds>	sys_wait
+<SILENCE>	Okay, we're done with the exercise.	closing
+
+start	So, now we continue with another stretching exercise. And this is about the stretching of the neck muscles.	intro_halsdehnung
+I don't want to go on!	Are you tired of it? It is very important that they do the exercises Do you want to stop the exercise?	ask_finish
+No, it's alright.	Should I read the instructions again?	ask_description
+Yes, please.	Let the right arm hang down next to the body.	part_description_1
+<SILENCE>	Push both shoulders down.	part_description_2
+<SILENCE>	Look straight ahead.	part_description_3
+Yes.	Pull the fingers of the right hand upwards.	part_description_4
+<SILENCE>	The palm is facing down.	part_description_5
+Huh? What?	Tilt your head slightly to the left.	part_description_6
+<SILENCE>	Put your left hand on your head.	part_description_7
+What what what? What about the fingers?	Put the fingers of the right hand upwards. The palm is pointing down. Tilt your head slightly to the left.	summary
+<SILENCE>	Put your left hand on your head.	part_description_7
+<SILENCE>	As always, pay attention to an upright posture. Pull, or please do not press your head. Let gravity work.	security
+OK.	Stay in this posture for thirty seconds.	part_description_8
+<SILENCE>	Now do the other side.	repeat_exercise
+<SILENCE>	Shall I read the instructions again?	ask_description
+Well, no, that's ok.	Ok, carry the exercise over to the other side.	repeat_exercise
+OK.	<system waits 30 seconds>	sys_wait
+<SILENCE>	Okay, we're done with the exercise.	closing
+
+start	So, now we continue with another stretching exercise. And this is about the stretching of the neck muscles.	intro_halsdehnung
+<SILENCE>	Are you ready?	ask_ready
+No. I want to take a little break.	Do you want to take a break for a while?	ask_rest
+Yes.	Let me know when you are ready.	request_ready
+ok	<system waits 30 seconds>	sys_wait_rest
+Yes I am ready.	Are you ready?	ask_ready
+Uh-huh.	Ok, then let me know when you're set.	request_ready
+I told you that I was ready.	Ok, let your right arm hang down next to your body. Push both shoulders down and look straight ahead. Pull the fingers of the right hand upwards. The palm is pointing down. Tilt your head slightly to the left. Put your left hand on your head.	general_description
+Uh, that's complicated.	Should I read the instructions again?	ask_description
+Yes, but slowly please!	Ok, let your right arm hang down next to your body.	part_description_1
+<SILENCE>	Push both shoulders down.	part_description_2
+Ok.	Look straight ahead.	part_description_3
+That is better.	Should I read the instructions again?	ask_description
+No.	Okay, put the fingers of your right hand up.	part_description_4
+<SILENCE>	The palm is facing down.	part_description_5
+<SILENCE>	Tilt your head slightly to the left.	part_description_6
+Mhm	Put your left hand on your head.	part_description_7
+<SILENCE>	Stay in this posture for thirty seconds.	part_description_8
+<SILENCE>	As always, pay attention to an upright posture.Please do not pull or push on your head. Let gravity work.	security
+OK.	Now once again to other side.	repeat_exercise
+Hm, how was that again?	Shall I read the instructions to you again?	ask_description
+Yes, but slowly please!	Ok, let your right arm hang down next to your body.	part_description_1
+<SILENCE>	Push both shoulders down.	part_description_2
+Ok.	Look straight ahead.	part_description_3
+<SILENCE>	Pull the fingers of the right hand upwards.	part_description_4
+<SILENCE>	The palm is facing down.	part_description_5
+<SILENCE>	Tilt your head slightly to the left.	part_description_6
+I do not feel like it anymore. I'm stopping!	Are you tired of it? It is very important that they do the exercises Do you want to stop the exercise?	ask_finish
+Yes. I do not want to do it any more.	Okay, then we'll stop the exercise. Until next time!	finish
+
+start	Ok, we start with the warm-up.	intro_warm-up
+<SILENCE>	Are you ready?	ask_ready
+One second!	Okay, please let me know when you are ready.	request_ready
+<SILENCE>	<system waits 30 seconds>	sys_wait_rest
+<SILENCE>	Ready?	ask_ready
+Yes.	Please march on the spot. Raise your knees as high as possible and keep them upright. The feet should be hip-width.	general_description
+What?	Please march on the spot.	part_description_1
+Yes, I understood that.	Lift your knees as high as possible.	part_description_2
+OK Good.	Keep an upright posture.	part_description_3
+Ok.	Feet should be hip width.	part_description_4
+I am doing it!	The sternum diagonally upwards! As if you are wearing a medal!	security
+Up? I do not understand.	The sternum diagonally upwards! As if you are wearing a medal!	security
+Aha, ok.	Now march fast!	part_description_5
+200	Your heart rate is a bit too high. We should take a short break.	init_rest
+OK that's good!	<system waits 10 seconds>	wait_until_hundred
+200	Your heart rate is still too high. We still need some time before we move on.	rest
+ok	<system waiting 10 seconds>	wait_until_hundred
+100	Ok, now we can go on	resume_exercise
+<SILENCE>	Are you ready?	ask_ready
+Yes.	Should I read the instructions to you again?	ask_description
+No thanks	Ok, the sternum diagonally upwards! As if you are wearing a medal!	security
+<SILENCE>	<system waits 30 seconds>	sys_wait
+<SILENCE>	Well done, now we take thirty seconds break.	closing
+
+start 	Ok, we start with the warm-up.	intro_warm-up
+<SILENCE>	Are you ready?	ask_ready
+Yes, I'm ready, yes.	Please march on the spot. Raise your knees as high as possible and keep them upright. The feet should be hip-width.	general_description
+<SILENCE>	Please march on the spot.	part_description_1
+What about the knees?	As you march, lift your knees as high as possible.	part_description_2
+I am doing it!	Beware of an upright posture.	part_description_3
+<SILENCE>	The feet should be hip-width.	part_description_4
+<SILENCE>	Now march fast!	part_description_5
+<SILENCE>	<system waits 30 seconds>	sys_wait
+<SILENCE>	Well done, now we take thirty seconds break.	closing
+
+start	Ok, we start with the warm-up.	intro_warm-up
+<SILENCE>	Are you ready?	ask_ready
+No wait!	Ok, please say "now" when you're ready.	request_ready
+Not yet!	<system waits 30 seconds>	sys_wait_rest
+Now!	Ready?	ask_ready
+Now yes.	Please march on the spot. Raise your knees as high as possible and keep them upright. The feet should be hip-width.	general_description
+No not yet!	Okay, please let me know when you are ready.	request_ready
+<SILENCE>	<system waits 30 seconds>	sys_wait_rest
+OK.	Ready?	ask_ready
+Yes! I'm good!	We'll march right on the spot. Please make sure to maintain an upright posture. Keep your feet hip-width.	general_description
+What should I do?	Please march on the spot.	part_description_1
+OK.	Lift your knees as high as possible.	part_description_2
+<SILENCE>	Beware of an upright posture.	part_description_3
+Keep it upright.	Hold in an upright position. Keep your feet hip-width.	part_description_4
+I am.	Very well! Keep knees slightly bent and toes slightly turned outwards.	security
+Oh God, oh God.	Should I read the instructions again?	ask_description
+No, not necessary.	Hold the pelvis in its natural tilt and pull the belly button inwards.	security
+Okay, I'm marching.	Very well! Now march fast!	part_description_5
+<SILENCE>	<system waits 30 seconds>	sys_wait
+Ok, ok.	Well done! Now thirty seconds break.	closing
+
+start	Ok, we start with the warm-up.	intro_warm-up
+<SILENCE>	Are you ready?	ask_ready
+I'm ready.	Well! We'll march right on the spot. Please be sure to maintain an upright posture. Keep your feet hip-width. Keep knees slightly bent and toes slightly turned outwards. Hold the pelvis in its natural tilt and pull the belly button inwards.	general_description
+No not yet!	Okay, please let me know when you are ready.	request_ready
+ok	<system waits 30 seconds>	sys_wait_rest
+OK.	Ready?	ask_ready
+Yep!	We'll march right on the spot. Please be sure to maintain an upright posture. Keep your feet hip-width. Keep knees slightly bent and toes slightly turned outwards. Hold the pelvis in its natural tilt and pull the belly button inwards.	general_description
+That's a bit much at once.	Should I repeat the instructions?	ask_description
+Yes, please.	Please march on the spot.	part_description_1
+<SILENCE>	Lift your knees as high as possible.	part_description_2
+Yes OK.	Beware of an upright posture.	part_description_3
+No, stop!	Okay, please let me know when you are ready.	request_ready
+well	<system waits 30 seconds>	sys_wait_rest
+OK.	Ready?	ask_ready
+Yes. All good!	We'll march right on the spot. Please be sure to maintain an upright posture. Keep your feet hip-width. Keep knees slightly bent and toes slightly turned outwards. Hold the pelvis in its natural tilt and pull the belly button inwards.	general_description
+Ok	please march on the spot.	part_description_1
+<SILENCE>	Lift your knees as high as possible.	part_description_2
+<SILENCE>	Beware of an upright posture.	part_description_3
+<SILENCE>	Keep your feet hip-width.	part_description_4
+<SILENCE>	Hold the pelvis in its natural tilt and pull the navel inward.	security
+I do not understand the pelvis part.	Hold the pelvis in its natural tilt and pull the belly button inwards.	security
+<SILENCE>	Please march on the spot. Raise your knees as high as possible and keep them upright. The feet should be hip-width.	general_description
+Uh-huh.	Should I read the instructions again?	ask_description
+No, I'm already marching.	Hold the pelvis in its natural tilt and pull the belly button inwards.	security
+<SILENCE>	Very good! Now marching fast!	repeat_exercise
+200	Your heart rate is a bit too high. We should take a short break.	init_rest
+OK that's good!	<system waits 10 seconds>	wait_until_hundred
+200	Your heart rate is still too high. We still need some words before we move on.	rest
+ok	<system waiting 10 seconds>	wait_until_hundred
+100	Ok, now we can go on	resume_exercise
+<SILENCE>	Are you ready?	ask_ready
+Yes.	Should I read the instructions to you again?	ask_description
+no, that's not necessary	Ok, hold the pelvis in its natural tilt and pull the belly button inwards.	security
+<SILENCE>	<system waits 10 seconds>	sys_wait
+<SILENCE>	Well done! Now thirty seconds break.	closing
+
+start	We will now continue with a relaxation exercise.	intro_entspannungsuebung
+<SILENCE>	Are you ready?	ask_ready
+Yes I'm ready.	In this exercise, you should imagine that your arm or leg becomes heavy when I tell you.	general_description
+Yes.	Please close your eyes.	part_description_1
+<SILENCE>	Relax.	part_description_2
+<SILENCE>	Imagine your right arm is getting heavy.	part_description_3
+Oh, one second. Stop!	Do you want to pause briefly?	ask_rest
+Yes, please!	Okay, let me know when you're ready.	request_ready
+ok I am.	<system wait 30 seconds>	sys_wait_rest
+<SILENCE>	Ok, let's get started now. Are you ready?	ask_ready
+Yes!	Please close your eyes and relax.	part_description_1
+Ok	Relax.	part_description_2
+<SILENCE>	Imagine your right arm is getting heavy.	part_description_3
+<SILENCE>	Imagine your right arm getting heavier.	part_description_4
+<SILENCE>	Now imagine that your left arm is getting heavier.	part_description_5
+<SILENCE>	Make your left arm even heavier.	part_description_6
+<SILENCE>	Now imagine that your left leg is getting heavy.	part_description_7
+<SILENCE>	Your left leg is getting very heavy.	part_description_8
+<SILENCE>	Now imagine that your right leg is getting heavier.	part_description_9
+<SILENCE>	<system waits 30 seconds>	sys_wait
+<SILENCE>	Ok, that's it. We are done with the exercise.	closing
+
+start	We will now continue with a relaxation exercise.	intro_entspannungsuebung
+<SILENCE>	Are you ready?	ask_ready
+Yes I'm ready.	In this exercise, you should imagine that her arm or leg becomes heavy when I tell you.	general_description
+Ok, I know.	Please close your eyes.	part_description_1
+<SILENCE>	Relax.	part_description_2
+<SILENCE>	Imagine your right arm is getting heavy.	part_description_3
+<SILENCE>	Imagine your right arm is getting heavier.	part_description_4
+<SILENCE>	Now imagine that your left arm is getting heavier.	part_description_5
+<SILENCE>	Make her left arm even heavier.	part_description_6
+<SILENCE>	Now imagine that your left leg is getting heavy.	part_description_7
+<SILENCE>	Your left leg is getting very heavy.	part_description_8
+Oh, what? Again, I fell asleep!	Your left leg gets really heavy.	part_description_8
+Once again from the beginning please!	Should I read the instructions again?	ask_description
+Yes.	Please close the eyes, relax.	part_description_1
+<SILENCE>	Imagine her right arm is getting heavy.	part_description_2
+<SILENCE>	Imagine your right arm is getting heavy.	part_description_3
+200	Your heart rate is just too high. We should take a break.	init_rest
+ok, gladly!	<system waits 30 seconds>	wait_until_hundred
+100	Ok, your pulse is okay again.	resume_exercise
+<SILENCE>	Shall I repeat the instructions slowly?	ask_description
+no, that'S not necessary.	Imagine your right arm getting heavier.	part_description_4
+<SILENCE>	Now imagine that your left arm is getting heavier.	part_description_5
+<SILENCE>	Make her left arm even heavier.	part_description_6
+<SILENCE>	Now imagine that your left leg is getting heavy.	part_description_7
+<SILENCE>	Your left leg is getting very heavy.	part_description_8
+<SILENCE>	Now imagine that your right leg is getting heavier.	part_description_9
+<SILENCE>	<system waits 30 seconds>	sys_wait
+<SILENCE>	Ok, that's it. We are done with the exercise.	closing
+
+start	Ok, we start with the warm-up.	intro_warm-up
+Oh yes!	Are you ready?	ask_ready
+Yes.	We'll march right on the spot. Please take care to maintain an upright posture. Keep your feet hip-width. Keep knees slightly bent and toes slightly turned outwards.	general_description
+<SILENCE>	Hold the pelvis in its natural tilt and pull the navel inward.	security
+<SILENCE>	Shall I read the instructions again?	ask_description
+No.	Please march on the spot. Raise your knees as high as possible and keep them upright. The feet should be hip-width. 0111	general_description 
+Once again from the beginning.	Should I read the instruction again?	ask_description
+Yes.	March on the spot.	part_description_1
+Ok	Please be careful to maintain an upright posture.	part_description_2
+<SILENCE>	Keep your feet hip-width.	part_description_3
+<SILENCE>	Hold the pelvis in its natural tilt and pull the navel inward.	security
+I don't understand what you said about the pelvis.	Keep knees slightly bent and toes slightly turned outwards. Hold the pelvis in its natural tilt and pull the belly button inwards.	security
+<SILENCE>	Please march on the spot.	part_description_1
+<SILENCE>	Lift your knees as high as possible and keep your feet upright.	part_description_2
+<SILENCE>	The feet should be hip-width.	part_description_3
+Uh-huh.	Should I read the instructions again?	ask_description
+No, I'm marching.	Hold the pelvis in its natural tilt and pull the belly button inwards.	security
+<SILENCE>	Very good! Now marching fast!	repeat_exercise
+<SILENCE>	<system waits 30 seconds>	sys_wait
+<SILENCE>	Well done! Now thirty seconds break.	closing
+
+start	Ok, we start with the warm-up.	intro_warmup
+<SILENCE>	Are you ready?	ask_ready
+No not yet.	Let them know when they are ready.	request_ready
+Alright.	<system wait 30 seconds>	sys_wait_rest
+<SILENCE>	Are you ready?	ask_ready
+Yup!	Please march on the spot. Raise your knees as high as possible and keep them upright. The feet should be hip-width.	general_description
+<SILENCE>	Please keep an upright posture.	security
+What? 0111P	Should I read the instruction again?	ask_description
+Yes, please.	Please march on the spot.	part_description_1
+<SILENCE>	Lift your knees as high as possible.	part_description_2
+<SILENCE>	The feet should be hip-width.	part_description_3
+Oh.	Please keep an upright posture.	security
+<SILENCE>	Now marching fast!	repeat_exercise
+ok	<system waits 30 seconds>	sys_wait
+I'll do it!	Well done, now we take thirty seconds break.	closing
+
+start	Ok, we start with the warm-up.	intro_warmup
+<SILENCE>	Are you ready?	ask_ready
+Again from the beginning please!	Please march on the spot. Raise your knees as high as possible and keep them upright. The feet should be hip-width.	general_description
+Well ok.	As you march, lift your knees as high as possible.	part_description_2
+Yes, okay.	Please keep an upright posture.	security
+<SILENCE>	Now marching fast!	repeat_exercise
+ok	<system waits 30 seconds>	sys_wait
+<SILENCE>	Well done, now we take thirty seconds break.	closing
+
+start	Ok, we start with the warm-up.	intro_warmup
+<SILENCE>	Are you ready?	ask_ready
+No. I still want to wait.	Let me know when you are ready.	request_ready
+yes I will	<system waiting 30 seconds>	sys_wait_rest
+<SILENCE>	Are you ready?	ask_ready
+Yes.	Please march on the spot. Raise your knees as high as possible and keep them upright. The feet should be hip-width.	general_description
+What about the knees?	As you march, lift your knees as high as possible. The feet should be hip-width.	summary
+Oh thanks.	Please keep an upright posture!	security
+I am doing it!	Now marching fast!	repeat_exercise
+ok	<system waits 30 seconds>	sys_wait
+<SILENCE>	Well done, now we take thirty seconds break.	closing
+
+start	Ok, we start with the warm-up.	intro_warmup
+<SILENCE>	Are you ready?	ask_ready
+Yes, sure!	Please march on the spot. Raise your knees as high as possible and keep them upright. The feet should be hip-width.	general_description
+What was that?	As you march, lift your knees as high as possible.	part_description_2
+Okay, I'll try it.	Please keep an upright posture!	security
+<SILENCE>	Now marching fast!	repeat_exercise
+well	<system waits 30 seconds>	sys_wait
+<SILENCE>	Well done, now we take thirty seconds break.	closing
+
+start	So, now we continue with another stretching exercise. And this is about the stretching of the neck muscles.	intro_halsdehnung
+<SILENCE>	Are you ready?	ask_ready
+Yes.	Ok, let your right arm hang down next to your body. Push both shoulders down and look straight ahead. Pull the fingers of the right hand upwards. The palm is pointing down. Tilt your head slightly to the left. Put your left hand on your head. Remain in this position.	general_description
+That was too fast for me now. 0111P	Should I read the instructions again?	ask_description
+Yes, please.	And slower this time! Let the right arm hang down next to the body.	part_description_1
+<SILENCE>	Push both shoulders down and look straight ahead.	part_description_2
+<SILENCE>	Pull the fingers of the right hand upwards.	part_description_3
+<SILENCE>	The palm is facing down.	part_description_4
+<SILENCE>	Tilt your head slightly to the left.	part_description_5
+<SILENCE>	Put your left hand on your head.	part_description_6
+I understood.	Remain in this attitude.	part_description_7
+<SILENCE>	Ok, please do the exercise on the right side now.	repeat_exercise
+ok.	Should I read the instructions to you again?	ask_description
+No, you do not need that.	Ok, please execute the exercise on the right side now.	repeat_exercise
+<SILENCE>	<system waits 30 seconds>	sys_wait
+OK.	Well, we're done with the exercise.	closing
+
+start	So, now we continue with another stretching exercise. And this is about the stretching of the neck muscles.	intro_halsdehnung
+OK.	Are you ready?	ask_ready
+No.	Let them know when they are ready.	request_ready
+Mhm	<system waits 30 seconds>	sys_wait_rest
+<SILENCE>	Are you ready?	ask_ready
+Yes.	Ok, let your right arm hang down next to your body. Push both shoulders down and look straight ahead. Pull the fingers of the right hand upwards. The palm is pointing down. Tilt your head slightly to the left. Put your left hand on your head. Remain in this attitude.	general_description
+OK.	Ok, please execute the exercise on the right side now.	repeat_exercise
+<SILENCE>	Shall I read the instructions again?	ask_description
+No, not necessary.	Ok, please execute the exercise on the right side now.	repeat_exercise
+ok	<system waits 30 seconds>	sys_wait
+<SILENCE>	Okay, we're done with the exercise.	closing
+
+start	So, now we continue with another stretching exercise. And this is about the stretching of the neck muscles.	intro_halsdehnung
+<SILENCE>	Are you ready?	ask_ready
+Yes.	Ok, let your right arm hang down next to your body. Push both shoulders down and look straight ahead. Pull the fingers of the right hand upwards. The palm is pointing down. Tilt your head slightly to the left. Put your left hand on your head.	general_description
+No, please repeat the instructions!	Ok, let your right arm hang down next to your body. Push both shoulders down and look straight ahead. Pull the fingers of the right hand upwards. The palm is pointing down. Tilt your head slightly to the left. Put your left hand on your head.	general_description
+<SILENCE>	Ok, please do the exercise on the right side now.	repeat_exercise
+<SILENCE>	Shall I read the instructions again?	ask_description
+No.	Ok, please execute the exercise on the right side now.	repeat_exercise
+ok	<system waits 30 seconds>	sys_wait
+<SILENCE>	Okay, we're done with the exercise.	closing
+
+start	So, now we continue with another stretching exercise. And this is about the stretching of the neck muscles.	intro_halsdehnung
+<SILENCE>	Are you ready?	ask_ready
+Yes.	Ok, let your right arm hang down next to your body. Push both shoulders down and look straight ahead. Pull the fingers of the right hand upwards. The palm is pointing down. Tilt your head slightly to the left. Put your left hand on your head. Remain in this attitude.	general_description
+What should I do with my fingers?	Pull the fingers of the right hand upwards. The palm is pointing down. Tilt your head slightly to the left.	summary
+Thank you.	Put your left hand on your head.	part_description_6
+No, the rest is alright.	Remain in this position.	part_description_7
+<SILENCE>	Ok, please do the exercise on the right side now.	repeat_exercise
+<SILENCE>	Shall I read the instructions again?	ask_description
+No thanks.	Ok, please execute the exercise on the right side now.	repeat_exercise
+ok	<system waits 30 seconds>	sys_wait
+OK.	Well, we're done with the exercise.	closing
+
+start	So, now we continue with another stretching exercise. And this is about the stretching of the neck muscles.	intro_halsdehnung
+Yes, I already know.	Are you ready?	ask_ready
+Yes.	Ok, let your right arm hang down next to your body. Push both shoulders down and look straight ahead. Pull the fingers of the right hand upwards. The palm is pointing down. Tilt your head slightly to the left. Put your left hand on your head. Remain in this attitude.	general_description
+<SILENCE>	Ok, please do the exercise on the right side now.	repeat_exercise
+<SILENCE>	Shall I read the instructions again?	ask_description
+No, not necessary.	Ok, please execute the exercise on the right side now.	repeat_exercise
+ok	<system waits 30 seconds>	sys_wait
+<SILENCE>	Okay, we're done with the exercise.	closing
+
+start	Now we will do a stretching exercise.	intro_dehnung
+<SILENCE>	Are you ready?	ask_ready
+No not yet!	Ok, then let me know when you're ready.	request_ready
+<SILENCE>	<system waits 30 seconds>	sys_wait_rest
+I'm ready!	Ok, bring your arms over your head and stretch them up for ten seconds. The feet and knees point forward. Now tilt your upper body for ten seconds to the left as far as possible.	general_description
+That's easy.	Ok, repeat the exercise on the other side.	repeat_exercise
+<SILENCE>	Shall I read the instructions again?	ask_description
+No no.	Ok, repeat the exercise to the other side.	repeat_exercise
+ok	<system waits 30 seconds>	sys_wait
+ok.	Okay, now we're done with the exercise.	closing
+
+start	Now we will do a stretching exercise.	intro_dehnung
+<SILENCE>	Are you ready?	ask_ready
+Yes.	Ok, bring your arms over your head and stretch them up for ten seconds. The feet and knees point forward. Now tilt your upper body for ten seconds to the left as far as possible.	general_description
+No, please repeat again!	Ok, bring your arms over your head and stretch them up for ten seconds.	part_description_1
+Thank you.	The feet and knees point forward.	part_description_2
+<SILENCE>	Now tilt your torso to the left side for ten seconds as far as you can.	part_description_3
+OK.	Ok, repeat the exercise to the other side.	repeat_exercise
+<SILENCE>	Shall I read the instructions again?	ask_description
+Nope, I can do it.	Ok, repeat the exercise to the other side.	repeat_exercise
+ok	<system waits 30 seconds>	sys_wait
+<SILENCE>	So, now we're done with the exercise.	closing
+
+start	Now we will do a stretching exercise.	intro_dehnung
+<SILENCE>	Are you ready?	ask_ready
+Yes I am!	Ok, bring your arms over your head and stretch them up for ten seconds. The feet and knees point forward. Now tilt your upper body for ten seconds to the left as far as possible.	general_description
+What? The last one please again. 0111P	Should I read the instructions again?	ask_description
+Yes OK.	Ok, bring your arms over your head and stretch them up for ten seconds.	part_description_1
+<SILENCE>	The feet and knees point forward.	part_description_2
+<SILENCE>	Now tilt your torso to the left side for ten seconds as far as you can.	part_description_3
+OK.	Ok, repeat the exercise to the other side.	repeat_exercise
+OK.	Should I read the instructions again?	ask_description
+Oh no.	Okay, repeat the exercise to the other side.	repeat_exercise
+I wait	<system 30 seconds>	sys_wait
+<SILENCE>	So, now we're done with the exercise.	closing
+
+start	We continue with a stretching exercise. It's about the stretching of the hip muscles.	intro_hueftdehnung
+<SILENCE>	Are you ready?	ask_ready
+Yes.	For the exercise you have to sit in a chair. Put your right ankle on your left leg. Press lightly on the inside of your right knee as you lean forward. Take a deep breath. As you exhale, lean forward even more to deepen the stretch.	general_description
+Can you repeat that? 0111P	Do you want to hear the instructions again? 0011S	ask_description 
+I just asked.	Put your right ankle on your left leg.	part_description_1
+OK.	Press lightly on the inside of your right knee as you lean forward. 0011S	part_description_2
+Aye, that's more exhausting than expected.	Take a deep breath.	part_description_3
+<SILENCE>	Lean more forward as you exhale to deepen your stretching.	part_description_4
+Do I have to do that? It's dragging already.	Hold the stretch for 20 seconds. 0111S	part_description_5
+<SILENCE>	Then do the exercise with the other leg.	part_description_6
+<SILENCE>	<System waits 50 seconds>	sys_wait
+<SILENCE>	That's it with this exercise.	closing
+
+start	We continue with a stretching exercise. It's about the stretching of the hip muscles.	intro_hueftdehnung
+<SILENCE>	Are you ready?	ask_ready
+Not yet.	Let me know when you are ready.	request_ready
+<SILENCE>	<System waits 30 seconds>	sys_wait_rest
+Here we go again.	Are you ready?	ask_ready
+Yup!	For the exercise you have to sit in a chair. Put your right ankle on your left leg. Press lightly on the inside of your right knee as you lean forward. Take a deep breath. As you exhale, lean forward even more to deepen the stretch.	general_description
+<SILENCE>	Do you want to hear the instructions again?	ask_description
+No, not necessary.	Hold the stretch for 20 seconds.	part_description_5
+OK.	Then do the exercise with the other leg.	part_description_6
+All right.	<System waits 50 seconds>	sys_wait
+<SILENCE>	That's it with this exercise.	closing
+
+start	We continue with a stretching exercise. It's about the stretching of the hip muscles.	intro_hueftdehnung
+<SILENCE>	Are you ready?	ask_ready
+I need a break.	Let me know when you are ready.	request_ready
+<SILENCE>	<System waits 30 seconds>	sys_wait_rest
+<SILENCE>	Are you ready?	ask_ready
+No.	Let me know when you are ready.	request_ready
+<SILENCE>	<System waits 10 seconds>	sys_wait_rest
+Just a moment.	For the exercise you have to sit in a chair. Put your right ankle on your left leg. Press lightly on the inside of your right knee as you lean forward. Take a deep breath. As you exhale, lean forward even more to deepen the stretch. 0011S	general_description
+I wasn't ready!	Do you want to hear the instructions again?	ask_description
+Right, I want to relax a bit!	Do you want to take a break?	ask_rest
+Yes.	Let me know when you are ready.	request_ready
+<SILENCE>	<System waits 30 seconds>	sys_wait_rest
+<SILENCE>	Are you ready?	ask_ready
+One moment please.	Let me know when you are ready.	request_ready
+<SILENCE>	<System waits 30 seconds>	sys_wait_rest
+<SILENCE>	Are you ready?	ask_ready
+It's good, we can start. But please slowly!	For the exercise you have to sit in a chair. Put your right ankle on your left leg. Press lightly on the inside of your right knee as you lean forward. Take a deep breath. As you exhale, lean forward even more to deepen the stretch.	general_description
+That's not slow! Again please.	Put your right ankle on your left leg.	part_description_1
+Okay, yes.	Press lightly on the inside of your right knee as you lean forward.	part_description_2
+<SILENCE>	Take a deep breath.	part_description_3
+<SILENCE>	Lean more forward as you exhale to deepen your stretching.	part_description_4
+<SILENCE>	Hold the stretch for 20 seconds.	part_description_5
+<SILENCE>	Then do the exercise with the other leg.	part_description_6
+Ok, then left ankle on right leg ...	<system waits 50 seconds>	sys_wait
+<SILENCE>	That's it with this exercise.	closing
+
+start	We continue with a stretching exercise. It's about the stretching of the hip muscles.	intro_hueftdehnung
+The hip, ok.	Are you ready?	ask_ready
+Wait a moment.	Let me know when you are ready.	request_ready
+<SILENCE>	<System waits 30 seconds>	sys_wait_rest
+<SILENCE>	Are you ready?	ask_ready
+Yes I am.	For the exercise you have to sit in a chair. Put your right ankle on your left leg. Press lightly on the inside of your right knee as you lean forward. Take a deep breath. As you exhale, lean forward even more to deepen the stretch.	general_description
+Huh, that was too fast for me! 0111P	Do you want to hear the instructions again?	ask_description
+Gladly, and this time slower!	Put your right ankle on your left leg.	part_description_1
+How exactly? Do I have to put the right leg on the side? 0011P	Press lightly on the inside of your right knee as you lean forward. 0011S	part_description_2
+I do not know exactly what to do! 0111P	Do you want to hear the instructions again?	ask_description
+That does me no good!	Put your right ankle on your left leg. 0111S	part_description_1
+200	Your pulse is just too high. We should take a break.	init_rest
+How is too high? I just want to know how the exercise works.	<System waits 10 seconds>	wait_until_hundred
+200	Your heart rate is still too high. You should wait a bit.	rest
+How much longer?	<System waits 10 seconds>	wait_until_hundred
+100	Ok, your pulse is okay again.	resume_exercise
+And now?	Do you want to hear the instructions again?	ask_description
+No, I do not want to do the exercise.	It is very important that you perform the exercises. Do you want to cancel the exercise?	ask_finish
+You don't really explain what to do!	Ok, then we'll stop the exercise. Until next time!	finish
+
+start	Continue with a stretching exercise. It is about the stretching of the so-called hood muscle. He is in the upper part of the spine and goes to the shoulder blade.	intro_kapuzenmuskel
+Aha.	Are you ready?	ask_ready
+Yes.	Lock your fingers together. The palms face the body. Push your arms forward as far as possible. Your back will be rounded slightly.	general_description
+What about the hands? 0011P	Lock your fingers together. The palms face the body.	summary
+<SILENCE>	Push your arms forward as far as possible.	part_description_3
+<SILENCE>	Your back is slightly rounded.	part_description_4
+<SILENCE>	Hold the stretch for 20 seconds.	part_description_5
+<SILENCE>	As you exhale, increase the tension and hold it in when inhaling.	part_description_6
+That's exhausting enough for me!	<System waits 20 seconds>	sys_wait
+<SILENCE>	Well done! You did the exercise.	closing
+
+start	Continue with a stretching exercise. It is about the stretching of the so-called hood muscle. It is in the upper part of the spine and goes to the shoulder blade.	intro_kapuzenmuskel
+OK everything's good.	Are you ready?	ask_ready
+Naturally.	Lock your fingers together. The palms face the body. Push your arms forward as far as possible. Your back will be rounded slightly.	general_description
+<SILENCE>	Do you want to hear the instructions again?	ask_description
+No thanks.	Hold the stretch for 20 seconds.	part_description_5
+OK.	As you exhale, increase the tension and hold it in when inhaling.	part_description_6
+<SILENCE>	<System waits 20 seconds>	sys_wait
+<SILENCE>	Well done! You did the exercise.	closing
+
+start	Continue with a stretching exercise. It is about the stretching of the so-called hood muscle. He is in the upper part of the spine and goes to the shoulder blade.	intro_kapuzenmuskel
+I don't believe this!	Are you ready?	ask_ready
+No, I want to rest a bit from the last exercise.	Let me know when you are ready.	request_ready
+<SILENCE>	<System waits 30 seconds>	sys_wait_rest
+<SILENCE>	Are you ready?	ask_ready
+Not yet!	Let me know when you are ready.	request_ready
+<SILENCE>	<System waits 30 seconds>	sys_wait_rest
+Always the same ...	Are you ready?	ask_ready
+Yes, yes, I am.	Lock your fingers together. The palms face the body. Push your arms forward as far as possible. Your back will be rounded slightly.	general_description
+<SILENCE>	Do you want to hear the instructions again?	ask_description
+I thought it a bit quick.	Lock your fingers together.	part_description_1
+<SILENCE>	The palms face the body.	part_description_2
+Oh, I understand.	Push your arms forward as far as possible.	part_description_3
+<SILENCE>	Your back is slightly rounded.	part_description_4
+<SILENCE>	Hold the stretch for 20 seconds.	part_description_5
+I will.	As you exhale, increase the tension and hold it in when inhaling.	part_description_6
+<SILENCE>	<System waits 20 seconds>	sys_wait
+<SILENCE>	Well done! You did the exercise.	closing
+
+start	Continue with a stretching exercise. It is about the stretching of the so-called hood muscle. He is in the upper part of the spine and goes to the shoulder blade.	intro_kapuzenmuskel
+<SILENCE>	Are you ready?	ask_ready
+Yes.	Lock your fingers together. The palms face the body. Push your arms forward as far as possible. Your back will be rounded slightly.	general_description
+OK.	Do you want to hear the instructions again?	ask_description
+Yes.	Lock your fingers together.	part_description_1
+<SILENCE>	The palms face the body.	part_description_2
+<SILENCE>	Push your arms forward as far as possible.	part_description_3
+I don't get very far.	Your back will be rounded slightly.	part_description_4
+<SILENCE>	Hold the stretch for 20 seconds.	part_description_5
+<SILENCE>	As you exhale, increase the tension and hold it in when inhaling.	part_description_6
+No, that hurts me!	Do you want to cancel the exercise?	ask_finish
+200	Your pulse is just too high. We should take a break.	init_rest
+Yes, please!	<System waits 10 seconds>	wait_until_hundred
+200	Your heart rate is still too high. You should wait a bit.	rest
+<SILENCE>	<System waits 10 seconds>	wait_until_hundred
+200	Your heart rate is still too high. You should wait a bit.	rest
+<SILENCE>	<System waits 10 seconds>	wait_until_hundred
+100	Ok, your pulse is okay again.	resume_exercise
+<SILENCE>	Shall I read the instructions again?	ask_description
+Yes.	Lock your fingers together.	part_description_1
+OK.	The palms face the body.	part_description_2
+<SILENCE>	Push your arms forward as far as possible.	part_description_3
+<SILENCE>	Your back is slightly rounded.	part_description_4
+<SILENCE>	Hold the stretch for 20 seconds.	part_description_5
+But that draws very nice!	As you exhale, increase the tension and hold it in when inhaling.	part_description_6
+No not this time.	<System waits 20 seconds>	sys_wait
+<SILENCE>	Well done! You did the exercise.	closing
+
+start	Now we come to an exercise where you stretch the big breast muscle.	intro_brustmuskel
+OK.	Are you ready?	ask_ready
+Yes.	Raise both arms sideways from the body, at shoulder height, and bend both arms at the elbow. The forearms are pointing upwards. Take your elbows backwards until you feel a stretch. Move your upper body slowly forward.	general_description
+That was too fast for me!	Do you want to hear the instructions again?	ask_description
+Yes.	Lift both arms sideways from the body at shoulder height.	part_description_1
+<SILENCE>	Bend both arms at the elbow.	part_description_2
+<SILENCE>	The forearms are pointing up.	part_description_3
+I hope I'm doing it right ...	Take your elbows backwards until you feel a stretch.	part_description_4
+Ah! That hurts!	Do you want to take a break?	ask_rest
+No, it's not that bad.	Move your upper body slowly forward.	part_description_5
+<SILENCE>	Hold the stretch for 20 seconds.	part_description_6
+<SILENCE>	Be careful not to pull your shoulders up.	security
+<SILENCE>	Tighten the abdominal muscles to prevent a hollow back.	security
+That's a lot to look out for.	<System waits 20 seconds>	sys_wait
+<SILENCE>	You did well!	closing
+
+start	Now we come to an exercise where you stretch the big chest muscle.	intro_brustmuskel
+<SILENCE>	Are you ready?	ask_ready
+No.	Raise both arms sideways from the body, at shoulder height, and bend both arms at the elbow. The forearms are pointing upwards. Take your elbows backwards until you feel a stretch. Move your upper body slowly forward. 0111S	general_description
+Stop, I'm not ready yet!	Do you want to hear the instructions again? 0111S	ask_description 
+I need a break.	Do you want to take a break?	ask_rest
+Yes, I said.	Let me know when you are ready.	request_ready
+<SILENCE>	<System waits 30 seconds>	sys_wait_rest
+One moment more.	Are you ready?	ask_ready
+Now I'm ready.	Raise both arms sideways from the body, at shoulder height, and bend both arms at the elbow. The forearms are pointing upwards. Take your elbows backwards until you feel a stretch. Move your upper body slowly forward.	general_description
+<SILENCE>	Do you want to hear the instructions again?	ask_description
+Please with the arms again.	Lift both arms sideways from the body at shoulder height. Bend both arms at the elbow.	summary
+Thank you.	Move your upper body slowly forward.	part_description_5
+<SILENCE>	Hold the stretch for 20 seconds.	part_description_6
+OK.	Be careful not to pull your shoulders up.	security
+<SILENCE>	Tighten the abdominal muscles to prevent a hollow back.	security
+My arms are getting heavy!	<System waits 20 seconds>	sys_wait
+<SILENCE>	You did well!	closing
+
+start	Now we come to an exercise where you stretch the big chest muscle.	intro_brustmuskel
+OK.	Are you ready?	ask_ready
+No.	Let me know when you are ready.	request_ready
+<SILENCE>	<System waits 30 seconds>	sys_wait_rest
+OK.	Are you ready?	ask_ready
+No not yet!!	Let me know when you are ready.	request_ready
+<SILENCE>	<System waits 30 seconds>	sys_wait_rest
+<SILENCE>	Are you ready?	ask_ready
+It's alright! I'm ready!	Raise both arms sideways from the body, at shoulder height, and bend both arms at the elbow. The forearms are pointing upwards. Take your elbows backwards until you feel a stretch. Move your upper body slowly forward.	general_description
+Wait, what? 0111P	Do you want to hear the instructions again?	ask_description
+Yes, that was too fast for me.	Lift both arms sideways from the body at shoulder height.	part_description_1
+200	Your pulse is just too high. We should take a break.	init_rest
+What? No, I want to do the exercise!	Do you want to cancel the exercise? 0011S	ask_finish
+200	Your pulse is just too high. We should take a break.	init_rest
+I do not need it!	<System waits 10 seconds>	wait_until_hundred
+200	Your heart rate is still too high. You should wait a bit.	rest
+I do not want to wait!	<System waits 10 seconds>	wait_until_hundred
+100	Ok, your pulse is okay again.	resume_exercise
+Well finally.	Do you want to hear the instructions again?	ask_description
+For the exercise? Yes.	Lift both arms sideways from the body at shoulder height.	part_description_1
+<SILENCE>	Bend both arms at the elbow.	part_description_2
+<SILENCE>	The forearms are pointing up.	part_description_3
+<SILENCE>	Take your elbows backwards until you feel a stretch.	part_description_4
+Yes, I notice.	Move your upper body slowly forward.	part_description_5
+<SILENCE>	Hold the stretch for 20 seconds.	part_description_6
+<SILENCE>	Be careful not to pull your shoulders up.	security
+<SILENCE>	Tighten the abdominal muscles to prevent a hollow back.	security
+That too.	<System waits 20 seconds>	sys_wait
+<SILENCE>	You did well!	closing
+
+start	Now we come to an exercise where you stretch the big breast muscle.	intro_brustmuskel
+OK.	Are you ready?	ask_ready
+Yes I am.	Raise both arms sideways from the body, at shoulder height, and bend both arms at the elbow. The forearms are pointing upwards. Take your elbows backwards until you feel a stretch. Move your upper body slowly forward.	general_description
+<SILENCE>	Do you want to hear the instructions again?	ask_description
+No, I already know the exercise.	Hold the stretch for 20 seconds.	part_description_6
+The hands have to point up, right?	Bend both arms at the elbow. The forearms are pointing upwards.	summary
+Ah, that's how it was.	Take your elbows backwards until you feel a stretch.	part_description_4
+Yes, I notice.	Move your upper body slowly forward.	part_description_5
+<SILENCE>	Hold the stretch for 20 seconds.	part_description_6
+<SILENCE>	Be careful not to pull your shoulders up.	security
+Drop your shoulders, ok.	Tighten the abdominal muscles to prevent a hollow back.	security
+<SILENCE>	<System waits 20 seconds>	sys_wait
+<SILENCE>	You did well!	closing
+
+start	Now we will do a stretching exercise.	intro_dehnung
+<SILENCE>	Are you ready?	ask_ready
+I want to rest.	Let me know when you are ready.	request_ready
+<SILENCE>	<System waits 30 seconds>	sys_wait_rest
+<SILENCE>	Are you ready?	ask_ready
+Yes.	Ok, bring your arms over your head and stretch them up for ten seconds. The feet and knees point forward. Now tilt your upper body for ten seconds to the left as far as possible.	general_description
+<SILENCE>	Do you want to hear the instructions again?	ask_description
+Yes, sure.	Ok, bring your arms over your head and stretch them up for ten seconds.	part_description_1
+My arms are already so heavy ...	The feet and knees point to the front.	part_description_2
+<SILENCE>	Now tilt your torso to the left side for ten seconds as far as you can.	part_description_3
+Ouch, that's painful! Does it have to be that way?	Do you want to cancel the exercise?	ask_finish
+200	Your pulse is just too high. We should take a break.	init_rest
+Ok, gladly.	<System waits 10 seconds>	wait_until_hundred
+200	Your heart rate is still too high. You should wait a bit.	rest
+<SILENCE>	<System waits 10 seconds>	wait_until_hundred
+100	Ok, your pulse is okay again.	resume_exercise
+<SILENCE>	Do you want to hear the instructions again?	ask_description
+Yes.	Ok, bring your arms over your head and stretch them up for ten seconds.	part_description_1
+Thank you.	The feet and knees point forward.	part_description_2
+<SILENCE>	Now tilt your torso to the left side for ten seconds as far as you can.	part_description_3
+That's better than just.	Ok, now tilt your torso to the right side for ten seconds.	part_description_4
+<SILENCE>	<System waits 20 seconds>	sys_wait
+<SILENCE>	So, now we're done with the exercise.	closing
+
+start	Ok, we start with the warm-up.	intro_warmup
+<SILENCE>	Are you ready?	ask_ready
+Not yet.	Let me know when you are ready.	request_ready
+<SILENCE>	<System waits 30 seconds>	sys_wait_rest
+<SILENCE>	Are you ready?	ask_ready
+I think so.	Please march on the spot. Raise your knees as high as possible and keep your feet upright. The feet should be hip-width.	general_description
+<SILENCE>	Please keep an upright posture.	security
+What? 0111P	Should I read the instruction again?	ask_description
+Yes, please.	Please march on the spot.	part_description_1
+200	Your pulse is just too high. We should take a break.	init_rest
+Oh? Alright with me.	<System waits 10 seconds>	wait_until_hundred
+200	Your heart rate is still too high. You should wait a bit.	rest
+How much longer?	<System waits 10 seconds>	wait_until_hundred
+100	Ok, your pulse is okay again.	resume_exercise
+Then let's keep going.	Do you want to hear the instructions again?	ask_description
+Absolutely.	Please march on the spot.	part_description_1
+<SILENCE>	Lift your knees as high as possible.	part_description_2
+I will.	The feet should be hip-width.	part_description_3
+<SILENCE>	Now marching fast!	part_description_4
+Roger that!	Please keep an upright posture.	security
+<SILENCE>	<System waits 90 seconds>	sys_wait
+<SILENCE>	Well done, now we take thirty seconds break.	closing
+
+start	So, now we continue with another stretching exercise. And this is about the stretching of the neck muscles.	intro_halsdehnung
+<SILENCE>	Are you ready?	ask_ready
+Yes.	Ok, let your right arm hang down next to your body. Push both shoulders down and look straight ahead. Pull the fingers of the right hand upwards. The palm is pointing down. Tilt your head slightly to the left. Put your left hand on your head.	general_description
+<SILENCE>	Shall I read the instructions again?	ask_description
+I don't need it.	Let the right arm hang down next to the body. 0111S	part_description_1
+<SILENCE>	Push both shoulders down and look straight ahead.	part_description_2
+Thanks, I know what I have to do!	Pull the fingers of the right hand upwards. 0111S	part_description_3
+I just want to do my exercise in peace, without chatter!	The palm is pointing down.	part_description_4
+200	Your pulse is just too high. We should take a break.	init_rest
+No, I want to continue!	<System waits 10 seconds>	wait_until_hundred
+200	Your heart rate is still too high. You should wait a bit.	rest
+What was that? Abort, stop!	Do you want to cancel the exercise?	ask_finish
+Yes, then stop the exercise!	Ok, then we'll stop the exercise. Until next time.	finish
+
+start	Ok, we start with the warm-up.	intro_warmup
+<SILENCE>	Are you ready?	ask_ready
+No not yet.	Let me know when you are ready.	request_ready
+<SILENCE>	<System waits 30 seconds>	sys_wait_rest
+<SILENCE>	Are you ready?	ask_ready
+Yep!	Please march on the spot. Raise your knees as high as possible and keep your feet upright. The feet should be hip-width.	general_description
+<SILENCE>	Please keep an upright posture.	security
+What? 0111P	Should I read the instruction again?	ask_description
+Yes, please.	Please march on the spot.	part_description_1
+<SILENCE>	Lift your knees as high as possible.	part_description_2
+<SILENCE>	The feet should be hip-width.	part_description_3
+Oh.	Now marching fast!	part_description_4
+Alright!	Please keep an upright posture.	security
+<SILENCE>	<System waits 90 seconds>	sys_wait
+<SILENCE>	Well done, now we take thirty seconds break.	closing
+
+start	Ok, we start with the warm-up.	intro_warmup
+<SILENCE>	Are you ready?	ask_ready
+No not yet.	Please march on the spot. Raise your knees as high as possible and keep your feet upright. The feet should be hip-width. 0011S	general_description
+No, I'm not ready!	Please march on the spot. 0111S	part_description_1
+Hello?	Lift your knees as high as possible. 0111S	part_description_2
+Again from the beginning please!	Please march on the spot.	part_description_1
+Well, thank you.	Lift your knees as high as possible.	part_description_2
+<SILENCE>	The feet should be hip-width.	part_description_3
+<SILENCE>	Now march fast!	part_description_4
+<SILENCE>	Please keep an upright posture.	security
+Yes, okay.	<System waits 90 seconds>	sys_wait
+<SILENCE>	Well done, now we take thirty seconds break.	closing
+
+start	Ok, we start with the warm-up.	intro_warmup
+<SILENCE>	Are you ready?	ask_ready
+No.	I still want to wait. Let me know when you are ready.	request_ready
+<SILENCE>	<System waits 30 seconds>	sys_wait_rest
+<SILENCE>	Are you ready?	ask_ready
+Yes.	Please march on the spot. Raise your knees as high as possible and keep your feet upright. The feet should be hip-width.	general_description
+What about the knees?	As you march, lift your knees as high as possible. The feet should be hip-width.	summary
+Oh thanks.	Now march fast!	part_description_4
+<SILENCE>	Please keep an upright posture!	security
+I am doing it!	Please keep an upright posture. 0011S	security
+<SILENCE>	<System waits 90 seconds>	sys_wait
+<SILENCE>	Well done, now we take thirty seconds break.	closing
+
+start	Ok, we start with the warm-up.	intro_warmup
+<SILENCE>	Are you ready?	ask_ready
+Yes, sure!	Please march on the spot. Raise your knees as high as possible and keep your feet upright. The feet should be hip-width.	general_description
+Like this?	As you march, lift your knees as high as possible.	part_description_2
+Okay, I'll try it.	Now marching fast!	part_description_4
+<SILENCE>	Please keep an upright posture!	security
+<SILENCE>	<System waits 90 seconds>	sys_wait
+<SILENCE>	Well done, now we take thirty seconds break.	closing
+
+start	Ok, we start with the warm-up.	intro_warmup
+<SILENCE>	Are you ready?	ask_ready
+Not yet.	Let me know when you are ready.	request_ready
+<SILENCE>	<System waits 30 seconds>	sys_wait_rest
+<SILENCE>	Are you ready?	ask_ready
+I think so.	Please march on the spot. Raise your knees as high as possible and keep your feet upright. The feet should be hip-width.	general_description
+<SILENCE>	Please keep an upright posture.	security
+What? 0111P	Should I read the instruction again?	ask_description
+Yes, please.	Please march on the spot.	part_description_1
+200	Your pulse is just too high. We should take a break.	init_rest
+Oh? Ok by me.	<System waits 10 seconds>	wait_until_hundred
+200	Your heart rate is still too high. You should wait a bit.	rest
+How much longer?	<System waits 10 seconds>	wait_until_hundred
+200	Your heart rate is still too high. You should wait a bit.	rest
+<SILENCE>	<System waits 10 seconds>	wait_until_hundred
+100	Ok, your pulse is okay again.	resume_exercise
+Then I march on.	Do you want to hear the instructions again?	ask_description
+Sure.	Please march on the spot.	part_description_1
+<SILENCE>	Lift your knees as high as possible.	part_description_2
+I will.	The feet should be hip-width.	part_description_3
+<SILENCE>	Now marching fast!	part_description_4
+Roger that!	Please keep an upright posture.	security
+<SILENCE>	<System waits 90 seconds>	sys_wait
+<SILENCE>	Well done, now we take thirty seconds break.	closing
+
+start	So, now we continue with another stretching exercise. And this is about the stretching of the neck muscles.	intro_halsdehnung
+<SILENCE>	Are you ready?	ask_ready
+Yes.	Ok, let your right arm hang down next to your body. Push both shoulders down and look straight ahead. Pull the fingers of the right hand upwards. The palm is pointing down. Tilt your head slightly to the left. Put your left hand on your head.	general_description
+That was too fast for me now. 0111P	Should I read the instructions again?	ask_description
+Yes, please. And slower this time!	Let the right arm hang down next to the body.	part_description_1
+<SILENCE>	Push both shoulders down and look straight ahead.	part_description_2
+<SILENCE>	Pull the fingers of the right hand upwards.	part_description_3
+<SILENCE>	The palm is facing down.	part_description_4
+<SILENCE>	Tilt your head slightly to the left.	part_description_5
+<SILENCE>	Put your left hand on your head.	part_description_6
+Was that all?	Should I read the instruction again? 0011S	ask_description 
+No, I got it.	Stay in that position.	part_description_7
+<SILENCE>	Ok, please do the exercise on the right side now.	part_description_8
+<SILENCE>	<System waits 70 seconds>	sys_wait
+OK.	Well, we're done with the exercise.	closing
+
+start	So, now we continue with another stretching exercise. And this is about the stretching of the neck muscles.	intro_halsdehnung
+OK.	Are you ready?	ask_ready
+No.	Let me know when you are ready.	request_ready
+<SILENCE>	<System waits 30 seconds>	sys_wait_rest
+<SILENCE>	Are you ready?	ask_ready
+Yes.	Ok, let your right arm hang down next to your body. Push both shoulders down and look straight ahead. Pull the fingers of the right hand upwards. The palm is pointing down. Tilt your head slightly to the left. Put your left hand on your head.	general_description
+Kinda like this?	Stay in that attitude. 0111S	part_description_7
+OK.	Ok, please execute the exercise on the right side now.	part_description_8
+<SILENCE>	Shall I read the instructions again?	ask_description
+No, not necessary.	Ok, please execute the exercise on the right side now.	part_description_8
+<SILENCE>	<System waits 70 seconds>	sys_wait
+<SILENCE>	Okay, we're done with the exercise.	closing
+
+start	So, now we continue with another stretching exercise. And this is about the stretching of the neck muscles.	intro_halsdehnung
+<SILENCE>	Are you ready?	ask_ready
+Yes.	Ok, let your right arm hang down next to your body. Push both shoulders down and look straight ahead. Pull the fingers of the right hand upwards. The palm is pointing down. Tilt your head slightly to the left. Put your left hand on your head.	general_description
+Huh, do what with the fingers?	Should I read the instructions again?	ask_description
+Yes, please!	Let the right arm hang down next to the body.	part_description_1
+Thank you.	Push both shoulders down and look straight ahead.	part_description_2
+<SILENCE>	Pull the fingers of the right hand upwards.	part_description_3
+<SILENCE>	The palm is facing down.	part_description_4
+<SILENCE>	Tilt your head slightly to the left.	part_description_5
+<SILENCE>	Put your left hand on your head.	part_description_6
+<SILENCE>	Remain in this position.	part_description_7
+I will.	Ok, please execute the exercise on the right side now.	part_description_8
+<SILENCE>	<System waits 70 seconds>	sys_wait
+<SILENCE>	Okay, we're done with the exercise.	closing
+
+start	So, now we continue with another stretching exercise. And this is about the stretching of the neck muscles.	intro_halsdehnung
+<SILENCE>	Are you ready?	ask_ready
+Yes.	Ok, let your right arm hang down next to your body. Push both shoulders down and look straight ahead. Pull the fingers of the right hand upwards. The palm is pointing down. Tilt your head slightly to the left. Put your left hand on your head.	general_description
+<SILENCE>	Shall I read the instructions again?	ask_description
+What should I do with my fingers?	Pull the fingers of the right hand upwards. The palm is pointing down.	summary
+Oh thanks.	Tilt your head slightly to the left.	part_description_5
+I remember that.	Put your left hand on your head.	part_description_6
+<SILENCE>	Remain in this position.	part_description_7
+<SILENCE>	Ok, please do the exercise on the right side now.	part_description_8
+OK.	<System waits 70 seconds>	sys_wait
+<SILENCE>	Okay, we're done with the exercise.	closing
+
+start	So, now we continue with another stretching exercise. And this is about the stretching of the neck muscles.	intro_halsdehnung
+Yes, I already know.	Are you ready?	ask_ready
+Yes.	Ok, let your right arm hang down next to your body. Push both shoulders down and look straight ahead. Pull the fingers of the right hand upwards. The palm is pointing down. Tilt your head slightly to the left. Put your left hand on your head.	general_description
+OK.	Stay in that attitude.	part_description_7
+<SILENCE>	Ok, please do the exercise on the right side now.	part_description_8
+<SILENCE>	Shall I read the instructions again?	ask_description
+No, not necessary.	Ok, please execute the exercise on the right side now.	part_description_8
+<SILENCE>	<System waits 70 seconds>	sys_wait
+<SILENCE>	Okay, we're done with the exercise.	closing
+
+start	So, now we continue with another stretching exercise. And this is about the stretching of the neck muscles.	intro_halsdehnung
+<SILENCE>	Are you ready?	ask_ready
+Yes.	Ok, let your right arm hang down next to your body. Push both shoulders down and look straight ahead. Pull the fingers of the right hand upwards. The palm is pointing down. Tilt your head slightly to the left. Put your left hand on your head.	general_description
+<SILENCE>	Shall I read the instructions again?	ask_description
+I do not need it.	Let the right arm hang down next to the body. 0111S	part_description_1
+<SILENCE>	Push both shoulders down and look straight ahead.	part_description_2
+Thanks, I know what I have to do!	Pull the fingers of the right hand upwards. 0111S	part_description_3
+I'm fine without you talking!	Your pulse is just too high. We should take a break.	init_rest
+Do we really have to do this now?	Do you want to cancel the exercise?	ask_finish
+No, carry on!	Should I read the instructions again?	ask_description
+No! Stop!	Do you want to cancel the exercise?	ask_finish
+Yes, stop the exercise!	Ok, then we'll stop the exercise. Until next time.	finish
+
+start	Now we will do a stretching exercise.	intro_dehnung
+<SILENCE>	Are you ready?	ask_ready
+Not yet.	Are you ready? 0111S	ask_ready
+Yes, I think so now.	Let me know when you are ready. 0011S	request_ready
+<SILENCE>	<System waits 30 seconds>	sys_wait_rest
+I'm ready!	Are you ready?	ask_ready
+I already told you!	Ok, bring your arms over your head and stretch them up for ten seconds. The feet and knees point forward. Now tilt your upper body for ten seconds to the left as far as possible.	general_description
+Like this?	Merge arms over your head. Now tilt your upper body for ten seconds to the left as far as possible. 0111S	summary
+That's easy.	Ok, now tilt your torso to the right side for ten seconds.	part_description_4
+<SILENCE>	<System waits 20 seconds>	sys_wait
+Are we done?	So, now we're done with the exercise.	closing
+
+start	Now we will do a stretching exercise.	intro_dehnung
+<SILENCE>	Are you ready?	ask_ready
+Yes.	Ok, bring your arms over your head and stretch them up for ten seconds. The feet and knees point forward. Now tilt your upper body for ten seconds to the left as far as possible.	general_description
+I did not hear that! 0111P	Ok, now tilt your torso to the right side for ten seconds. 0111S	part_description_4
+No, please repeat again!	Ok, bring your arms over your head and stretch them up for ten seconds.	part_description_1
+Thank you.	The feet and knees point forward.	part_description_2
+<SILENCE>	Now tilt your torso to the left side for ten seconds as far as you can.	part_description_3
+OK.	Ok, now tilt your torso to the right side for ten seconds.	part_description_4
+<SILENCE>	<System waits 20 seconds>	sys_wait
+That's it?	So, now we're done with the exercise.	closing
+
+start	Now we will do a stretching exercise.	intro_dehnung
+<SILENCE>	Are you ready?	ask_ready
+Yes.	Are you ready? 0111S	ask_ready
+Yes I am!	Ok, bring your arms over your head and stretch them up for ten seconds. The feet and knees point forward. Now tilt your upper body for ten seconds to the left as far as possible.	general_description
+What? The last one please again. 0111P	The feet and knees point forward. Now tilt your upper body for ten seconds to the left as far as possible.	summary
+OK.	Ok, now tilt your torso to the right side for ten seconds.	part_description_4
+<SILENCE>	<System waits 20 seconds>	sys_wait
+<SILENCE>	So, now we're done with the exercise.	closing
+
+start	Now we will do a stretching exercise.	intro_dehnung
+<SILENCE>	Are you ready?	ask_ready
+I want to rest.	Let me know when you are ready.	request_ready
+<SILENCE>	<System waits 30 seconds>	sys_wait_rest
+<SILENCE>	Are you ready?	ask_ready
+OK I am ready.	Ok, bring your arms over your head and stretch them up for ten seconds. The feet and knees point forward. Now tilt your upper body for ten seconds to the left as far as possible.	general_description
+<SILENCE>	Do you want to hear the instructions again?	ask_description
+Yes, sure.	Ok, bring your arms over your head and stretch them up for ten seconds.	part_description_1
+My arms are already so heavy ...	The feet and knees point to the front.	part_description_2
+<SILENCE>	Now tilt your torso to the left side for ten seconds as far as you can.	part_description_3
+Ouch, that hurts! Do we have to do it that way?	Do you want to cancel the exercise?	ask_finish
+200	Your pulse is just too high. We should take a break.	init_rest
+Ok, gladly.	<System waits 10 seconds>	wait_until_hundred
+200	Your heart rate is still too high. You should wait a bit.	rest
+<SILENCE>	<System waits 10 seconds>	wait_until_hundred
+200	Your heart rate is still too high. You should wait a bit.	rest
+<SILENCE>	<System waits 10 seconds>	wait_until_hundred
+100	Ok, your pulse is okay again.	resume_exercise
+I feel a bit sleepy.	Do you want to hear the instructions again?	ask_description
+For the exercise? Yes.	Ok, bring your arms over your head and stretch them up for ten seconds.	part_description_1
+Thank you.	The feet and knees point forward.	part_description_2
+<SILENCE>	Now tilt your torso to the left side for ten seconds as far as you can.	part_description_3
+That's better now.	Ok, now tilt your torso to the right side for ten seconds.	part_description_4
+<SILENCE>	<System waits 20 seconds>	sys_wait
+<SILENCE>	So, now we're done with the exercise.	closing
+
+start	Now we are doing an exercise from tai chi. You should pretend to press something down.	intro_taichi_druecken
+<SILENCE>	Are you ready?	ask_ready
+Yes.	Slowly bring your hands up, taking a slow breath. The palms are turned down. When you reach your Forehead, lower your arms slowly and exhale. 0011S	general_description
+No, please slowly! Bit by bit!	Slowly bring your hands up.	part_description_1
+<SILENCE>	Breathe in slowly.	part_description_2
+<SILENCE>	The palms are turned down.	part_description_3
+<SILENCE>	When you're at forehead, lower your arms slowly and exhale.	part_description_4
+<SILENCE>	Repeat the exercise ten times at your own pace.	part_description_5
+<SILENCE>	Be sure to sit up and let your shoulder hang down loosely.	security
+<SILENCE>	<System waits 60 seconds>	sys_wait
+Ah, I wasn't counting.	You have done well! 0111S	closing
+
+start	Now we are doing an exercise from tai chi. You should pretend to press something down.	intro_taichi_druecken
+<SILENCE>	Are you ready?	ask_ready
+No.	Slowly bring your hands up, taking a slow breath. The palms are turned down. When you reach your Forehead, lower your arms slowly and exhale. 0011S	general_description
+No, I'm not ready!	Should I read the instructions again? 0011S	ask_description 
+200	Your pulse is just too high. We should take a break.	init_rest
+I've been saying that!	<System waits 10 seconds>	wait_until_hundred
+200	Your heart rate is still too high. You should wait a bit.	rest
+<SILENCE>	<System waits 10 seconds>	wait_until_hundred
+200	Your heart rate is still too high. You should wait a bit.	rest
+Still?	<System waits 10 seconds>	wait_until_hundred
+100	Ok, your pulse is okay again.	resume_exercise
+Well.	Should I read the instructions again?	ask_description
+No, I know the exercise.	Slowly bring your hands up. 0011S	part_description_1
+Oh god!	Breathe in slowly.	part_description_2
+<SILENCE>	The palms are turned down.	part_description_3
+<SILENCE>	When you're at your forehead, lower your arms slowly and exhale.	part_description_4
+<SILENCE>	Repeat the exercise ten times at your own pace.	part_description_5
+<SILENCE>	Be sure to sit up and let your shoulder hang down loosely.	security
+Yea yea.	<System waits 60 seconds>	sys_wait
+<SILENCE>	You did well!	closing
+
+start	Now we are doing an exercise from tai chi. You should pretend to press something down.	intro_taichi_druecken
+OK.	Are you ready?	ask_ready
+Yes.	Slowly bring your hands up, taking a slow breath. The palms are turned down. When you reach your Forehead, lower your arms slowly and exhale.	general_description
+Are the arms now stretched or bent? 0111P	Be sure to sit upright and let your shoulder hang loosely down. 0011S	security
+That does not help me.	Should I read the instructions again?	ask_description
+Yea, maybe.	Slowly bring your hands up.	part_description_1
+<SILENCE>	Breathe in slowly.	part_description_2
+<SILENCE>	The palms are turned down.	part_description_3
+I do not understand that!	When you reach Forehead, lower your arms slowly and exhale. 0111S	part_description_4
+Hello? Can someone explain the exercise to me?	Repeat the exercise ten times at your own pace.	part_description_5
+I still do not know what you mean	 Be sure to sit upright and let your shoulder hang loosely down. 0111S	security
+Great.	<System waits 60 seconds>	sys_wait
+<SILENCE>	You did well!	closing
+
+start	This is an exercise from Tai Chi. You should pretend that you are flying.	intro_taichi_fliegen
+<SILENCE>	Are you ready?	ask_ready
+Yes.	Lift your arms a little and bring your hands together in front of your body. Now open your arms outward, like a bird's wings beat. Take a breath. When your arms are maximally spread, close them slowly again and let your hands meet again in front of you.	general_description
+Please slow down!	Lift your arms a little.	part_description_1
+<SILENCE>	Put your hands together in front of your body.	part_description_2
+<SILENCE>	Now open your arms outward, like a bird's wings beat.	part_description_3
+<SILENCE>	Take a breath.	part_description_4
+<SILENCE>	When your arms are maximally spread, close them slowly again and let your hands come together again.	part_description_5
+<SILENCE>	You breathe out when you bring your hands back to your body.	part_description_6
+Thank you very much.	Repeat the exercise ten times at your own pace.	part_description_7
+<SILENCE>	Lose your shoulders loose from the body and watch for an upright posture.	security
+Yes, sure.	<System waits 60 seconds>	sys_wait
+<SILENCE>	Congratulations! You did it!	closing
+
+start	Now we are doing an exercise from tai chi. You should pretend to press something down.	intro_taichi_druecken
+<SILENCE>	Are you ready?	ask_ready
+Yea yea.	Slowly bring your hands up, taking a slow breath. The palms are turned down. When you reach Forehead, lower your arms slowly and exhale.	general_description
+<SILENCE>	Shall I read the instruction again?	ask_description
+No.	Repeat the exercise ten times at your own pace.	part_description_5
+<SILENCE>	Be sure to sit up and let your shoulder hang down loosely.	security
+That's right.	<System waits 60 seconds>	sys_wait
+<SILENCE>	You did well!	closing
+
+start	This is an exercise from Tai Chi. You should pretend that you are flying.	intro_taichi_fliegen
+<SILENCE>	Are you ready?	ask_ready
+Yes.	Lift your arms a little and bring your hands together in front of your body. Now open your arms outward, like a bird's wings beat. Take a breath. When your arms are maximally spread, close them slowly again and let your hands meet again in front of you.	general_description
+<SILENCE>	Shall I read the instructions again?	ask_description
+No.	You exhale when you bring your hands back to the body.	part_description_6
+<SILENCE>	Repeat the exercise ten times at your own pace.	part_description_7
+<SILENCE>	Let your shoulders hang loosely from the body and watch for an upright posture.	security
+OK.	<System waits 60 seconds>	sys_wait
+<SILENCE>	Congratulations! You finished the exercise!	closing
+
+start	This is an exercise from Tai Chi. You should pretend that you are flying.	intro_taichi_fliegen
+OK.	Are you ready?	ask_ready
+I need a break first!	Let me know when you are ready.	request_ready
+<SILENCE>	<System waits 30 seconds>	sys_wait_rest
+<SILENCE>	Are you ready?	ask_ready
+Now yes.	Lift your arms a little and bring your hands together in front of your body. Now open your arms outward, like a bird's wings beat. Take a breath. When your arms are maximally spread, close them slowly again and let your hands meet again in front of you.	general_description
+I understand.	You exhale when you bring your hands back to the body.	part_description_6
+<SILENCE>	Repeat the exercise ten times at your own pace.	part_description_7
+<SILENCE>	Lose your shoulders loose from the body and watch for an upright posture.	security
+Upright posture, always upright posture ...	<System waits 60 seconds>	sys_wait
+<SILENCE>	Congratulations! You did the exercise!	closing
+
+start	This is an exercise from Tai Chi. You should pretend that you are flying.	intro_taichi_fliegen
+OK.	Are you ready?	ask_ready
+No.	Lift your arms a little and bring your hands together in front of your body. Now open your arms outward, like a bird's wings beat. Take a breath. When your arms are maximally spread, close them slowly again and let your hands meet again in front of you. 0011S	general_description
+I said no!	You exhale when you bring your hands back to the body.	part_description_6
+<SILENCE>	Repeat the exercise ten times at your own pace.	part_description_7
+Great, now I have to count again.	Let your shoulders hang loose from the body and pay attention to an upright posture.	security
+<SILENCE>	<System waits 60 seconds>	sys_wait
+<SILENCE>	Congratulations! You completed the exercise!	closing
+
+start	Ok, now an exercise from Tai Chi, pretending to wipe your window with your right hand.	intro_taichi_fenster_rechts
+Alright.	Are you ready?	ask_ready
+I'm ready to go.	Make large circular movements clockwise with your right hand. First hold your hand to the right of the body, as if you were waving. With the circular movements, you can imagine that you are wiping across a windowpane. After ten repetitions, change direction.	general_description
+Can you please explain that more slowly?	Make large circular movements clockwise with your right hand.	part_description_1
+<SILENCE>	First, hold your hand to the right of the body, as if you were waving.	part_description_2
+<SILENCE>	With the circular movements, you can imagine that you are wiping across a windowpane.	part_description_3
+<SILENCE>	After ten repetitions, change direction.	part_description_4
+Ahh, thank you.	Repeat the exercise ten times clockwise and ten times counterclockwise.	part_description_5
+<SILENCE>	Let your shoulders hang loose from the body and watch for an upright posture.	security
+<SILENCE>	<System waits 60 seconds>	sys_wait
+<SILENCE>	You did well!	closing
+
+start	Ok, now an exercise from Tai Chi, pretending to wipe your window with your right hand.	intro_taichi_fenster_rechts
+Alright.	Are you ready?	ask_ready
+Let's go.	Let me know when you are ready. 0011S	request_ready
+<SILENCE>	<System waits 30 seconds>	sys_wait_rest
+But I did.	Are you ready? 0011S	ask_ready
+Yes now!	Make large circular movements clockwise with your right hand. First hold your hand to the right of the body, as if you were waving. With the circular movements, you can imagine that you are wiping across a windowpane. After ten repetitions, change direction.	general_description
+How should I hold my hand? 0111P	Hold your hand to the right of the body, as if you were waving.	part_description_2
+<SILENCE>	With the circular movements, you can imagine that you are wiping across a windowpane.	part_description_3
+Oh thanks.	Repeat the exercise ten times clockwise and ten times counterclockwise.	part_description_5
+<SILENCE>	Let your shoulders hang loose from the body and watch for an upright posture.	security
+<SILENCE>	<System waits 60 seconds>	sys_wait
+Well, I'm done.	You have done well!	closing
+
+start	Ok, now an exercise from Tai Chi, pretending to wipe your window with your right hand.	intro_taichi_fenster_rechts
+<SILENCE>	Are you ready?	ask_ready
+A little break first.	Let me know when you are ready.	request_ready
+<SILENCE>	<System waits 30 seconds>	sys_wait_rest
+<SILENCE>	Are you ready?	ask_ready
+Yes.	Make large circular movements clockwise with your right hand. First hold your hand to the right of the body, as if you were waving. With the circular movements, you can imagine that you are wiping across a windowpane. After ten repetitions, change direction.	general_description
+Huh what? I did not listen. 0111P	Make large circular movements clockwise with your right hand.	part_description_1
+<SILENCE>	First, hold your hand to the right of the body, as if you were waving.	part_description_2
+<SILENCE>	With the circular movements, you can imagine that you are wiping across a windowpane.	part_description_3
+<SILENCE>	After ten repetitions, change direction.	part_description_4
+Okay thanks.	Repeat the exercise ten times clockwise and ten times counterclockwise.	part_description_5
+<SILENCE>	Lose your shoulders loose from the body and watch for an upright posture.	security
+OK.	<System waits 60 seconds>	sys_wait
+<SILENCE>	You did well!	closing
+
+start	Ok, now an exercise from Tai Chi, pretending to wipe your window with your right hand.	intro_taichi_fenster_rechts
+Alright then.	Are you ready?	ask_ready
+Yes, I want to continue.	Make large circular movements clockwise with your right hand. First hold your hand to the right of the body, as if you were waving. With the circular movements, you can imagine that you are wiping across a windowpane. After ten repetitions, change direction.	general_description
+<SILENCE>	Shall I read the instructions again?	ask_description
+No.	Repeat the exercise ten times clockwise and ten times counterclockwise.	part_description_5
+<SILENCE>	Let your shoulders hang loose from the body and watch for an upright posture.	security
+<SILENCE>	<System waits 60 seconds>	sys_wait
+<SILENCE>	You did well!	closing
+
+start	Ok, now an exercise from Tai Chi, pretending to wipe your left hand across a windowpane.	intro_taichi_fenster_links
+<SILENCE>	Are you ready?	ask_ready
+Yes, sure.	Make large circular movements in a clockwise direction with your left hand. First hold your hand to the left of the body, as if you were waving. With the circular movements, you can imagine that you are wiping across a windowpane. After ten repetitions, change direction.	general_description
+<SILENCE>	Shall I read the instructions again?	ask_description
+Yes.	Make large circular movements in a clockwise direction with your left hand.	part_description_1
+<SILENCE>	First, hold your hand to the left of your body, as if you were waving.	part_description_2
+<SILENCE>	With the circular movements, you can imagine that you are wiping across a windowpane.	part_description_3
+<SILENCE>	After ten repetitions, change direction.	part_description_4
+Oh, I understand.	Repeat the exercise ten times clockwise and ten times counterclockwise.	part_description_5
+OK.	Be sure to sit upright and let your shoulder hang loosely down.	security
+<SILENCE>	<System waits 60 seconds>	sys_wait
+<SILENCE>	Well done!	closing
+
+start	Ok, now an exercise from Tai Chi, pretending to wipe your left hand across a windowpane.	intro_taichi_fenster_links
+<SILENCE>	Are you ready?	ask_ready
+Yeah, sure.	Make large circular movements in a clockwise direction with your left hand. First hold your hand to the left of the body, as if you were waving. With the circular movements, you can imagine that you are wiping across a windowpane. After ten repetitions, change direction.	general_description
+<SILENCE>	Shall I read the instructions again?	ask_description
+No.	Repeat the exercise ten times clockwise and ten times counterclockwise.	part_description_5
+<SILENCE>	Be sure to sit up and let your shoulder hang down loosely.	security
+OK.	<System waits 60 seconds>	sys_wait
+<SILENCE>	Well done!	closing
+
+start	Ok, now an exercise from Tai Chi, pretending to wipe your left hand across a windowpane.	intro_taichi_fenster_links
+<SILENCE>	Are you ready?	ask_ready
+Yes I am.	Make large circular movements in a clockwise direction with your left hand. First hold your hand to the left of the body, as if you were waving. With the circular movements, you can imagine that you are wiping across a windowpane. After ten repetitions, change direction.	general_description
+<SILENCE>	Shall I read the instructions again?	ask_description
+Um ... what about the window now?	First hold your hand to the left of the body, as if you were waving. With the circular movements, you can imagine that you are wiping across a windowpane.	summary
+Oh thanks.	Repeat the exercise ten times clockwise and ten times counterclockwise.	part_description_5
+<SILENCE>	Be sure to sit up and let your shoulder hang down loosely.	security
+<SILENCE>	<System waits 60 seconds>	sys_wait
+Okay, that's everything!	Well done!	closing
+
+start	Ok, now an exercise from Tai Chi, pretending to wipe your left hand across a windowpane.	intro_taichi_fenster_links
+<SILENCE>	Are you ready?	ask_ready
+No, this exercise is so long.	Make large circular movements in a clockwise direction with your left hand. First hold your hand to the left of the body, as if you were waving. With the circular movements, you can imagine that you are wiping across a windowpane. After ten repetitions, change direction. 0011S	general_description
+I would like to take a short break.	Let me know when you are ready.	request_ready
+<SILENCE>	<System waits 30 seconds>	sys_wait_rest
+<SILENCE>	Are you ready?	ask_ready
+Yes, I want to continue.	Do you want to cancel the exercise? 0011S	ask_finish
+No!	Should I read the instructions again?	ask_description
+Yes, I need that again.	Make large circular movements in a clockwise direction with your left hand.	part_description_1
+<SILENCE>	First, hold your hand to the left of your body, as if you were waving.	part_description_2
+Okay ...	With the circular movements, you can imagine that you are wiping across a windowpane.	part_description_3
+Oh.	After ten repetitions, change direction.	part_description_4
+<SILENCE>	Repeat the exercise ten times clockwise and ten times counterclockwise.	part_description_5
+OK.	Be sure to sit upright and let your shoulder hang loosely down.	security
+<SILENCE>	<System waits 60 seconds>	sys_wait
+<SILENCE>	Well done!	closing

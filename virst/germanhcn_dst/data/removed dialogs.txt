@@ -1,0 +1,102 @@
+start	We continue with a stretching exercise. It's about the stretching of the hip muscles.	intro_hueftdehnung
+<SILENCE>	Are you ready?	ask_ready
+Not yet.	Let me know when you are ready.	request_ready
+<SILENCE>	<System waits 30 seconds>	sys_wait_rest
+Here we go again.	Are you ready?	ask_ready
+Yup!	For the exercise you have to sit in a chair. Put your right ankle on your left leg. Press lightly on the inside of your right knee as you lean forward. Take a deep breath. As you exhale, lean forward even more to deepen the stretch.	general_description
+<SILENCE>	Do you want to hear the instructions again?	ask_description
+No, not necessary.	Hold the stretch for 20 seconds.	part_description_5	close_to_last
+OK.	Then do the exercise with the other leg.	part_description_6	next
+All right.	<System waits 50 seconds>	sys_wait
+<SILENCE>	That's it with this exercise.	closing
+
+start	Continue with a stretching exercise. It is about the stretching of the so-called hood muscle. It is in the upper part of the spine and goes to the shoulder blade.	intro_kapuzenmuskel
+OK everything's good.	Are you ready?	ask_ready
+Naturally.	Lock your fingers together. The palms face the body. Push your arms forward as far as possible. Your back will be rounded slightly.	general_description
+<SILENCE>	Do you want to hear the instructions again?	ask_description
+No thanks.	Hold the stretch for 20 seconds.	part_description_5	close_to_last	
+OK.	As you exhale, increase the tension and hold it in when inhaling.	part_description_6	next
+<SILENCE>	<System waits 20 seconds>	sys_wait
+<SILENCE>	Well done! You did the exercise.	closing
+
+start	So, now we continue with another stretching exercise. And this is about the stretching of the neck muscles.	intro_halsdehnung
+OK.	Are you ready?	ask_ready
+No.	Let me know when you are ready.	request_ready
+<SILENCE>	<System waits 30 seconds>	sys_wait_rest
+<SILENCE>	Are you ready?	ask_ready
+Yes.	Ok, let your right arm hang down next to your body. Push both shoulders down and look straight ahead. Pull the fingers of the right hand upwards. The palm is pointing down. Tilt your head slightly to the left. Put your left hand on your head.	general_description
+Kinda like this?	Stay in that attitude. 0111S	part_description_7	close_to_last
+OK.	Ok, please execute the exercise on the right side now.	part_description_8	next
+<SILENCE>	Shall I read the instructions again?	ask_description
+No, not necessary.	<System waits 70 seconds>	sys_wait
+<SILENCE>	Okay, we're done with the exercise.	closing
+
+start	So, now we continue with another stretching exercise. And this is about the stretching of the neck muscles.	intro_halsdehnung
+Yes, I already know.	Are you ready?	ask_ready
+Yes.	Ok, let your right arm hang down next to your body. Push both shoulders down and look straight ahead. Pull the fingers of the right hand upwards. The palm is pointing down. Tilt your head slightly to the left. Put your left hand on your head.	general_description
+OK.	Stay in that attitude.	part_description_7	close_to_last
+<SILENCE>	Ok, please do the exercise on the right side now.	part_description_8	next
+<SILENCE>	Shall I read the instructions again?	ask_description
+No, not necessary.	<System waits 70 seconds>	sys_wait
+<SILENCE>	Okay, we're done with the exercise.	closing
+
+start	Now we will do a stretching exercise.	intro_dehnung
+<SILENCE>	Are you ready?	ask_ready
+Yes.	Ok, bring your arms over your head and stretch them up for ten seconds. The feet and knees point forward. Now tilt your upper body for ten seconds to the left as far as possible.	general_description
+I did not hear that! 0111P	Ok, now tilt your torso to the right side for ten seconds. 0111S	part_description_4	close_to_last
+No, please repeat again!	Ok, bring your arms over your head and stretch them up for ten seconds.	part_description_1	from_top
+Thank you.	The feet and knees point forward.	part_description_2	next
+<SILENCE>	Now tilt your torso to the left side for ten seconds as far as you can.	part_description_3	next
+OK.	Ok, now tilt your torso to the right side for ten seconds.	part_description_4	next
+<SILENCE>	<System waits 20 seconds>	sys_wait
+That's it?	So, now we're done with the exercise.	closing
+
+start	Now we are doing an exercise from tai chi. You should pretend to press something down.	intro_taichi_druecken
+<SILENCE>	Are you ready?	ask_ready
+Yea yea.	Slowly bring your hands up, taking a slow breath. The palms are turned down. When you reach Forehead, lower your arms slowly and exhale.	general_description
+<SILENCE>	Shall I read the instruction again?	ask_description
+No.	Repeat the exercise ten times at your own pace.	part_description_5	close_to_last
+<SILENCE>	Be sure to sit up and let your shoulder hang down loosely.	security
+That's right.	<System waits 60 seconds>	sys_wait
+<SILENCE>	You did well!	closing
+
+start	This is an exercise from Tai Chi. You should pretend that you are flying.	intro_taichi_fliegen
+<SILENCE>	Are you ready?	ask_ready
+Yes.	Lift your arms a little and bring your hands together in front of your body. Now open your arms outward, like a bird's wings beat. Take a breath. When your arms are maximally spread, close them slowly again and let your hands meet again in front of you.	general_description
+<SILENCE>	Shall I read the instructions again?	ask_description
+No.	You exhale when you bring your hands back to the body.	part_description_6	close_to_last
+<SILENCE>	Repeat the exercise ten times at your own pace.	part_description_7	next
+<SILENCE>	Let your shoulders hang loosely from the body and watch for an upright posture.	security
+OK.	<System waits 60 seconds>	sys_wait
+<SILENCE>	Congratulations! You finished the exercise!	closing
+
+start	This is an exercise from Tai Chi. You should pretend that you are flying.	intro_taichi_fliegen
+OK.	Are you ready?	ask_ready
+I need a break first!	Let me know when you are ready.	request_ready
+<SILENCE>	<System waits 30 seconds>	sys_wait_rest
+<SILENCE>	Are you ready?	ask_ready
+Now yes.	Lift your arms a little and bring your hands together in front of your body. Now open your arms outward, like a bird's wings beat. Take a breath. When your arms are maximally spread, close them slowly again and let your hands meet again in front of you.	general_description
+I understand.	You exhale when you bring your hands back to the body.	part_description_6	close_to_last
+<SILENCE>	Repeat the exercise ten times at your own pace.	part_description_7	next
+<SILENCE>	Lose your shoulders loose from the body and watch for an upright posture.	security
+Upright posture, always upright posture ...	<System waits 60 seconds>	sys_wait
+<SILENCE>	Congratulations! You did the exercise!	closing
+
+start	This is an exercise from Tai Chi. You should pretend that you are flying.	intro_taichi_fliegen
+OK.	Are you ready?	ask_ready
+No.	Lift your arms a little and bring your hands together in front of your body. Now open your arms outward, like a bird's wings beat. Take a breath. When your arms are maximally spread, close them slowly again and let your hands meet again in front of you. 0011S	general_description
+I said no!	You exhale when you bring your hands back to the body.	part_description_6	close_to_last
+<SILENCE>	Repeat the exercise ten times at your own pace.	part_description_7	next
+Great, now I have to count again.	Let your shoulders hang loose from the body and pay attention to an upright posture.	security
+<SILENCE>	<System waits 60 seconds>	sys_wait
+<SILENCE>	Congratulations! You completed the exercise!	closing
+
+start	Ok, now an exercise from Tai Chi, pretending to wipe your window with your right hand.	intro_taichi_fenster_rechts
+Alright then.	Are you ready?	ask_ready
+Yes, I want to continue.	Make large circular movements clockwise with your right hand. First hold your hand to the right of the body, as if you were waving. With the circular movements, you can imagine that you are wiping across a windowpane. After ten repetitions, change direction.	general_description
+<SILENCE>	Shall I read the instructions again?	ask_description
+No.	Repeat the exercise ten times clockwise and ten times counterclockwise.	part_description_5	close_to_last
+<SILENCE>	Let your shoulders hang loose from the body and watch for an upright posture.	security
+<SILENCE>	<System waits 60 seconds>	sys_wait
+<SILENCE>	You did well!	closing
+

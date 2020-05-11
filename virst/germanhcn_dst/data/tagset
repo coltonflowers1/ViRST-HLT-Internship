@@ -1,0 +1,22 @@
++intro_<übungsname>  "Jetzt machen wir eine Dehnübung"
++ask_ready   "Sind Sie bereit?"
++request_ready   "Sagen Sie bescheid, wenn sie bereit sind"
+//ask_understanding "Haben Sie mich verstanden?"
++general_description "Bei dieser Übung sollen Sie die Beine strecken und dabei hin- und herwackeln. Achten sie darauf... bla bla"
++part_description_<nummer> "Bewegen Sie ihre Schultern nach vorne." (1) , "Kippen Sie den Kopf nach hinten" (2), etc. ... 
++ask_description "Wir waren gerade dabei, die Schultern kreisen zulassen. Wollen Sie die Anweisungen noch einmal hören?"
++ask_rest "Wollen Sie eine Pause machen?"
++init_rest "Ihr Puls ist gerade zu hoch. Wir sollten eine Pause machen" (hier wäre es gut, wenn wir etwas ähnliches, wie "start" enfügen würden, das einen hohen Puls simuliert. 200 oder so.
++ask_finish "Wollen Sie die Übung abbrechen?"
++finish "Ok, dann brechen wir die Übung ab. Bis zum nächsten Mal"
++closing "Super, das wars auch schon mit dieser Übung."
+//next_exercise "Kommen wir zur nächsten Übung"
++summary_<anfangs_index> 
++part_description_<nummer>+ask_description "Lassen sie den Kopf hängen. Wollen Sie die Anweisungen wieder hören?"
++resume_exercise "OK, ihr Puls ist wieder in Ordnung"
++security "Achten Sie, wie immer, auf eine aufrechte Haltung. Ziehen, oder drücken sie bitte nicht am Kopf. Lassen Sie die Schwerkraft arbeiten."
+//motivate "Haben Sie keine Lust mehr? Es ist sehr wichtig, dass sie die Übungen ausführen."
++motivate_ask_resume "Die Übung dauert nur eine Minute. Wollen wir sie Ausführen?"
+//ask_attention "Hallo? Sind Sie noch da?"
++remind "Wir waren gerade dabei, das und das zu machen"
+//ask_repetition "Was habe sie gesagt?"

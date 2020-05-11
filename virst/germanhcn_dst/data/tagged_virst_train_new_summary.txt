@@ -1,0 +1,1119 @@
+start	So, jetzt machen wir mit einer anderen Dehnübung weiter. Und zwar geht es hier um die Dehnung der Halsmuskulatur.	intro_halsdehnung
+<SILENCE>	Sind Sie bereit?	ask_ready
+Ja.	Ok, Lassen Sie den rechten Arm neben dem Körper herunterhängen. Drücken Sie beide Schultern nach unten und schauen Sie geradeaus. Ziehen Sie die Finger der rechten Hand nach oben an. Die Handfläche zeigt nach unten. Neigen Sie den Kopf leicht nach links. Legen Sie die linke Hand auf den Kopf.	general_description
+Hä? Noch einmal langsam! 0111P	Ok, Lassen Sie den rechten Arm neben dem Körper herunterhängen.	part_description_1
+<SILENCE>	Drücken Sie beide Schultern nach unten.	part_description_2
+<SILENCE>	Schauen Sie dabei geradeaus.	part_description_3
+ja.	Ziehen Sie die Finger der rechten Hand nach oben an.	part_description_4
+<SILENCE>	Die Handfläche zeigt nach unten.	part_description_5
+Hm. Noch mal! 0111P	Ziehen Sie die Finger der rechten Hand nach oben an.	part_description_4
+<SILENCE>	Die Handfläche zeigt nach unten.	part_description_5
+Beide Handflächen, oder welche Handfläche denn?	Die Handfläche zeigt nach unten.	part_description_5
+200	Ihr Puls ist gerade etwas zu hoch. Wir sollten eine Pause machen.	init_rest
+ok, gerne!	<system wartet 30 sekunden>	wait_until_hundred
+100	Ok, Ihr Puls ist wieder in Ordnung.	resume_exercise
+<SILENCE>	Soll ich die Anweisungen noch einmal langsam wiederholen?	ask_description
+Ja!	Ok, Lassen Sie den rechten Arm neben dem Körper herunterhängen.	part_description_1
+Aha	Drücken Sie beide Schultern nach unten.	part_description_2
+<SILENCE>	Schauen Sie geradeaus.	part_description_3
+Mhm, ok.	Ziehen Sie die Finger der rechten Hand nach oben an.	part_description_4
+ok	Die Handfläche zeigt nach unten.	part_description_5
+Achso , jetzt habe ich verstanden.	Ziehen Sie die Finger der rechten Hand nach oben an.	part_description_4
+<SILENCE>	Die Handfläche zeigt nach unten.	part_description_5
+<SILENCE>	Neigen Sie den Kopf leicht nach links.	part_description_6
+Ok.	Legen Sie die linke Hand auf den Kopf.	part_description_7
+Linke hand auf den Kopf. Ok.	Verbleiben sie dreißig Sekunden in dieser Haltung.	part_description_8
+OK.	So, jetzt nocht einmal zu anderen Seite.	repeat_exercise
+<SILENCE>	Soll ich die Anweisungen noch einmal vorlesen?	ask_description
+Nein, nein.	Ok, wiederholen Sie die Übung zur anderen Seite.	repeat_exercise
+ok	<system wartet 30 sekunden>	sys_wait
+<SILENCE>	Gut, wir sind mit der Übung fertig.	closing
+
+start	So, jetzt machen wir mit einer anderen Dehnübung weiter. Und zwar geht es hier um die Dehnung der Halsmuskulatur.	intro_halsdehnung
+Oki Doki.	Sind Sie bereit?	ask_ready
+Ja.	Ok, Lassen Sie den rechten Arm neben dem Körper herunterhängen. Drücken Sie beide Schultern nach unten und schauen Sie geradeaus. Ziehen Sie die Finger der rechten Hand nach oben an. Die Handfläche zeigt nach unten. Neigen Sie den Kopf leicht nach links. Legen Sie die linke Hand auf den Kopf.	general_description
+Nochmal.	Lassen Sie den rechten Arm neben dem Körper herunterhängen.	part_description_1
+<SILENCE>	Drücken Sie beide Schultern nach unten	part_description_2
+Ok	schauen Sie geradeaus.	part_description_3
+Gut	Ziehen Sie die Finger der rechten Hand nach oben an.	part_description_4
+<SILENCE>	Die Handfläche zeigt nach unten.	part_description_5
+<SILENCE> 	Neigen Sie den Kopf leicht nach links.	part_description_6
+Mhm	Legen Sie die linke Hand auf den Kopf.	part_description_7
+Ok, kenne ich ja.	Verbleiben sie dreißig Sekunden in dieser Haltung.	part_description_8
+OK.	So, jetzt nocht einmal zu anderen Seite.	repeat_exercise
+<SILENCE>	Soll ich die Anweisungen noch einmal vorlesen?	ask_description
+Nein, das.	Ok, wiederholen Sie die Übung zur anderen Seite.	repeat_exercise
+ok	<system wartet 30 sekunden>	sys_wait
+<SILENCE>	Gut, wir sind mit der Übung fertig.	closing
+
+start	So, jetzt machen wir mit einer anderen Dehnübung weiter. Und zwar geht es hier um die Dehnung der Halsmuskulatur.	intro_halsdehnung
+200	Ihr Puls ist noch etwas hoch. Wir sollten eine kleine Pause machen.	init_rest
+Gerne.	<system wartet 30 sekunden>	wait_until_hundred
+100	Ok, Ihr Puls ist wieder in Ordnung.	resume_exercise
+Super	Sind Sie bereit?	ask_ready
+Ja.	Ok, Lassen Sie den rechten Arm neben dem Körper herunterhängen. Drücken Sie beide Schultern nach unten und schauen Sie geradeaus. Ziehen Sie die Finger der rechten Hand nach oben an. Die Handfläche zeigt nach unten. Neigen Sie den Kopf leicht nach links. Legen Sie die linke Hand auf den Kopf.	general_description
+Das war zu schnell.	Soll ich Ihnen die Anweisungen noch einmal vorlesen?	ask_description
+Ja, bitte.	Lassen Sie den rechten Arm neben dem Körper herunterhängen.	part_description_1
+<SILENCE>	Drücken Sie beide Schultern nach unten.	part_description_2
+Ok	Schauen Sie geradeaus.	part_description_3
+ja, gut.	 Ziehen Sie die Finger der rechten Hand nach oben an.	part_description_4
+Ok	Die Handfläche zeigt nach unten.	part_description_5
+<SILENCE>	Neigen Sie den Kopf leicht nach links.	part_description_6
+<SILENCE>	Legen Sie die linke Hand auf den Kopf.	part_description_7
+Was war mit dem Arm?	 Lassen Sie den rechten Arm neben dem Körper herunterhängen. Drücken Sie beide Schultern nach unten und schauen Sie geradeaus.	summary
+<SILENCE>	Ziehen Sie die Finger der rechten Hand nach oben an.	part_description_4
+<SILENCE>	Die Handfläche zeigt nach unten.	part_description_5
+<SILENCE>	Neigen Sie den Kopf leicht nach links.	part_description_6
+Ok	Legen Sie die linke Hand auf den Kopf.	part_description_7
+OK.	Verbeliben sie dreißig Sekunden in dieser Haltung.	part_description_8
+<SILENCE>	Achten Sie, wie immer, auf eine aufrechte Haltung. Ziehen, oder drücken sie bitte nicht am Kopf. Lassen Sie die Schwerkraft arbeiten.	security
+<SILENCE>	Jetzt nocht einmal zu anderen Seite.	repeat_exercise
+<SILENCE>	Soll ich die Anweisungen noch einmal vorlesen?	ask_description
+Nein, nein.	Ok, führen Sie die Übung noch einmal zur anderen Seite durch.	repeat_exercise
+ok	<system wartet 30 sekunden>	sys_wait
+<SILENCE>	Gut, wir sind mit der Übung fertig.	closing
+
+start	So, jetzt machen wir mit einer anderen Dehnübung weiter. Und zwar geht es hier um die Dehnung der Halsmuskulatur.	intro_halsdehnung
+Kein Bock mehr!	Haben Sie keine Lust mehr? Es ist sehr wichtig, dass sie die Übungen ausführen Wollen Sie die Übung abbrechen?	ask_finish
+Nein, ist schon ok.	Soll ich die Anweisungen nochmal vorlesen?	ask_description
+ja bitte.	Lassen Sie den rechten Arm neben dem Körper herunterhängen.	part_description_1
+<SILENCE>	Drücken Sie beide Schultern nach unten.	part_description_2
+<SILENCE>	Schauen Sie geradeaus.	part_description_3
+Ja.	Ziehen Sie die Finger der rechten Hand nach oben an.	part_description_4
+<SILENCE>	Die Handfläche zeigt nach unten.	part_description_5
+Hä? Was?	Neigen Sie den Kopf leicht nach links.	part_description_6
+<SILENCE>	Legen Sie die linke Hand auf den Kopf.	part_description_7
+Was, was, was? Was ist mit den Fingern? 	Die Finger der rechten Hand nach oben anziehen. Die Handfläche zeigt nach unten. Neigen Sie den Kopf leicht nach links.	summary
+<SILENCE>	Legen Sie die linke Hand auf den Kopf.	part_description_7
+<SILENCE>	Achten Sie, wie immer, auf eine aufrechte Haltung. Ziehen, oder drücken sie bitte nicht den Kopf. Lassen Sie die Schwerkraft arbeiten.	security
+OK.	Verbeliben sie dreißig Sekunden in dieser Haltung.	part_description_8
+<SILENCE>	Jetzt nocht einmal zu anderen Seite.	repeat_exercise
+<SILENCE>	Soll ich die Anweisungen noch einmal vorlesen?	ask_description
+Naja, nein, ist schon ok.	Ok, führen Sie die Übung zur anderen Seite durch.	repeat_exercise
+Ok.	<system wartet 30 sekunden>	sys_wait
+<SILENCE>	Gut, wir sind mit der Übung fertig.	closing
+
+start	So, jetzt machen wir mit einer anderen Dehnübung weiter. Und zwar geht es hier um die Dehnung der Halsmuskulatur.	intro_halsdehnung
+<SILENCE>	Sind Sie bereit?	ask_ready
+Nein. Ich will noch ein bisschen Pause machen.	Wollen Sie kurz Pause machen?.	ask_rest
+Ja.	Sagen Sie Bescheid, wenn sie so weit sind.	request_ready
+ok	<system wartet 30 sekunden>	sys_wait_rest
+Ja, ich bin bereit.	Sind Sie bereit?	ask_ready
+naja.	Ok, dann sagen Sie bitte Bescheid, wenn sie fertig sind.	request_ready
+Ich habe doch gesagt, dass ich bereit bin.	Ok, Lassen Sie den rechten Arm neben dem Körper herunterhängen. Drücken Sie beide Schultern nach unten und schauen Sie geradeaus. Ziehen Sie die Finger der rechten Hand nach oben an. Die Handfläche zeigt nach unten. Neigen Sie den Kopf leicht nach links. Legen Sie die linke Hand auf den Kopf.	general_description
+Ui, das ist aber Kompliziert.	Soll ich die Anweisungen noch einmal vorlesen?	ask_description
+Ja, aber langsam bitte!	Ok,  Lassen Sie den rechten Arm neben dem Körper herunterhängen.	part_description_1
+<SILENCE>	Drücken Sie beide Schultern nach unten.	part_description_2
+Ok	Schauen Sie geradeaus.	part_description_3
+Das ist schon besser.	Soll ich die Anweisungen noch einmal vorlesen?	ask_description
+Nein.	Gut, ziehen Sie die Finger der rechten Hand nach oben an.	part_description_4
+<SILENCE>	Die Handfläche zeigt nach unten.	part_description_5
+<SILENCE>	Neigen Sie den Kopf leicht nach links.	part_description_6
+Mhm	Legen Sie die linke Hand auf den Kopf.	part_description_7
+<SILENCE>	Verbleiben sie dreißig Sekunden in dieser Haltung.	part_description_8
+<SILENCE>	Achten Sie, wie immer, auf eine aufrechte Haltung. Ziehen, oder drücken sie bitte nicht den Kopf. Lassen Sie die Schwerkraft arbeiten.	security
+OK.	Jetzt nocht einmal zu anderen Seite.	repeat_exercise
+Hm. wie war das nochmal?	Soll ich Ihnen die Anweisungen noch einmal vorlesen?	ask_description
+Ja, aber langsam bitte!	Ok,  Lassen Sie den rechten Arm neben dem Körper herunterhängen.	part_description_1
+<SILENCE>	Drücken Sie beide Schultern nach unten.	part_description_2
+Ok	Schauen Sie geradeaus.	part_description_3
+<SILENCE>	Ziehen Sie die Finger der rechten Hand nach oben an.	part_description_4
+<SILENCE>	Die Handfläche zeigt nach unten.	part_description_5
+<SILENCE>	Neigen Sie den Kopf leicht nach links.	part_description_6
+Ich habe keine Lust mehr. Will aufhören!	Haben Sie keine Lust mehr? Es ist sehr wichtig, dass sie die Übungen ausführen Wollen Sie die Übung abbrechen?	ask_finish
+Ja. Ich will nicht mehr.	ok, dann brechen wir die Übung ab. Bis zum Nächsten Mal!	finish
+
+start	Ok, wir beginnen mit dem Warm-Up.	intro_warm-up
+<SILENCE>	Sind Sie bereit?	ask_ready
+Eine Sekunde!	Ok, geben Sie bitte Bescheid, wenn Sie bereit sind.	request_ready
+<SILENCE>	<system wartet 30 sekunden>	sys_wait_rest
+<SILENCE>	Bereit?	ask_ready
+Ja.	Marschieren Sie bitte auf der Stelle. Heben sie dabei die Knie möglichst hoch und behalten sie eine aufrechte Haltung. Die Füße sollten dabei hüftbreit sein.	general_description
+Was?	Marschieren Sie bitte auf der Stelle.	part_description_1
+Ja, das habe ich verstanden.	Heben sie dabei die Knie möglichst hoch.	part_description_2
+Ok, gut.	Behalten Sie eine aufrechte Haltung.	part_description_3
+Ok	Die Füße sollten dabei hüftbreit sein.	part_description_4
+Mache ich doch!	Das Brustbein schräg nach oben! Als trügen Sie eine Medaille!	security
+Nach oben? Verstehe ich nicht.	Das Brustbein schräg nach oben! Als trügen Sie eine Medaille!	security
+Aha, ok.	Jetzt schnell Marschieren!	part_description_5
+200	Ihr Puls ist etwas zu hoch. Wir sollten eine kurze Pause machen.	init_rest
+ok, das ist gut!	<system wartet 10 sekunden>	wait_until_hundred
+200	Ihr Puls  ist noch etwas zu hoch. Wir müssen noch etwas Wrten, bevor wir weitermachen.	rest
+ok	<system wartet 10 sekunden>	wait_until_hundred
+100	Ok, jetzt können wir wieder weitermachen	resume_exercise
+<SILENCE>	Sind Sie bereit.	ask_ready
+ja.	Soll ich ihnen die Anweisungen noch einmal vorlesen?	ask_description
+nein danke	Ok, das Brustbein schräg nach oben! Als trügen Sie eine Medaille!	security	
+<SILENCE>	<system wartet 30 sekunden>	sys_wait
+<SILENCE>	Gut gemacht, jetzt machen wir dreißig Sekunden Pause.	closing
+
+start	Ok, wir beginnen mit dem Warm-Up.	intro_warm-up
+<SILENCE>	Sind Sie bereit?	ask_ready
+Ja, ich bin bereit, ja.	Marschieren Sie bitte auf der Stelle. Heben sie dabei die Knie möglichst hoch und behalten sie eine aufrechte Haltung. Die Füße sollten dabei hüftbreit sein.	general_description
+<SILENCE>	Marschieren Sie bitte auf der Stelle.	part_description_1
+Was ist mit den Knien?	Heben Sie beim Marschieren die Knie möglichst hoch.	part_description_2
+Mache ich doch!	Bewaren Sie eine aufrechte Haltung.	part_description_3
+<SILENCE>	Die Füße sollten dabei hüftbreit sein.	part_description_4
+<SILENCE>	Jetzt schnell Marschieren!	part_description_5
+<SILENCE>	<system wartet 30 sekunden>	sys_wait
+<SILENCE>	Gut gemacht, jetzt machen wir dreißig Sekunden Pause.	closing
+
+start	Ok, wir beginnen mit dem Warm-Up.	intro_warm-up
+<SILENCE>	Sind Sie bereit?	ask_ready
+Nein, warte!	Ok, geben Sie bitte mit "Jetzt" Bescheid, wenn Sie bereit sind.	request_ready
+Noch nicht!	<system wartet 30 sekunden>	sys_wait_rest
+Jetzt!	Bereit?	ask_ready
+Jetzt ja.	Marschieren Sie bitte auf der Stelle. Heben sie dabei die Knie möglichst hoch und behalten sie eine aufrechte Haltung. Die Füße sollten dabei hüftbreit sein.	general_description
+Nein noch nicht!	Ok, geben Sie bitte Bescheid, wenn Sie bereit sind.	request_ready
+<SILENCE>	<system wartet 30 sekunden>	sys_wait_rest
+Ok.	Bereit?	ask_ready
+Ja!	Gut! Wir werden gleich auf der Stelle marschieren. Bitte achten Sie dabei darauf, eine aufrechte Haltung zu bewahren. Halten Sie die Füße hüftbreit.	general_description
+Was soll ich?	Marschieren Sie bitte auf der Stelle.	part_description_1
+Ok.	Heben sie dabei die Knie möglichst hoch.	part_description_2
+<SILENCE>	Bewaren Sie eine aufrechte Haltung.	part_description_3
+Aufrecht halten.	Halten Sie die Füße hüftbreit.	part_description_4	
+Mache ich.	Sehr gut! Die Knie leicht gebeugt halten und Fußspitzen leicht nach außen gedreht.	security
+Ach Gott, ach Gott.	Soll ich die Anweisungen noch einmal vorlesen?	ask_description
+Nein, nicht nötig.	Becken in seiner natürlichen Kippung halten und den Bauchnabel nach innen ziehen.	security
+Ok, ich marschiere.	Sehr gut! Jetzt schnell Marschieren!	part_description_5
+<SILENCE>	<system wartet 30 sekunden>	sys_wait
+Ok, ok.	Gut gemacht! Jetzt dreißig Sekunden Pause.	closing
+
+start	Ok, wir beginnen mit dem Warm-Up.	intro_warm-up
+<SILENCE>	Sind Sie bereit?	ask_ready
+Ich bin bereit.	Gut! Wir werden gleich auf der Stelle marschieren. Bitte achten sie dabei darauf, eine aufrechte Haltung zu bewahren. Halten Sie die Füße hüftbreit.  Die Knie leicht gebeugt halten und Fußspitzen leicht nach außen gedreht. Becken in seiner natürlichen Kippung halten und den Bauchnabel nach innen ziehen.	general_description
+Nein noch nicht!	Ok, geben Sie bitte Bescheid, wenn Sie bereit sind.	request_ready
+ok	<system wartet 30 sekunden>	sys_wait_rest
+Ok.	Bereit?	ask_ready
+Ja!	Gut! Wir werden gleich auf der Stelle marschieren. Bitte achten sie dabei darauf, eine aufrechte Haltung zu bewahren. Halten Sie die Füße hüftbreit.  Die Knie leicht gebeugt halten und Fußspitzen leicht nach außen gedreht. Becken in seiner natürlichen Kippung halten und den Bauchnabel nach innen ziehen.	general_description
+Das ist ein bisschen viel auf einmal.	Soll ich die Anweisungen wiederholen?	ask_description
+Ja, bitte.	Marschieren Sie bitte auf der Stelle.	part_description_1
+<SILENCE>	Heben sie dabei die Knie möglichst hoch.	part_description_2
+ja, ok.	Bewaren Sie eine aufrechte Haltung.	part_description_3
+Nein, stop!	Ok, geben Sie bitte Bescheid, wenn sie bereit sind.	request_ready
+gut	<system wartet 30 sekunden>	sys_wait_rest
+Ok.	Bereit?	ask_ready
+Ja.	Gut! Wir werden gleich auf der Stelle marschieren. Bitte achten sie dabei darauf, eine aufrechte Haltung zu bewahren. Halten Sie die Füße hüftbreit.  Die Knie leicht gebeugt halten und Fußspitzen leicht nach außen gedreht. Becken in seiner natürlichen Kippung halten und den Bauchnabel nach innen ziehen.	general_description
+Ok	Marschieren Sie bitte auf der Stelle.	part_description_1
+<SILENCE>	Heben sie dabei die Knie möglichst hoch.	part_description_2
+<SILENCE>	Bewaren Sie eine aufrechte Haltung.	part_description_3
+<SILENCE>	Halten Sie die Füße hüftbreit.	part_description_4
+<SILENCE>	Becken in seiner natürlichen Kippung halten und den Bauchnabel nach innen ziehen.	security
+Das mit dem Becken verstehe ich nicht.	Becken in seiner natürlichen Kippung halten und den Bauchnabel nach innen ziehen.	security
+<SILENCE>	Marschieren Sie bitte auf der Stelle. Heben sie dabei die Knie möglichst hoch und behalten sie eine aufrechte Haltung. Die Füße sollten dabei hüftbreit sein.	general_description
+Mhm.	Soll ich die Anweisungen noch einmal vorlesen?	ask_description
+Nein, ich marschiere schon.	Becken in seiner natürlichen Kippung halten und den Bauchnabel nach innen ziehen.	security
+<SILENCE>	Sehr gut! Jetzt schnell Marschieren!	repeat_exercise
+200	Ihr Puls ist etwas zu hoch. Wir sollten eine kurze Pause machen.	init_rest
+ok, das ist gut!	<system wartet 10 sekunden>	wait_until_hundred
+200	Ihr Puls  ist noch etwas zu hoch. Wir müssen noch etwas Wrten, bevor wir weitermachen.	rest
+ok	<system wartet 10 sekunden>	wait_until_hundred
+100	Ok, jetzt können wir wieder weitermachen	resume_exercise
+<SILENCE>	Sind Sie bereit.	ask_ready
+ja.	Soll ich ihnen die Anweisungen noch einmal vorlesen?	ask_description
+nein, das ist nicht nötig	Ok, Becken in seiner natürlichen Kippung halten und den Bauchnabel nach innen ziehen.	security
+<SILENCE>	<system wartet 10 sekunden>	sys_wait	
+<SILENCE>	Gut gemacht! Jetzt dreißig Sekunden Pause.	closing
+
+start	Wir machen jetzt mit einer Entspannungsübung weiter. 	intro_entspannungsuebung
+<SILENCE>	Sind Sie bereit?	ask_ready
+Ja, bin bereit.	In dieser Übung solle Sie sich vorstellen, dass ihr Arm oder Bein schwer wird, wenn ich es Ihnen sage.	general_description
+Ja.	Schließen Sie bitte die Augen.	part_description_1
+<SILENCE>	Entspannen Sie sich.	part_description_2
+<SILENCE>	Stellen Sie sich vor, Ihr rechter Arm wird ganz schwer.	part_description_3
+Oh, Sekunde. Stop!	Wollen Sie kurz Puase machen?	ask_rest
+Ja, bitte!	Ok, Sagen Sie Bescheid, wenn Sie bereit sind.	request_ready
+ok mache ich	<system wartet 30 sekunden>	sys_wait_rest
+<SILENCE> Ok, jetzt können wir loslegen.	Sind sie bereit?	ask_ready
+Ja!	Schließen Sie bitte die Augen und Entspannen Sie sich.	part_description_1
+Ok	Entspannen Sie sich.	part_description_2
+<SILENCE>	Stellen Sie sich vor, Ihr rechter Arm wird ganz schwer.	part_description_3
+<SILENCE>	Stellen Sie sich vor Ihr rechter Arm wir immer schwerer.	part_description_4
+<SILENCE>	Stellen Sie sich jetzt vor, dass Ihr linker Arm immer schwerer wird.	part_description_5
+<SILENCE>	Lassen Sie ihren linken Arm noch schwerer werden.	part_description_6
+<SILENCE>	Jetzt stellen Sie sich vor, dass Ihr linkes Bein ganz schwer wird.	part_description_7
+<SILENCE>	Ihr linkes Bein wird ganz schwer.	part_description_8
+<SILENCE>	Stellen Sie sich jetzt vor, dass Ihr rechtes Bein immer schwerer wird.	part_description_9
+<SILENCE>	<system wartet 30 sekunden>	sys_wait
+<SILENCE>	Ok, das wars. Wir sind mit der Übung fertig.	closing
+
+start	Wir machen jetzt mit einer Entspannungsübung weiter.	intro_entspannungsuebung
+<SILENCE>	Sind Sie bereit?	ask_ready
+Ja, bin bereit.	In dieser Übung solle Sie sich vorstellen, dass ihr Arm oder Bein schwer wird, wenn ich es Ihnen sage.	general_description
+Ok, kenne ich.	Schließen Sie bitte die Augen.	part_description_1
+<SILENCE>	Entspannen Sie sich.	part_description_2
+<SILENCE>	Stellen Sie sich vor, Ihr rechter Arm wird ganz schwer.	part_description_3
+<SILENCE>	Stellen Sie sich vor, Ihr rechter Arm wird immer schwerer.	part_description_4
+<SILENCE>	Stellen Sie sich jetzt vor, dass Ihr linker Arm immer schwerer wird.	part_description_5
+<SILENCE>	Lassen Sie ihren linken Arm noch schwerer werden.	part_description_6
+<SILENCE>	Jetzt stellen Sie sich vor, dass Ihr linkes Bein ganz schwer wird.	part_description_7
+<SILENCE>	Ihr linkes Bein wird ganz schwer.	part_description_8
+Oh, was? Nochmal, ich bin Eingeschlafen!	Ihr linkes Bein wird ganz schwer.	part_description_8
+Noch einmal ganz von vorne bitte!	Soll ich die Anweisungen noch einmal vorlesen?	ask_description
+Ja.	Schließen Sie bitte die Augen, entspannen Sie sich.	part_description_1
+<SILENCE>	Stellen Sie sich vor ihr Rechter Arm wird ganz schwer.	part_description_2
+<SILENCE>	Stellen Sie sich vor, Ihr rechter Arm wird ganz schwer.	part_description_3
+200	Ihr Puls ist gerade etwas zu hoch. Wir sollten eine Pause machen.	init_rest
+ok, gerne!	<system wartet 30 sekunden>	wait_until_hundred
+100	Ok, Ihr Puls ist wieder in Ordnung.	resume_exercise
+<SILENCE>	Soll ich die Anweisungen noch einmal langsam wiederholen?	ask_description
+nein, ist nicht nötig.	Stellen Sie sich vor Ihr rechter Arm wir immer schwerer.	part_description_4
+<SILENCE>	Stellen Sie sich jetzt vor, dass Ihr linker Arm immer schwerer wird.	part_description_5
+<SILENCE>	Lassen Sie ihren linken Arm noch schwerer werden.	part_description_6
+<SILENCE>	Jetzt stellen Sie sich vor, dass Ihr linkes Bein ganz schwer wird.	part_description_7
+<SILENCE>	Ihr linkes Bein wird ganz schwer.	part_description_8
+<SILENCE>	Stellen Sie sich jetzt vor, dass Ihr rechtes Bein immer schwerer wird.	part_description_9
+<SILENCE>	<system wartet 30 sekunden>	sys_wait
+<SILENCE>	Ok, das wars. Wir sind mit der Übung fertig.	closing
+
+start	Ok, wir beginnen mit dem Warm-Up.	intro_warm-up
+Au ja!	Sind Sie bereit?	ask_ready
+Ja.	Wir werden gleich auf der Stelle marschieren. Bitte achten sie dabei daruf, ein aufrechte Haltung zu bewahren. Halten Sie die Füße hüftbreit.  Die Knie leicht gebeugt halten und Fußspitzen leicht nach außen gedreht.	general_description
+<SILENCE>	 Becken in seiner natürlichen Kippung halten und den Bauchnabel nach innen ziehen.	security
+<SILENCE>	Soll ich die Anweisungen noch einmal vorlesen?	ask_description
+Nein.	Marschieren Sie bitte auf der Stelle. Heben sie dabei die Knie möglichst hoch und behalten sie eine aufrechte Haltung. Die Füße sollten dabei hüftbreit sein. 0111	general_description
+Noch einmal von Vorne.	Soll ich die Anweisung noch einmal vorlesen?	ask_description
+Ja.	Marschieren Sie auf der Stelle marschieren.	part_description_1
+Ok	Bitte achten sie dabei daruf, ein aufrechte Haltung zu bewahren.	part_description_2 
+<SILENCE>	Halten Sie die Füße hüftbreit.	part_description_3
+<SILENCE>	Becken in seiner natürlichen Kippung halten und den Bauchnabel nach innen ziehen.	security
+Das mit dem Becken verstehe ich nicht.	Die Knie leicht gebeugt halten und Fußspitzen leicht nach außen gedreht. Becken in seiner natürlichen Kippung halten und den Bauchnabel nach innen ziehen.	security
+<SILENCE>	Marschieren Sie bitte auf der Stelle.	part_description_1
+<SILENCE>	Heben sie dabei die Knie möglichst hoch und behalten sie eine aufrechte Haltung.	part_description_2
+<SILENCE>	Die Füße sollten dabei hüftbreit sein.	part_description_3
+Mhm.	Soll ich die Anweisungen noch einmal vorlesen?	ask_description
+Nein, ich marschiere.	Becken in seiner natürlichen Kippung halten und den Bauchnabel nach innen ziehen.	security
+<SILENCE>	Sehr gut! Jetzt schnell Marschieren!	repeat_exercise
+<SILENCE>	<system wartet 30 sekunden>	sys_wait
+<SILENCE>	Gut gemacht! Jetzt dreißig Sekunden Pause.	closing
+
+start	Ok, wir beginnen mit dem Warm-Up. 	intro_warmup
+<SILENCE>	Sind Sie bereit?	ask_ready
+Nein, noch nicht.	Sagen sie Bescheid, wenn sie bereit sind.	request_ready
+mache ich	<system wartet 30 sekunden>	sys_wait_rest
+<SILENCE>	Sind Sie bereit?	ask_ready
+Jawohl!	Marschieren Sie bitte auf der Stelle. Heben sie dabei die Knie möglichst hoch und behalten sie eine aufrechte Haltung. Die Füße sollten dabei hüftbreit sein.	general_description
+<SILENCE>	Bitte eine aufrechte Haltung bewahren.	security
+Was? 0111P	Soll ich die Anweisung noch einmal vorlesen?	ask_description
+Ja, bitte.	Marschieren Sie bitte auf der Stelle.	part_description_1
+<SILENCE>	Heben sie dabei die Knie möglichst hoch.	part_description_2
+<SILENCE>	Die Füße sollten dabei hüftbreit sein.	part_description_3
+Achso.	Bitte eine aufrechte Haltung bewahren.	security
+<SILENCE>	Jetzt schnell Marschieren!	repeat_exercise
+ok	<system wartet 30 sekunden>	sys_wait
+Ich mach ja schon!	Gut gemacht, jetzt machen wir dreißig Sekunden Pause.	closing
+
+start	Ok, wir beginnen mit dem Warm-Up. 	intro_warmup
+<SILENCE>	Sind Sie bereit?	ask_ready
+Nochmal von vorne bitte!	Marschieren Sie bitte auf der Stelle. Heben sie dabei die Knie möglichst hoch und behalten sie eine aufrechte Haltung. Die Füße sollten dabei hüftbreit sein.	general_description
+Na endlich.	Heben Sie beim Marschieren die Knie möglichst hoch.	part_description_2
+Ja, okay.	Bitte eine aufrechte Haltung bewahren.	security
+<SILENCE>	Jetzt schnell Marschieren!	repeat_exercise
+ok	<system wartet 30 sekunden>	sys_wait
+<SILENCE>	Gut gemacht, jetzt machen wir dreißig Sekunden Pause.	closing
+
+start	Ok, wir beginnen mit dem Warm-Up.	intro_warmup
+<SILENCE>	Sind Sie bereit?	ask_ready
+Nein. Ich möchte noch warten.	Sagen sie Bescheid, wenn sie bereit sind.	request_ready
+ja mache ich	<system wartet 30 sekunden>	sys_wait_rest
+<SILENCE>	Sind Sie bereit?	ask_ready
+Ja.	Marschieren Sie bitte auf der Stelle. Heben sie dabei die Knie möglichst hoch und behalten sie eine aufrechte Haltung. Die Füße sollten dabei hüftbreit sein.	general_description
+Was ist mit den Knien?	Heben Sie beim Marschieren die Knie möglichst hoch. Die Füße sollten dabei hüftbreit sein.	summary
+Achso, danke.	Bitte eine aufrechte Haltung bewahren!	security
+Mache ich doch!	Jetzt schnell Marschieren!	repeat_exercise
+ok	<system wartet 30 sekunden>	sys_wait
+<SILENCE>	Gut gemacht, jetzt machen wir dreißig Sekunden Pause.	closing
+
+start	Ok, wir beginnen mit dem Warm-Up.	intro_warmup
+<SILENCE>	Sind Sie bereit?	ask_ready
+Ja klar!	Marschieren Sie bitte auf der Stelle. Heben sie dabei die Knie möglichst hoch und behalten sie eine aufrechte Haltung. Die Füße sollten dabei hüftbreit sein.	general_description
+So ungefähr?	Heben Sie beim Marschieren die Knie möglichst hoch.	part_description_2
+Okay, ich versuche es.	Bitte eine aufrechte Haltung bewahren!	security
+<SILENCE>	Jetzt schnell Marschieren!	repeat_exercise
+na gut	<system wartet 30 sekunden>	sys_wait
+<SILENCE>	Gut gemacht, jetzt machen wir dreißig Sekunden Pause.	closing
+
+start	So, jetzt machen wir mit einer anderen Dehnübung weiter. Und zwar geht es hier um die Dehnung der Halsmuskulatur.	intro_halsdehnung
+<SILENCE>	Sind Sie bereit?	ask_ready
+Ja.	Ok, Lassen Sie den rechten Arm neben dem Körper herunterhängen. Drücken Sie beide Schultern nach unten und schauen Sie geradeaus. Ziehen Sie die Finger der rechten Hand nach oben an. Die Handfläche zeigt nach unten. Neigen Sie den Kopf leicht nach links. Legen Sie die linke Hand auf den Kopf. Verbleiben sie in dieser Haltung.	general_description
+Das ging mir jetzt zu schnell. 0111P	Soll ich die Anweisungen noch einmal vorlesen?	ask_description
+Ja bitte. Und diesmal langsamer!	Lassen Sie den rechten Arm neben dem Körper herunterhängen.	part_description_1
+<SILENCE>	Drücken Sie beide Schultern nach unten und schauen Sie geradeaus.	part_description_2
+<SILENCE>	Ziehen Sie die Finger der rechten Hand nach oben an.	part_description_3
+<SILENCE>	Die Handfläche zeigt nach unten.	part_description_4
+<SILENCE>	Neigen Sie den Kopf leicht nach links.	part_description_5
+<SILENCE>	Legen Sie die linke Hand auf den Kopf.	part_description_6
+Ich hab's verstanden.	Verbleiben sie in dieser Haltung.	part_description_7
+<SILENCE>	Ok, bitte führen Sie jetzt die Übung zur rechten Seite aus.	repeat_exercise
+ok	Soll ich ihnen die Anweisungen noch einmal vorlesen?	ask_description
+nein, das Brauchst Du nicht.	Ok, bitte führen Sie jetzt die Übung zur rechten Seite aus.	repeat_exercise
+<SILENCE>	<system wartet 30 sekunden>	sys_wait
+Okay.	Gut, wir sind mit der Übung fertig.	closing
+
+start	So, jetzt machen wir mit einer anderen Dehnübung weiter. Und zwar geht es hier um die Dehnung der Halsmuskulatur.	intro_halsdehnung
+Okay.	Sind Sie bereit?	ask_ready
+Nein.	Sagen sie Bescheid, wenn sie bereit sind.	request_ready
+Mhm	<system wartet 30 sekunden>	sys_wait_rest
+<SILENCE>	Sind Sie bereit?	ask_ready
+Ja.	Ok, Lassen Sie den rechten Arm neben dem Körper herunterhängen. Drücken Sie beide Schultern nach unten und schauen Sie geradeaus. Ziehen Sie die Finger der rechten Hand nach oben an. Die Handfläche zeigt nach unten. Neigen Sie den Kopf leicht nach links. Legen Sie die linke Hand auf den Kopf. Verbleiben sie in dieser Haltung.	general_description
+Okay.	Ok, bitte führen Sie jetzt die Übung zur rechten Seite aus.	repeat_exercise
+<SILENCE>	Soll ich die Anweisungen noch einmal vorlesen?	ask_description
+Nein, nicht nötig.	Ok, bitte führen Sie jetzt die Übung zur rechten Seite aus.	repeat_exercise
+ok	<system wartet 30 sekunden>	sys_wait
+<SILENCE>	Gut, wir sind mit der Übung fertig.	closing
+
+start	So, jetzt machen wir mit einer anderen Dehnübung weiter. Und zwar geht es hier um die Dehnung der Halsmuskulatur.	intro_halsdehnung
+<SILENCE>	Sind Sie bereit?	ask_ready
+Ja.	Ok, Lassen Sie den rechten Arm neben dem Körper herunterhängen. Drücken Sie beide Schultern nach unten und schauen Sie geradeaus. Ziehen Sie die Finger der rechten Hand nach oben an. Die Handfläche zeigt nach unten. Neigen Sie den Kopf leicht nach links. Legen Sie die linke Hand auf den Kopf.	general_description
+Nein, bitte die Anweisung wiederholen!	Ok, Lassen Sie den rechten Arm neben dem Körper herunterhängen. Drücken Sie beide Schultern nach unten und schauen Sie geradeaus. Ziehen Sie die Finger der rechten Hand nach oben an. Die Handfläche zeigt nach unten. Neigen Sie den Kopf leicht nach links. Legen Sie die linke Hand auf den Kopf.	general_description
+<SILENCE>	Ok, bitte führen Sie jetzt die Übung zur rechten Seite aus.	repeat_exercise
+<SILENCE>	Soll ich die Anweisungen noch einmal vorlesen?	ask_description
+Nein.	Ok, bitte führen Sie jetzt die Übung zur rechten Seite aus.	repeat_exercise
+ok	<system wartet 30 sekunden>	sys_wait
+<SILENCE>	Gut, wir sind mit der Übung fertig.	closing
+
+start	So, jetzt machen wir mit einer anderen Dehnübung weiter. Und zwar geht es hier um die Dehnung der Halsmuskulatur.	intro_halsdehnung
+<SILENCE>	Sind Sie bereit?	ask_ready
+Ja.	Ok, Lassen Sie den rechten Arm neben dem Körper herunterhängen. Drücken Sie beide Schultern nach unten und schauen Sie geradeaus. Ziehen Sie die Finger der rechten Hand nach oben an. Die Handfläche zeigt nach unten. Neigen Sie den Kopf leicht nach links. Legen Sie die linke Hand auf den Kopf. Verbleiben sie in dieser Haltung.	general_description
+Was soll ich mit den Fingern machen?	Ziehen Sie die Finger der rechten Hand nach oben an. Die Handfläche zeigt nach unten. Neigen Sie den Kopf leicht nach links.	summary
+Danke.	Legen Sie die linke Hand auf den Kopf.	part_description_6
+Nein, der Rest geht schon.	Verbleiben sie in dieser Haltung.	part_description_7
+<SILENCE>	Ok, bitte führen Sie jetzt die Übung zur rechten Seite aus.	repeat_exercise
+<SILENCE>	Soll ich die Anweisungen noch einmal vorlesen?	ask_description
+Nein Danke.	Ok, bitte führen Sie jetzt die Übung zur rechten Seite aus.	repeat_exercise
+ok	<system wartet 30 sekunden>	sys_wait
+Okay.	Gut, wir sind mit der Übung fertig.	closing
+
+start	So, jetzt machen wir mit einer anderen Dehnübung weiter. Und zwar geht es hier um die Dehnung der Halsmuskulatur.	intro_halsdehnung
+Ja, kenn ich schon.	Sind Sie bereit?	ask_ready
+Ja.	Ok, Lassen Sie den rechten Arm neben dem Körper herunterhängen. Drücken Sie beide Schultern nach unten und schauen Sie geradeaus. Ziehen Sie die Finger der rechten Hand nach oben an. Die Handfläche zeigt nach unten. Neigen Sie den Kopf leicht nach links. Legen Sie die linke Hand auf den Kopf. Verbleiben sie in dieser Haltung.	general_description
+<SILENCE>	Ok, bitte führen Sie jetzt die Übung zur rechten Seite aus.	repeat_exercise
+<SILENCE>	Soll ich die Anweisungen noch einmal vorlesen?	ask_description
+Nein, nicht nötig.	Ok, bitte führen Sie jetzt die Übung zur rechten Seite aus.	repeat_exercise
+ok	<system wartet 30 sekunden>	sys_wait
+<SILENCE>	Gut, wir sind mit der Übung fertig.	closing
+
+start	Jetzt werden wir eine Dehnübung machen.	intro_dehnung
+<SILENCE>	Sind Sie bereit?	ask_ready
+Nein, noch nicht!	Ok, dann sagen Sie bitte Bescheid, wenn Sie bereit sind.	request_ready
+<SILENCE>	<system wartet 30 sekunden>	sys_wait_rest
+Ich bin bereit!	Ok, Arme über dem Kopf zusammenführen und zehn Sekunden lang nach oben strecken. Die Füße und Knie zeigen nach vorne. Nun neigen Sie Ihren Oberkörper für zehn Sekunden zur linken Seite soweit es geht.	general_description
+Das ist ja einfach.	Ok, wiederholen Sie die Übung zur anderen Seite.	repeat_exercise
+<SILENCE>	Soll ich die Anweisungen noch einmal vorlesen?	ask_description
+Nein, nein.	Ok, wiederholen Sie die Übung zur anderen Seite.	repeat_exercise
+ok	<system wartet 30 sekunden>	sys_wait
+Ok	So, jetzt sind wir mit der Übung fertig.	closing
+
+start	Jetzt werden wir eine Dehnübung machen.	intro_dehnung
+<SILENCE>	Sind Sie bereit?	ask_ready
+Ja.	Ok, Arme über dem Kopf zusammenführen und zehn Sekunden lang nach oben strecken. Die Füße und Knie zeigen nach vorne. Nun neigen Sie Ihren Oberkörper für zehn Sekunden zur linken Seite soweit es geht.	general_description
+Nein, bitte nochmal wiederholen!	Ok, Arme über dem Kopf zusammenführen und zehn Sekunden lang nach oben strecken.	part_description_1
+Danke.	Die Füße und Knie zeigen nach vorne.	part_description_2
+<SILENCE>	Nun neigen Sie Ihren Oberkörper für zehn Sekunden zur linken Seite soweit es geht.	part_description_3
+Okay.	Ok, wiederholen Sie die Übung zur anderen Seite.	repeat_exercise
+<SILENCE>	Soll ich die Anweisungen noch einmal vorlesen?	ask_description
+Nö, das kann ich.	Ok, wiederholen Sie die Übung zur anderen Seite.	repeat_exercise
+ok	<system wartet 30 sekunden>	sys_wait
+<SILENCE>	So, jetzt sind wir mit der Übung fertig.	closing
+
+start	Jetzt werden wir eine Dehnübung machen.	intro_dehnung
+<SILENCE>	Sind Sie bereit?	ask_ready
+Doch, bin ich!	Ok, Arme über dem Kopf zusammenführen und zehn Sekunden lang nach oben strecken. Die Füße und Knie zeigen nach vorne. Nun neigen Sie Ihren Oberkörper für zehn Sekunden zur linken Seite soweit es geht.	general_description
+Was? Das Letzte bitte nochmal. 0111P	Soll ich die Anweisungen noch einmal vorlesen?	ask_description
+Ja, ok.	Ok, Arme über dem Kopf zusammenführen und zehn Sekunden lang nach oben strecken.	part_description_1
+<SILENCE>	Die Füße und Knie zeigen nach vorne.	part_description_2
+<SILENCE>	Nun neigen Sie Ihren Oberkörper für zehn Sekunden zur linken Seite soweit es geht.	part_description_3
+Okay.	Ok, wiederholen Sie die Übung zur anderen Seite.	repeat_exercise
+Ok.	Soll ich die Anweisungen noch einmal vorlesen?	ask_description
+Ach nö.	Ok, wiederholen Sie die Übung zur anderen Seite.	repeat_exercise
+Mache ich	<system wartet 30 sekunden>	sys_wait
+<SILENCE>	So, jetzt sind wir mit der Übung fertig.	closing
+
+start	Wir machen mit einer Dehnübung weiter. Es geht um die Dehnung der Hüftmuskulatur.	intro_hueftdehnung
+<SILENCE>	Sind Sie bereit?	ask_ready
+Ja.	Für die Übung müssen Sie auf einem Stuhl sitzen. Legen Sie Ihren rechten Fußknöchel auf Ihr linkes Bein. Drücken Sie leicht auf die Innenseite Ihres rechten Knies, während Sie sich nach vorne beugen. Tief einatmen. Lehnen Sie sich beim Ausatmen noch mehr nach vorne, um die Dehnung zu vertiefen.	general_description
+Können Sie das nochmal wiederholen? 0111P	Wollen Sie die Anweisungen noch einmal hören? 0011S	ask_description
+Hab ich doch gerade gefragt.	Legen Sie Ihren rechten Knöchel auf Ihr linkes Bein.	part_description_1
+Okay.	Drücken Sie leicht auf die Innenseite Ihres rechten Knies, während Sie sich nach vorne beugen. 0011S	part_description_2
+Au weia, das ist anstrengender als erwartet.	Tief einatmen.	part_description_3
+<SILENCE>	Lehnen Sie sich beim Ausatmen noch mehr nach vorne, um die Dehnung zu vertiefen.	part_description_4
+Muss ich das machen? Es zieht schon.	Halten Sie die Dehnung für 20 Sekunden. 0111S	part_description_5
+<SILENCE>	Führen Sie die Übung dann auch mit dem anderen Bein durch.	part_description_6
+<SILENCE>	<System wartet 50 Sekunden>	sys_wait
+<SILENCE>	Das wars auch schon mit dieser Übung.	closing
+
+start	Wir machen mit einer Dehnübung weiter. Es geht um die Dehnung der Hüftmuskulatur.	intro_hueftdehnung
+<SILENCE>	Sind Sie bereit?	ask_ready
+Noch nicht.	Sagen Sie Bescheid, wenn Sie bereit sind.	request_ready
+<SILENCE>	<System wartet 30 Sekunden>	sys_wait_rest
+Jetzt geht's wieder.	Sind Sie bereit?	ask_ready
+Jawohl!	Für die Übung müssen Sie auf einem Stuhl sitzen. Legen Sie Ihren rechten Fußknöchel auf Ihr linkes Bein. Drücken Sie leicht auf die Innenseite Ihres rechten Knies, während Sie sich nach vorne beugen. Tief einatmen. Lehnen Sie sich beim Ausatmen noch mehr nach vorne, um die Dehnung zu vertiefen.	general_description
+<SILENCE>	Wollen Sie die Anweisungen noch einmal hören?	ask_description
+Nein, nicht nötig.	Halten Sie die Dehnung für 20 Sekunden.	part_description_5
+Ok.	Führen Sie die Übung dann auch mit dem anderen Bein durch.	part_description_6
+Alles klar.	<System wartet 50 Sekunden>	sys_wait
+<SILENCE>	Das wars auch schon mit dieser Übung.	closing
+
+start	Wir machen mit einer Dehnübung weiter. Es geht um die Dehnung der Hüftmuskulatur.	intro_hueftdehnung
+<SILENCE>	Sind Sie bereit?	ask_ready
+Ich brauch eine Pause.	Sagen Sie Bescheid, wenn Sie bereit sind.	request_ready
+<SILENCE>	<System wartet 30 Sekunden>	sys_wait_rest
+<SILENCE>	Sind Sie bereit?	ask_ready
+Nein.	Sagen Sie Bescheid, wenn Sie bereit sind.	request_ready
+<SILENCE>	<System wartet 10 Sekunden>	sys_wait_rest
+Augenblick noch.	Für die Übung müssen Sie auf einem Stuhl sitzen. Legen Sie Ihren rechten Fußknöchel auf Ihr linkes Bein. Drücken Sie leicht auf die Innenseite Ihres rechten Knies, während Sie sich nach vorne beugen. Tief einatmen. Lehnen Sie sich beim Ausatmen noch mehr nach vorne, um die Dehnung zu vertiefen. 0011S	general_description
+Ich war noch nicht so weit!	Wollen Sie die Anweisungen noch einmal hören?	ask_description
+Gleich, ich möchte mich noch ein bisschen erholen!	Wollen Sie eine Pause machen?	ask_rest
+Ja.	Sagen Sie Bescheid, wenn Sie bereit sind.	request_ready
+<SILENCE>	<System wartet 30 Sekunden>	sys_wait_rest
+<SILENCE>	Sind Sie bereit?	ask_ready
+Einen Moment noch.	Sagen Sie Bescheid, wenn Sie bereit sind.	request_ready
+<SILENCE>	<System wartet 30 Sekunden>	sys_wait_rest
+<SILENCE>	Sind Sie bereit?	ask_ready
+Ist ja gut, wir können anfangen. Aber bitte schön langsam!	Für die Übung müssen Sie auf einem Stuhl sitzen. Legen Sie Ihren rechten Fußknöchel auf Ihr linkes Bein. Drücken Sie leicht auf die Innenseite Ihres rechten Knies, während Sie sich nach vorne beugen. Tief einatmen. Lehnen Sie sich beim Ausatmen noch mehr nach vorne, um die Dehnung zu vertiefen.	general_description
+Das ist doch nicht langsam! Bitte nochmal.	Legen Sie Ihren rechten Knöchel auf Ihr linkes Bein.	part_description_1
+Okay, ja.	Drücken Sie leicht auf die Innenseite Ihres rechten Knies, während Sie sich nach vorne beugen.	part_description_2
+<SILENCE>	Tief einatmen.	part_description_3
+<SILENCE>	Lehnen Sie sich beim Ausatmen noch mehr nach vorne, um die Dehnung zu vertiefen.	part_description_4
+<SILENCE>	Halten Sie die Dehnung für 20 Sekunden.	part_description_5
+<SILENCE>	Führen Sie die Übung dann auch mit dem anderen Bein durch.	part_description_6
+Ok, dann linker Knöchel auf rechtes Bein...	<System wartet 50 Sekunden>	sys_wait
+<SILENCE>	Das wars auch schon mit dieser Übung.	closing
+
+start	Wir machen mit einer Dehnübung weiter. Es geht um die Dehnung der Hüftmuskulatur.	intro_hueftdehnung
+Die Hüfte, ok.	Sind Sie bereit?	ask_ready
+Warten Sie einen Moment.	Sagen Sie Bescheid, wenn Sie bereit sind.	request_ready
+<SILENCE>	<System wartet 30 Sekunden>	sys_wait_rest
+<SILENCE>	Sind Sie bereit?	ask_ready
+Ja, bin ich.	Für die Übung müssen Sie auf einem Stuhl sitzen. Legen Sie Ihren rechten Fußknöchel auf Ihr linkes Bein. Drücken Sie leicht auf die Innenseite Ihres rechten Knies, während Sie sich nach vorne beugen. Tief einatmen. Lehnen Sie sich beim Ausatmen noch mehr nach vorne, um die Dehnung zu vertiefen.	general_description
+Hä, das ging mir jetzt zu schnell! 0111P	Wollen Sie die Anweisungen noch einmal hören?	ask_description
+Gerne, und diesmal langsamer!	Legen Sie Ihren rechten Knöchel auf Ihr linkes Bein.	part_description_1
+Wie genau? Muss ich das rechte Bein seitlich rauflegen? 0011P	Drücken Sie leicht auf die Innenseite Ihres rechten Knies, während Sie sich nach vorne beugen. 0011S	part_description_2
+Ich weiß nicht genau, was ich machen soll! 0111P	Wollen Sie die Anweisungen noch einmal hören?	ask_description
+Das bringt mir doch nichts!	Legen Sie Ihren rechten Knöchel auf Ihr linkes Bein. 0111S	part_description_1
+200	Ihr Puls ist gerade zu hoch. Wir sollten eine Pause machen.	init_rest
+Wie, zu hoch? Ich möchte doch nur wissen, wie die Übung geht.	<System wartet 10 Sekunden>	wait_until_hundred
+200	Ihr Puls ist noch zu hoch. Sie sollten etwas warten.	rest
+Wie lange denn noch?	<System wartet 10 Sekunden>	wait_until_hundred
+100	Ok, Ihr Puls ist wieder in Ordnung.	resume_exercise
+Und jetzt?	Wollen Sie die Anweisungen noch einmal hören?	ask_description
+Nein, ich möchte die Übung nicht machen.	Es ist sehr wichtig, dass Sie die Übungen ausführen. Möchten Sie die Übung abbrechen?	ask_finish
+Sie erklären mir ja nicht richtig, was ich tun soll!	Ok, dann brechen wir die Übung ab. Bis zum nächsten Mal!	finish
+
+start	Weiter geht es mit einer Dehnübung. Es geht um die Dehnung des sogenannten Kapuzenmuskels. Er befindet sich im oberen Bereich der Wirbelsäule und geht bis zum Schulterblatt.	intro_kapuzenmuskel
+Aha.	Sind Sie bereit?	ask_ready
+Ja.	Verschließen Sie Ihre Finger ineinander. Die Handflächen zeigen zum Körper. Schieben Sie Ihre Arme so weit wie möglich nach vorne. Ihr Rücken wird dabei etwas gerundet.	general_description
+Was ist mit den Händen? 0011P	Verschließen Sie Ihre Finger ineinander. Die Handflächen zeigen zum Körper.	summary
+<SILENCE>	Schieben Sie Ihre Arme so weit wie möglich nach vorne.	part_description_3
+<SILENCE>	Ihr Rücken wird dabei etwas gerundet.	part_description_4
+<SILENCE>	Halten Sie die Dehnung für 20 Sekunden.	part_description_5
+<SILENCE>	Erhöhen Sie beim Ausatmen die Dehnungsspannung und halten Sie diese beim Einatmen.	part_description_6
+Das ist mir schon anstrengend genug!	<System wartet 20 Sekunden>	sys_wait
+<SILENCE>	Gut gemacht! Sie haben die Übung geschafft.	closing
+
+start	Weiter geht es mit einer Dehnübung. Es geht um die Dehnung des sogenannten Kapuzenmuskels. Er befindet sich im oberen Bereich der Wirbelsäule und geht bis zum Schulterblatt.	intro_kapuzenmuskel
+Ok, alles klar.	Sind Sie bereit?	ask_ready
+Natürlich.	Verschließen Sie Ihre Finger ineinander. Die Handflächen zeigen zum Körper. Schieben Sie Ihre Arme so weit wie möglich nach vorne. Ihr Rücken wird dabei etwas gerundet.	general_description
+<SILENCE>	Wollen Sie die Anweisungen noch einmal hören?	ask_description
+Nein danke.	Halten Sie die Dehnung für 20 Sekunden.	part_description_5
+Okay.	Erhöhen Sie beim Ausatmen die Dehnungsspannung und halten Sie diese beim Einatmen.	part_description_6
+<SILENCE>	<System wartet 20 Sekunden>	sys_wait
+<SILENCE>	Gut gemacht! Sie haben die Übung geschafft.	closing
+
+start	Weiter geht es mit einer Dehnübung. Es geht um die Dehnung des sogenannten Kapuzenmuskels. Er befindet sich im oberen Bereich der Wirbelsäule und geht bis zum Schulterblatt.	intro_kapuzenmuskel
+Was es nicht alles gibt!	Sind Sie bereit?	ask_ready
+Nein, ich möchte mich von der letzten Übung etwas ausruhen.	Sagen Sie Bescheid, wenn Sie bereit sind.	request_ready
+<SILENCE>	<System wartet 30 Sekunden>	sys_wait_rest
+<SILENCE>	Sind Sie bereit?	ask_ready
+Noch nicht!	Sagen Sie Bescheid, wenn Sie bereit sind.	request_ready
+<SILENCE>	<System wartet 30 Sekunden>	sys_wait_rest
+Immer das Gleiche...	Sind Sie bereit?	ask_ready
+Ja ja, bin ich.	Verschließen Sie Ihre Finger ineinander. Die Handflächen zeigen zum Körper. Schieben Sie Ihre Arme so weit wie möglich nach vorne. Ihr Rücken wird dabei etwas gerundet.	general_description
+<SILENCE>	Wollen Sie die Anweisungen noch einmal hören?	ask_description
+Von mir aus. War ja doch etwas schnell.	Verschließen Sie Ihre Finger ineinander.	part_description_1
+<SILENCE>	Die Handflächen zeigen zum Körper.	part_description_2
+Achso, verstehe.	Schieben Sie Ihre Arme so weit wie möglich nach vorne.	part_description_3
+<SILENCE>	Ihr Rücken wird dabei etwas gerundet.	part_description_4
+<SILENCE>	Halten Sie die Dehnung für 20 Sekunden.	part_description_5
+Mach ich.	Erhöhen Sie beim Ausatmen die Dehnungsspannung und halten Sie diese beim Einatmen.	part_description_6
+<SILENCE>	<System wartet 20 Sekunden>	sys_wait
+<SILENCE>	Gut gemacht! Sie haben die Übung geschafft.	closing
+
+start	Weiter geht es mit einer Dehnübung. Es geht um die Dehnung des sogenannten Kapuzenmuskels. Er befindet sich im oberen Bereich der Wirbelsäule und geht bis zum Schulterblatt.	intro_kapuzenmuskel
+<SILENCE>	Sind Sie bereit?	ask_ready
+Ja.	Verschließen Sie Ihre Finger ineinander. Die Handflächen zeigen zum Körper. Schieben Sie Ihre Arme so weit wie möglich nach vorne. Ihr Rücken wird dabei etwas gerundet.	general_description
+Okay.	Wollen Sie die Anweisungen noch einmal hören?	ask_description
+Ja.	Verschließen Sie Ihre Finger ineinander.	part_description_1
+<SILENCE>	Die Handflächen zeigen zum Körper.	part_description_2
+<SILENCE>	Schieben Sie Ihre Arme so weit wie möglich nach vorne.	part_description_3
+Sehr weit komme ich aber nicht.	Ihr Rücken wird dabei etwas gerundet.	part_description_4
+<SILENCE>	Halten Sie die Dehnung für 20 Sekunden.	part_description_5
+<SILENCE>	Erhöhen Sie beim Ausatmen die Dehnungsspannung und halten Sie diese beim Einatmen.	part_description_6
+Nein, das tut mir weh!	Möchten Sie die Übung abbrechen?	ask_finish
+200	Ihr Puls ist gerade zu hoch. Wir sollten eine Pause machen.	init_rest
+Ja, bitte!	<System wartet 10 Sekunden>	wait_until_hundred
+200	Ihr Puls ist noch zu hoch. Sie sollten etwas warten.	rest
+<SILENCE>	<System wartet 10 Sekunden>	wait_until_hundred
+200	Ihr Puls ist noch zu hoch. Sie sollten etwas warten.	rest
+<SILENCE>	<System wartet 10 Sekunden>	wait_until_hundred
+100	Ok, Ihr Puls ist wieder in Ordnung.	resume_exercise
+<SILENCE>	Soll ich die Anweisungen noch einmal vorlesen?	ask_description
+Ja.	Verschließen Sie Ihre Finger ineinander.	part_description_1
+Ok.	Die Handflächen zeigen zum Körper.	part_description_2
+<SILENCE>	Schieben Sie Ihre Arme so weit wie möglich nach vorne.	part_description_3
+<SILENCE>	Ihr Rücken wird dabei etwas gerundet.	part_description_4
+<SILENCE>	Halten Sie die Dehnung für 20 Sekunden.	part_description_5
+Das zieht aber ganz schön!	Erhöhen Sie beim Ausatmen die Dehnungsspannung und halten Sie diese beim Einatmen.	part_description_6
+Nein, diesmal nicht.	<System wartet 20 Sekunden>	sys_wait
+<SILENCE>	Gut gemacht! Sie haben die Übung geschafft.	closing
+
+start	Nun kommen wir zu einer Übung, bei der Sie den großen Brustmuskel dehnen.	intro_brustmuskel
+Okay.	Sind Sie bereit?	ask_ready
+Ja.	Heben Sie beide Arme seitlich vom Körper, auf Schulterhöhe, und beugen Sie beide Arme im Ellenbogen. Die Unterarme zeigen nach oben. Nehmen Sie die Ellenbogen so weit nach hinten bis Sie eine Dehnung spüren. Verlagern Sie ihren Oberkörper langsam nach vorne.	general_description
+Das ging mir zu schnell!	Wollen Sie die Anweisungen noch einmal hören?	ask_description
+Ja.	Heben Sie beide Arme seitlich vom Körper, auf Schulterhöhe.	part_description_1
+<SILENCE>	Beugen Sie beide Arme im Ellenbogen.	part_description_2
+<SILENCE>	Die Unterarme zeigen nach oben.	part_description_3
+Ich hoffe, ich mach das so richtig...	Nehmen Sie die Ellenbogen so weit nach hinten, bis Sie eine Dehnung spüren.	part_description_4
+Ah! Das zieht!	Wollen Sie eine Pause machen?	ask_rest
+Nein, so schlimm ist es nicht.	Verlagern Sie ihren Oberkörper langsam nach vorne.	part_description_5
+<SILENCE>	Halten Sie die Dehnung für 20 Sekunden.	part_description_6
+<SILENCE>	Achten Sie darauf, die Schultern nicht hochzuziehen.	security
+<SILENCE>	Spannen Sie die Bauchmuskeln an, um ein Hohlkreuz vorzubeugen.	security
+Das ist ganz schön viel, worauf man achten muss.	<System wartet 20 Sekunden>	sys_wait
+<SILENCE>	Das haben Sie gut gemacht!	closing
+
+start	Nun kommen wir zu einer Übung, bei der Sie den großen Brustmuskel dehnen.	intro_brustmuskel
+<SILENCE>	Sind Sie bereit?	ask_ready
+Nein.	Heben Sie beide Arme seitlich vom Körper, auf Schulterhöhe, und beugen Sie beide Arme im Ellenbogen. Die Unterarme zeigen nach oben. Nehmen Sie die Ellenbogen so weit nach hinten bis Sie eine Dehnung spüren. Verlagern Sie ihren Oberkörper langsam nach vorne. 0111S	general_description
+Stopp, ich bin noch nicht soweit!	Wollen Sie die Anweisungen noch einmal hören? 0111S	ask_description
+Ich brauche eine Pause.	Wollen Sie eine Pause machen?	ask_rest
+Ja, sage ich doch.	Sagen Sie Bescheid, wenn Sie bereit sind.	request_ready
+<SILENCE>	<System wartet 30 Sekunden>	sys_wait_rest
+Einen Augenblick noch.	Sind Sie bereit?	ask_ready
+Jetzt bin ich soweit.	Heben Sie beide Arme seitlich vom Körper, auf Schulterhöhe, und beugen Sie beide Arme im Ellenbogen. Die Unterarme zeigen nach oben. Nehmen Sie die Ellenbogen so weit nach hinten bis Sie eine Dehnung spüren. Verlagern Sie ihren Oberkörper langsam nach vorne.	general_description
+<SILENCE>	Wollen Sie die Anweisungen noch einmal hören?	ask_description
+Das mit den Armen bitte nochmal.	Heben Sie beide Arme seitlich vom Körper, auf Schulterhöhe. Beugen Sie beide Arme im Ellenbogen.	summary
+Danke.	Verlagern Sie ihren Oberkörper langsam nach vorne.	part_description_5
+<SILENCE>	Halten Sie die Dehnung für 20 Sekunden.	part_description_6
+Okay.	Achten Sie darauf, die Schultern nicht hochzuziehen.	security
+<SILENCE>	Spannen Sie die Bauchmuskeln an, um ein Hohlkreuz vorzubeugen.	security
+Meine Arme werden schwer!	<System wartet 20 Sekunden>	sys_wait
+<SILENCE>	Das haben Sie gut gemacht!	closing
+
+start	Nun kommen wir zu einer Übung, bei der Sie den großen Brustmuskel dehnen.	intro_brustmuskel
+Ok.	Sind Sie bereit?	ask_ready
+Nein.	Sagen Sie Bescheid, wenn Sie bereit sind.	request_ready
+<SILENCE>	<System wartet 30 Sekunden>	sys_wait_rest
+Ok.	Sind Sie bereit?	ask_ready
+Nein, noch nicht!!	Sagen Sie Bescheid, wenn Sie bereit sind.	request_ready
+<SILENCE>	<System wartet 30 Sekunden>	sys_wait_rest
+<SILENCE>	Sind Sie bereit?	ask_ready
+Ist ja gut! Ich bin bereit!	Heben Sie beide Arme seitlich vom Körper, auf Schulterhöhe, und beugen Sie beide Arme im Ellenbogen. Die Unterarme zeigen nach oben. Nehmen Sie die Ellenbogen so weit nach hinten bis Sie eine Dehnung spüren. Verlagern Sie ihren Oberkörper langsam nach vorne.	general_description
+Moment, was? 0111P	Wollen Sie die Anweisungen noch einmal hören?	ask_description
+Ja, das ging mir zu schnell.	Heben Sie beide Arme seitlich vom Körper, auf Schulterhöhe.	part_description_1
+200	Ihr Puls ist gerade zu hoch. Wir sollten eine Pause machen.	init_rest
+Was? Nein, ich möchte die Übung machen!	Wollen Sie die Übung abbrechen? 0011S	ask_finish
+200	Ihr Puls ist gerade zu hoch. Wir sollten eine Pause machen.	init_rest
+Brauch ich nicht!	<System wartet 10 Sekunden>	wait_until_hundred
+200	Ihr Puls ist noch zu hoch. Sie sollten etwas warten.	rest
+Ich will nicht warten!	<System wartet 10 Sekunden>	wait_until_hundred
+100	Ok, Ihr Puls ist wieder in Ordnung.	resume_exercise
+Na endlich.	Wollen Sie die Anweisungen noch einmal hören?	ask_description
+Für die Übung eben? Von mir aus.	Heben Sie beide Arme seitlich vom Körper, auf Schulterhöhe.	part_description_1
+<SILENCE>	Beugen Sie beide Arme im Ellenbogen.	part_description_2
+<SILENCE>	Die Unterarme zeigen nach oben.	part_description_3
+<SILENCE>	Nehmen Sie die Ellenbogen so weit nach hinten, bis Sie eine Dehnung spüren.	part_description_4
+Ja, ich merk's.	Verlagern Sie ihren Oberkörper langsam nach vorne.	part_description_5
+<SILENCE>	Halten Sie die Dehnung für 20 Sekunden.	part_description_6
+<SILENCE>	Achten Sie darauf, die Schultern nicht hochzuziehen.	security
+<SILENCE>	Spannen Sie die Bauchmuskeln an, um ein Hohlkreuz vorzubeugen.	security
+Das auch noch.	<System wartet 20 Sekunden>	sys_wait
+<SILENCE>	Das haben Sie gut gemacht!	closing
+
+start	Nun kommen wir zu einer Übung, bei der Sie den großen Brustmuskel dehnen.	intro_brustmuskel
+Ok.	Sind Sie bereit?	ask_ready
+Ja, bin ich.	Heben Sie beide Arme seitlich vom Körper, auf Schulterhöhe, und beugen Sie beide Arme im Ellenbogen. Die Unterarme zeigen nach oben. Nehmen Sie die Ellenbogen so weit nach hinten bis Sie eine Dehnung spüren. Verlagern Sie ihren Oberkörper langsam nach vorne.	general_description
+<SILENCE>	Wollen Sie die Anweisungen noch einmal hören?	ask_description
+Nein, ich kenne die Übung schon.	Halten Sie die Dehnung für 20 Sekunden.	part_description_6
+Die Hände müssen nach oben zeigen, oder?	Beugen Sie beide Arme im Ellenbogen. Die Unterarme zeigen nach oben.	summary
+Ah, so war das.	Nehmen Sie die Ellenbogen so weit nach hinten, bis Sie eine Dehnung spüren.	part_description_4
+Ja, ich merk's.	Verlagern Sie ihren Oberkörper langsam nach vorne.	part_description_5
+<SILENCE>	Halten Sie die Dehnung für 20 Sekunden.	part_description_6
+<SILENCE>	Achten Sie darauf, die Schultern nicht hochzuziehen.	security
+Schultern runter, ok.	Spannen Sie die Bauchmuskeln an, um ein Hohlkreuz vorzubeugen.	security
+<SILENCE>	<System wartet 20 Sekunden>	sys_wait
+<SILENCE>	Das haben Sie gut gemacht!	closing
+
+start	Jetzt werden wir eine Dehnübung machen.	intro_dehnung
+<SILENCE>	Sind Sie bereit?	ask_ready
+Ich möchte mich ausruhen.	Sagen Sie Bescheid, wenn Sie bereit sind.	request_ready
+<SILENCE>	<System wartet 30 Sekunden>	sys_wait_rest
+<SILENCE>	Sind Sie bereit?	ask_ready
+Ja.	Ok, Arme über dem Kopf zusammenführen und zehn Sekunden lang nach oben strecken. Die Füße und Knie zeigen nach vorne. Nun neigen Sie Ihren Oberkörper für zehn Sekunden zur linken Seite soweit es geht.	general_description
+<SILENCE>	Wollen Sie die Anweisungen noch einmal hören?	ask_description
+Ja, gern.	Ok, Arme über dem Kopf zusammenführen und zehn Sekunden lang nach oben strecken.	part_description_1
+Meine Arme sind schon so schwer...	Die Füße und Knie zeigen nach vorne.	part_description_2
+<SILENCE>	Nun neigen Sie Ihren Oberkörper für zehn Sekunden zur linken Seite soweit es geht.	part_description_3
+Aua, das zieht! Muss das so sein?	Wollen Sie die Übung abbrechen?	ask_finish
+200	Ihr Puls ist gerade zu hoch. Wir sollten eine Pause machen.	init_rest
+Ok, gerne.	<System wartet 10 Sekunden>	wait_until_hundred
+200	Ihr Puls ist noch zu hoch. Sie sollten etwas warten.	rest
+<SILENCE>	<System wartet 10 Sekunden>	wait_until_hundred
+100	Ok, Ihr Puls ist wieder in Ordnung.	resume_exercise
+<SILENCE>	Wollen Sie die Anweisungen noch einmal hören?	ask_description
+Ja.	Ok, Arme über dem Kopf zusammenführen und zehn Sekunden lang nach oben strecken.	part_description_1
+Danke.	Die Füße und Knie zeigen nach vorne.	part_description_2
+<SILENCE>	Nun neigen Sie Ihren Oberkörper für zehn Sekunden zur linken Seite soweit es geht.	part_description_3
+Das geht schon besser als eben.	Ok, jetzt neigen Sie Ihren Oberkörper für zehn Sekunden zur rechten Seite.	part_description_4
+<SILENCE>	<System wartet 20 Sekunden>	sys_wait
+<SILENCE>	So, jetzt sind wir mit der Übung fertig.	closing
+
+start	Ok, wir beginnen mit dem Warm-Up.	intro_warmup
+<SILENCE>	Sind Sie bereit?	ask_ready
+Noch nicht.	Sagen Sie Bescheid, wenn Sie bereit sind.	request_ready
+<SILENCE>	<System wartet 30 Sekunden>	sys_wait_rest
+<SILENCE>	Sind Sie bereit?	ask_ready
+Ich glaube schon.	Marschieren Sie bitte auf der Stelle. Heben Sie dabei die Knie möglichst hoch und behalten Sie eine aufrechte Haltung. Die Füße sollten dabei hüftbreit sein.	general_description
+<SILENCE>	Bitte eine aufrechte Haltung bewahren.	security
+Was? 0111P	Soll ich die Anweisung noch einmal vorlesen?	ask_description
+Ja, bitte.	Marschieren Sie bitte auf der Stelle.	part_description_1
+200	Ihr Puls ist gerade zu hoch. Wir sollten eine Pause machen.	init_rest
+Achso? Na von mir aus.	<System wartet 10 Sekunden>	wait_until_hundred
+200	Ihr Puls ist noch zu hoch. Sie sollten etwas warten.	rest
+Wie lange denn noch?	<System wartet 10 Sekunden>	wait_until_hundred
+100	Ok, Ihr Puls ist wieder in Ordnung.	resume_exercise
+Dann marschiere ich weiter.	Wollen Sie die Anweisungen noch einmal hören?	ask_description
+Von mir aus, ja.	Marschieren Sie bitte auf der Stelle.	part_description_1
+<SILENCE>	Heben Sie dabei die Knie möglichst hoch.	part_description_2
+Mach ich.	Die Füße sollten dabei hüftbreit sein.	part_description_3
+<SILENCE>	Jetzt schnell Marschieren!	part_description_4
+Verstanden!	Bitte eine aufrechte Haltung bewahren.	security
+<SILENCE>	<System wartet 90 Sekunden>	sys_wait
+<SILENCE>	Gut gemacht, jetzt machen wir dreißig Sekunden Pause.	closing
+
+start	So, jetzt machen wir mit einer anderen Dehnübung weiter. Und zwar geht es hier um die Dehnung der Halsmuskulatur.	intro_halsdehnung
+<SILENCE>	Sind Sie bereit?	ask_ready
+Ja.	Ok, Lassen Sie den rechten Arm neben dem Körper herunterhängen. Drücken Sie beide Schultern nach unten und schauen Sie geradeaus. Ziehen Sie die Finger der rechten Hand nach oben an. Die Handfläche zeigt nach unten. Neigen Sie den Kopf leicht nach links. Legen Sie die linke Hand auf den Kopf.	general_description
+<SILENCE>	Soll ich die Anweisungen noch einmal vorlesen?	ask_description
+Brauch ich nicht.	Lassen Sie den rechten Arm neben dem Körper herunterhängen. 0111S	part_description_1
+<SILENCE>	Drücken Sie beide Schultern nach unten und schauen Sie geradeaus.	part_description_2
+Danke, ich weiß, was ich tun muss!	Ziehen Sie die Finger der rechten Hand nach oben an. 0111S	part_description_3
+Ich will nur in Ruhe meine Übung machen, ohne Geplapper!	Die Handfläche zeigt nach unten.	part_description_4
+200	Ihr Puls ist gerade zu hoch. Wir sollten eine Pause machen.	init_rest
+Nein, ich will weitermachen!	<System wartet 10 Sekunden>	wait_until_hundred
+200	Ihr Puls ist noch zu hoch. Sie sollten etwas warten.	rest
+Was soll das? Abbrechen!	Möchten Sie die Übung abbrechen?	ask_finish
+Ja, dann brich halt die Übung ab!	Ok, dann brechen wir die Übung ab. Bis zum nächsten Mal.	finish
+
+start	Ok, wir beginnen mit dem Warm-Up.	intro_warmup
+<SILENCE>	Sind Sie bereit?	ask_ready
+Nein, noch nicht.	Sagen Sie Bescheid, wenn Sie bereit sind.	request_ready
+<SILENCE>	<System wartet 30 Sekunden>	sys_wait_rest
+<SILENCE>	Sind Sie bereit?	ask_ready
+Jawohl!	Marschieren Sie bitte auf der Stelle. Heben Sie dabei die Knie möglichst hoch und behalten Sie eine aufrechte Haltung. Die Füße sollten dabei hüftbreit sein.	general_description
+<SILENCE>	Bitte eine aufrechte Haltung bewahren.	security
+Was? 0111P	Soll ich die Anweisung noch einmal vorlesen?	ask_description
+Ja, bitte.	Marschieren Sie bitte auf der Stelle.	part_description_1
+<SILENCE>	Heben Sie dabei die Knie möglichst hoch.	part_description_2
+<SILENCE>	Die Füße sollten dabei hüftbreit sein.	part_description_3
+Achso.	Jetzt schnell Marschieren!	part_description_4
+Ich mach ja schon!	Bitte eine aufrechte Haltung bewahren.	security
+<SILENCE>	<System wartet 90 Sekunden>	sys_wait
+<SILENCE>	Gut gemacht, jetzt machen wir dreißig Sekunden Pause.	closing
+
+start	Ok, wir beginnen mit dem Warm-Up.	intro_warmup
+<SILENCE>	Sind Sie bereit?	ask_ready
+Nein, noch nicht.	Marschieren Sie bitte auf der Stelle. Heben Sie dabei die Knie möglichst hoch und behalten Sie eine aufrechte Haltung. Die Füße sollten dabei hüftbreit sein. 0011S	general_description
+Nein, ich bin noch nicht so weit!	Marschieren Sie bitte auf der Stelle. 0111S	part_description_1
+Hallo?	Heben Sie dabei die Knie möglichst hoch. 0111S	part_description_2
+Nochmal von vorne bitte!	Marschieren Sie bitte auf der Stelle.	part_description_1
+Na danke.	Heben Sie dabei die Knie möglichst hoch.	part_description_2
+<SILENCE>	Die Füße sollten dabei hüftbreit sein.	part_description_3
+<SILENCE>	Jetzt schnell Marschieren!	part_description_4
+<SILENCE>	Bitte eine aufrechte Haltung bewahren.	security
+Ja, okay.	<System wartet 90 Sekunden>	sys_wait
+<SILENCE>	Gut gemacht, jetzt machen wir dreißig Sekunden Pause.	closing
+
+start	Ok, wir beginnen mit dem Warm-Up.	intro_warmup
+<SILENCE>	Sind Sie bereit?	ask_ready
+Nein. Ich möchte noch warten.	Sagen Sie Bescheid, wenn Sie bereit sind.	request_ready
+<SILENCE>	<System wartet 30 Sekunden>	sys_wait_rest
+<SILENCE>	Sind Sie bereit?	ask_ready
+Ja.	Marschieren Sie bitte auf der Stelle. Heben Sie dabei die Knie möglichst hoch und behalten Sie eine aufrechte Haltung. Die Füße sollten dabei hüftbreit sein.	general_description
+Was ist mit den Knien?	Heben Sie beim Marschieren die Knie möglichst hoch. Die Füße sollten dabei hüftbreit sein.	summary
+Achso, danke.	Jetzt schnell Marschieren!	part_description_4
+<SILENCE>	Bitte eine aufrechte Haltung bewahren!	security
+Mache ich doch!	Bitte eine aufrechte Haltung bewahren. 0011S	security
+<SILENCE>	<System wartet 90 Sekunden>	sys_wait
+<SILENCE>	Gut gemacht, jetzt machen wir dreißig Sekunden Pause.	closing
+
+start	Ok, wir beginnen mit dem Warm-Up.	intro_warmup
+<SILENCE>	Sind Sie bereit?	ask_ready
+Ja klar!	Marschieren Sie bitte auf der Stelle. Heben Sie dabei die Knie möglichst hoch und behalten Sie eine aufrechte Haltung. Die Füße sollten dabei hüftbreit sein.	general_description
+So ungefähr?	Heben Sie beim Marschieren die Knie möglichst hoch.	part_description_2
+Okay, ich versuche es.	Jetzt schnell Marschieren!	part_description_4
+<SILENCE>	Bitte eine aufrechte Haltung bewahren!	security
+<SILENCE>	<System wartet 90 Sekunden>	sys_wait
+<SILENCE>	Gut gemacht, jetzt machen wir dreißig Sekunden Pause.	closing
+
+start	Ok, wir beginnen mit dem Warm-Up.	intro_warmup
+<SILENCE>	Sind Sie bereit?	ask_ready
+Noch nicht.	Sagen Sie Bescheid, wenn Sie bereit sind.	request_ready
+<SILENCE>	<System wartet 30 Sekunden>	sys_wait_rest
+<SILENCE>	Sind Sie bereit?	ask_ready
+Ich glaube schon.	Marschieren Sie bitte auf der Stelle. Heben Sie dabei die Knie möglichst hoch und behalten Sie eine aufrechte Haltung. Die Füße sollten dabei hüftbreit sein.	general_description
+<SILENCE>	Bitte eine aufrechte Haltung bewahren.	security
+Was? 0111P	Soll ich die Anweisung noch einmal vorlesen?	ask_description
+Ja, bitte.	Marschieren Sie bitte auf der Stelle.	part_description_1
+200	Ihr Puls ist gerade zu hoch. Wir sollten eine Pause machen.	init_rest
+Achso? Na von mir aus.	<System wartet 10 Sekunden>	wait_until_hundred
+200	Ihr Puls ist noch zu hoch. Sie sollten etwas warten.	rest
+Wie lange denn noch?	<System wartet 10 Sekunden>	wait_until_hundred
+200	Ihr Puls ist noch zu hoch. Sie sollten etwas warten.	rest
+<SILENCE>	<System wartet 10 Sekunden>	wait_until_hundred
+100	Ok, Ihr Puls ist wieder in Ordnung.	resume_exercise
+Dann marschiere ich weiter.	Wollen Sie die Anweisungen noch einmal hören?	ask_description
+Von mir aus, ja.	Marschieren Sie bitte auf der Stelle.	part_description_1
+<SILENCE>	Heben Sie dabei die Knie möglichst hoch.	part_description_2
+Mach ich.	Die Füße sollten dabei hüftbreit sein.	part_description_3
+<SILENCE>	Jetzt schnell Marschieren!	part_description_4
+Verstanden!	Bitte eine aufrechte Haltung bewahren.	security
+<SILENCE>	<System wartet 90 Sekunden>	sys_wait
+<SILENCE>	Gut gemacht, jetzt machen wir dreißig Sekunden Pause.	closing
+
+start	So, jetzt machen wir mit einer anderen Dehnübung weiter. Und zwar geht es hier um die Dehnung der Halsmuskulatur.	intro_halsdehnung
+<SILENCE>	Sind Sie bereit?	ask_ready
+Ja.	Ok, Lassen Sie den rechten Arm neben dem Körper herunterhängen. Drücken Sie beide Schultern nach unten und schauen Sie geradeaus. Ziehen Sie die Finger der rechten Hand nach oben an. Die Handfläche zeigt nach unten. Neigen Sie den Kopf leicht nach links. Legen Sie die linke Hand auf den Kopf.	general_description
+Das ging mir jetzt zu schnell. 0111P	Soll ich die Anweisungen noch einmal vorlesen?	ask_description
+Ja bitte. Und diesmal langsamer!	Lassen Sie den rechten Arm neben dem Körper herunterhängen.	part_description_1
+<SILENCE>	Drücken Sie beide Schultern nach unten und schauen Sie geradeaus.	part_description_2
+<SILENCE>	Ziehen Sie die Finger der rechten Hand nach oben an.	part_description_3
+<SILENCE>	Die Handfläche zeigt nach unten.	part_description_4
+<SILENCE>	Neigen Sie den Kopf leicht nach links.	part_description_5
+<SILENCE>	Legen Sie die linke Hand auf den Kopf.	part_description_6
+War das alles?	Soll ich die Anweisung noch einmal vorlesen? 0011S	ask_description
+Nein, ich hab's verstanden.	Verbleiben Sie in dieser Haltung.	part_description_7
+<SILENCE>	Ok, bitte führen Sie jetzt die Übung zur rechten Seite aus.	part_description_8
+<SILENCE>	<System wartet 70 Sekunden>	sys_wait
+Okay.	Gut, wir sind mit der Übung fertig.	closing
+
+start	So, jetzt machen wir mit einer anderen Dehnübung weiter. Und zwar geht es hier um die Dehnung der Halsmuskulatur.	intro_halsdehnung
+Okay.	Sind Sie bereit?	ask_ready
+Nein.	Sagen Sie Bescheid, wenn Sie bereit sind.	request_ready
+<SILENCE>	<System wartet 30 Sekunden>	sys_wait_rest
+<SILENCE>	Sind Sie bereit?	ask_ready
+Ja.	Ok, Lassen Sie den rechten Arm neben dem Körper herunterhängen. Drücken Sie beide Schultern nach unten und schauen Sie geradeaus. Ziehen Sie die Finger der rechten Hand nach oben an. Die Handfläche zeigt nach unten. Neigen Sie den Kopf leicht nach links. Legen Sie die linke Hand auf den Kopf.	general_description
+So ungefähr?	Verbleiben Sie in dieser Haltung. 0111S	part_description_7
+Okay.	Ok, bitte führen Sie jetzt die Übung zur rechten Seite aus.	part_description_8
+<SILENCE>	Soll ich die Anweisungen noch einmal vorlesen?	ask_description
+Nein, nicht nötig.	Ok, bitte führen Sie jetzt die Übung zur rechten Seite aus.	part_description_8
+<SILENCE>	<System wartet 70 Sekunden>	sys_wait
+<SILENCE>	Gut, wir sind mit der Übung fertig.	closing
+
+start	So, jetzt machen wir mit einer anderen Dehnübung weiter. Und zwar geht es hier um die Dehnung der Halsmuskulatur.	intro_halsdehnung
+<SILENCE>	Sind Sie bereit?	ask_ready
+Ja.	Ok, Lassen Sie den rechten Arm neben dem Körper herunterhängen. Drücken Sie beide Schultern nach unten und schauen Sie geradeaus. Ziehen Sie die Finger der rechten Hand nach oben an. Die Handfläche zeigt nach unten. Neigen Sie den Kopf leicht nach links. Legen Sie die linke Hand auf den Kopf.	general_description
+Hä, was soll das mit den Fingern?	Soll ich die Anweisungen noch einmal vorlesen?	ask_description
+Ja, bitte!	Lassen Sie den rechten Arm neben dem Körper herunterhängen.	part_description_1
+Danke.	Drücken Sie beide Schultern nach unten und schauen Sie geradeaus.	part_description_2
+<SILENCE>	Ziehen Sie die Finger der rechten Hand nach oben an.	part_description_3
+<SILENCE>	Die Handfläche zeigt nach unten.	part_description_4
+<SILENCE>	Neigen Sie den Kopf leicht nach links.	part_description_5
+<SILENCE>	Legen Sie die linke Hand auf den Kopf.	part_description_6
+<SILENCE>	Verbleiben Sie in dieser Haltung.	part_description_7
+Mach ich.	Ok, bitte führen Sie jetzt die Übung zur rechten Seite aus.	part_description_8
+<SILENCE>	<System wartet 70 Sekunden>	sys_wait
+<SILENCE>	Gut, wir sind mit der Übung fertig.	closing
+
+start	So, jetzt machen wir mit einer anderen Dehnübung weiter. Und zwar geht es hier um die Dehnung der Halsmuskulatur.	intro_halsdehnung
+<SILENCE>	Sind Sie bereit?	ask_ready
+Ja.	Ok, Lassen Sie den rechten Arm neben dem Körper herunterhängen. Drücken Sie beide Schultern nach unten und schauen Sie geradeaus. Ziehen Sie die Finger der rechten Hand nach oben an. Die Handfläche zeigt nach unten. Neigen Sie den Kopf leicht nach links. Legen Sie die linke Hand auf den Kopf.	general_description
+<SILENCE>	Soll ich die Anweisungen noch einmal vorlesen?	ask_description
+Was soll ich mit den Fingern machen?	Ziehen Sie die Finger der rechten Hand nach oben an. Die Handfläche zeigt nach unten.	summary
+Achso, danke.	Neigen Sie den Kopf leicht nach links.	part_description_5
+Das weiß ich noch.	Legen Sie die linke Hand auf den Kopf.	part_description_6
+<SILENCE>	Verbleiben Sie in dieser Haltung.	part_description_7
+<SILENCE>	Ok, bitte führen Sie jetzt die Übung zur rechten Seite aus.	part_description_8
+Okay.	<System wartet 70 Sekunden>	sys_wait
+<SILENCE>	Gut, wir sind mit der Übung fertig.	closing
+
+start	So, jetzt machen wir mit einer anderen Dehnübung weiter. Und zwar geht es hier um die Dehnung der Halsmuskulatur.	intro_halsdehnung
+Ja, kenn ich schon.	Sind Sie bereit?	ask_ready
+Ja.	Ok, Lassen Sie den rechten Arm neben dem Körper herunterhängen. Drücken Sie beide Schultern nach unten und schauen Sie geradeaus. Ziehen Sie die Finger der rechten Hand nach oben an. Die Handfläche zeigt nach unten. Neigen Sie den Kopf leicht nach links. Legen Sie die linke Hand auf den Kopf.	general_description
+Okay.	Verbleiben Sie in dieser Haltung.	part_description_7
+<SILENCE>	Ok, bitte führen Sie jetzt die Übung zur rechten Seite aus.	part_description_8
+<SILENCE>	Soll ich die Anweisungen noch einmal vorlesen?	ask_description
+Nein, nicht nötig.	Ok, bitte führen Sie jetzt die Übung zur rechten Seite aus.	part_description_8
+<SILENCE>	<System wartet 70 Sekunden>	sys_wait
+<SILENCE>	Gut, wir sind mit der Übung fertig.	closing
+
+start	So, jetzt machen wir mit einer anderen Dehnübung weiter. Und zwar geht es hier um die Dehnung der Halsmuskulatur.	intro_halsdehnung
+<SILENCE>	Sind Sie bereit?	ask_ready
+Ja.	Ok, Lassen Sie den rechten Arm neben dem Körper herunterhängen. Drücken Sie beide Schultern nach unten und schauen Sie geradeaus. Ziehen Sie die Finger der rechten Hand nach oben an. Die Handfläche zeigt nach unten. Neigen Sie den Kopf leicht nach links. Legen Sie die linke Hand auf den Kopf.	general_description
+<SILENCE>	Soll ich die Anweisungen noch einmal vorlesen?	ask_description
+Brauch ich nicht.	Lassen Sie den rechten Arm neben dem Körper herunterhängen. 0111S	part_description_1
+<SILENCE>	Drücken Sie beide Schultern nach unten und schauen Sie geradeaus.	part_description_2
+Danke, ich weiß, was ich tun muss!	Ziehen Sie die Finger der rechten Hand nach oben an. 0111S	part_description_3
+Ich will nur in Ruhe meine Übung machen, ohne Geplapper!	Ihr Puls ist gerade zu hoch. Wir sollten eine Pause machen.	init_rest
+Muss das jetzt sein?	Wollen Sie die Übung abbrechen?	ask_finish
+Nein, weitermachen!	Soll ich die Anweisungen noch einmal vorlesen?	ask_description
+Nein! Dann halt abbrechen!	Möchten Sie die Übung abbrechen?	ask_finish
+Ja, Übung abbrechen!	Ok, dann brechen wir die Übung ab. Bis zum nächsten Mal.	finish
+
+start	Jetzt werden wir eine Dehnübung machen.	intro_dehnung
+<SILENCE>	Sind Sie bereit?	ask_ready
+Noch nicht.	Sind Sie bereit? 0111S	ask_ready
+Doch, ich glaube jetzt schon.	Sagen Sie Bescheid, wenn Sie bereit sind. 0011S	request_ready
+<SILENCE>	<System wartet 30 Sekunden>	sys_wait_rest
+Ich bin bereit!	Sind Sie bereit?	ask_ready
+Sage ich doch!	Ok, Arme über dem Kopf zusammenführen und zehn Sekunden lang nach oben strecken. Die Füße und Knie zeigen nach vorne. Nun neigen Sie Ihren Oberkörper für zehn Sekunden zur linken Seite soweit es geht.	general_description
+So etwa?	Arme über dem Kopf zusammenführen. Nun neigen Sie Ihren Oberkörper für zehn Sekunden zur linken Seite soweit es geht. 0111S	summary
+Das ist ja einfach.	Ok, jetzt neigen Sie Ihren Oberkörper für zehn Sekunden zur rechten Seite.	part_description_4
+<SILENCE>	<System wartet 20 Sekunden>	sys_wait
+Sind wir fertig?	So, jetzt sind wir mit der Übung fertig.	closing
+
+start	Jetzt werden wir eine Dehnübung machen.	intro_dehnung
+<SILENCE>	Sind Sie bereit?	ask_ready
+Ja.	Ok, Arme über dem Kopf zusammenführen und zehn Sekunden lang nach oben strecken. Die Füße und Knie zeigen nach vorne. Nun neigen Sie Ihren Oberkörper für zehn Sekunden zur linken Seite soweit es geht.	general_description
+Das habe ich nicht gehört! 0111P	Ok, jetzt neigen Sie Ihren Oberkörper für zehn Sekunden zur rechten Seite. 0111S	part_description_4
+Nein, bitte nochmal wiederholen!	Ok, Arme über dem Kopf zusammenführen und zehn Sekunden lang nach oben strecken.	part_description_1
+Danke.	Die Füße und Knie zeigen nach vorne.	part_description_2
+<SILENCE>	Nun neigen Sie Ihren Oberkörper für zehn Sekunden zur linken Seite soweit es geht.	part_description_3
+Okay.	Ok, jetzt neigen Sie Ihren Oberkörper für zehn Sekunden zur rechten Seite.	part_description_4
+<SILENCE>	<System wartet 20 Sekunden>	sys_wait
+War's das?	So, jetzt sind wir mit der Übung fertig.	closing
+
+start	Jetzt werden wir eine Dehnübung machen.	intro_dehnung
+<SILENCE>	Sind Sie bereit?	ask_ready
+Ja.	Sind Sie bereit? 0111S	ask_ready
+Doch, bin ich!	Ok, Arme über dem Kopf zusammenführen und zehn Sekunden lang nach oben strecken. Die Füße und Knie zeigen nach vorne. Nun neigen Sie Ihren Oberkörper für zehn Sekunden zur linken Seite soweit es geht.	general_description
+Was? Das Letzte bitte nochmal. 0111P	Die Füße und Knie zeigen nach vorne. Nun neigen Sie Ihren Oberkörper für zehn Sekunden zur linken Seite soweit es geht.	summary
+Okay.	Ok, jetzt neigen Sie Ihren Oberkörper für zehn Sekunden zur rechten Seite.	part_description_4
+<SILENCE>	<System wartet 20 Sekunden>	sys_wait
+<SILENCE>	So, jetzt sind wir mit der Übung fertig.	closing
+
+start	Jetzt werden wir eine Dehnübung machen.	intro_dehnung
+<SILENCE>	Sind Sie bereit?	ask_ready
+Ich möchte mich ausruhen.	Sagen Sie Bescheid, wenn Sie bereit sind.	request_ready
+<SILENCE>	<System wartet 30 Sekunden>	sys_wait_rest
+<SILENCE>	Sind Sie bereit?	ask_ready
+Ok, ich bin bereit.	Ok, Arme über dem Kopf zusammenführen und zehn Sekunden lang nach oben strecken. Die Füße und Knie zeigen nach vorne. Nun neigen Sie Ihren Oberkörper für zehn Sekunden zur linken Seite soweit es geht.	general_description
+<SILENCE>	Wollen Sie die Anweisungen noch einmal hören?	ask_description
+Ja, gern.	Ok, Arme über dem Kopf zusammenführen und zehn Sekunden lang nach oben strecken.	part_description_1
+Meine Arme sind schon so schwer...	Die Füße und Knie zeigen nach vorne.	part_description_2
+<SILENCE>	Nun neigen Sie Ihren Oberkörper für zehn Sekunden zur linken Seite soweit es geht.	part_description_3
+Aua, das zieht! Muss das so sein?	Wollen Sie die Übung abbrechen?	ask_finish
+200	Ihr Puls ist gerade zu hoch. Wir sollten eine Pause machen.	init_rest
+Ok, gerne.	<System wartet 10 Sekunden>	wait_until_hundred
+200	Ihr Puls ist noch zu hoch. Sie sollten etwas warten.	rest
+<SILENCE>	<System wartet 10 Sekunden>	wait_until_hundred
+200	Ihr Puls ist noch zu hoch. Sie sollten etwas warten.	rest
+<SILENCE>	<System wartet 10 Sekunden>	wait_until_hundred
+100	Ok, Ihr Puls ist wieder in Ordnung.	resume_exercise
+Ich fühle mich ein bisschen schläfrig.	Wollen Sie die Anweisungen noch einmal hören?	ask_description
+Für die Übung? Ja.	Ok, Arme über dem Kopf zusammenführen und zehn Sekunden lang nach oben strecken.	part_description_1
+Danke.	Die Füße und Knie zeigen nach vorne.	part_description_2
+<SILENCE>	Nun neigen Sie Ihren Oberkörper für zehn Sekunden zur linken Seite soweit es geht.	part_description_3
+Das geht schon besser als eben.	Ok, jetzt neigen Sie Ihren Oberkörper für zehn Sekunden zur rechten Seite.	part_description_4
+<SILENCE>	<System wartet 20 Sekunden>	sys_wait
+<SILENCE>	So, jetzt sind wir mit der Übung fertig.	closing
+
+start	Wir machen jetzt eine Übung aus dem Tai Chi. Sie sollen so tun, als würden Sie etwas nach unten drücken.	intro_taichi_druecken
+<SILENCE>	Sind Sie bereit?	ask_ready
+Ja.	Führen Sie langsam Ihre Hände nach oben, atmen Sie dabei langsam ein. Die Handflächen sind nach unten gedreht. Wenn Sie auf Stirnhöhe angekommen sind, lassen Sie ihre Arme langsam hinab und atmen Sie dabei aus. 0011S	general_description
+Nein, bitte langsam! Stück für Stück!	Führen Sie langsam Ihre Hände nach oben.	part_description_1
+<SILENCE>	Atmen Sie dabei langsam ein.	part_description_2
+<SILENCE>	Die Handflächen sind nach unten gedreht.	part_description_3
+<SILENCE>	Wenn Sie auf Stirnhöhe angekommen sind, lassen Sie ihre Arme langsam hinab und atmen Sie dabei aus.	part_description_4
+<SILENCE>	Wiederholen Sie die Übung zehn mal im eigenen Tempo.	part_description_5
+<SILENCE>	Achten Sie darauf, aufrecht zu sitzen und Ihre Schulter locker nach unten hängen zu lassen.	security
+<SILENCE>	<System wartet 60 Sekunden>	sys_wait
+Ah, jetzt hab ich nicht mitgezählt.	Das haben Sie gut gemacht! 0111S	closing
+
+start	Wir machen jetzt eine Übung aus dem Tai Chi. Sie sollen so tun, als würden Sie etwas nach unten drücken.	intro_taichi_druecken
+<SILENCE>	Sind Sie bereit?	ask_ready
+Nein.	Führen Sie langsam Ihre Hände nach oben, atmen Sie dabei langsam ein. Die Handflächen sind nach unten gedreht. Wenn Sie auf Stirnhöhe angekommen sind, lassen Sie ihre Arme langsam hinab und atmen Sie dabei aus. 0011S	general_description
+Nein, ich bin noch nicht so weit!	Soll ich die Anweisungen noch einmal vorlesen? 0011S	ask_description
+200	Ihr Puls ist gerade zu hoch. Wir sollten eine Pause machen.	init_rest
+Das sage ich doch die ganze Zeit!	<System wartet 10 Sekunden>	wait_until_hundred
+200	Ihr Puls ist noch zu hoch. Sie sollten etwas warten.	rest
+<SILENCE>	<System wartet 10 Sekunden>	wait_until_hundred
+200	Ihr Puls ist noch zu hoch. Sie sollten etwas warten.	rest
+Immernoch?	<System wartet 10 Sekunden>	wait_until_hundred
+100	Ok, Ihr Puls ist wieder in Ordnung.	resume_exercise
+Gut.	Soll ich die Anweisungen noch einmal vorlesen?	ask_description
+Nein, ich kenne die Übung.	Führen Sie langsam Ihre Hände nach oben. 0011S	part_description_1
+Oh man!	Atmen Sie dabei langsam ein.	part_description_2
+<SILENCE>	Die Handflächen sind nach unten gedreht.	part_description_3
+<SILENCE>	Wenn Sie auf Stirnhöhe angekommen sind, lassen Sie ihre Arme langsam hinab und atmen Sie dabei aus.	part_description_4
+<SILENCE>	Wiederholen Sie die Übung zehn mal im eigenen Tempo.	part_description_5
+<SILENCE>	Achten Sie darauf, aufrecht zu sitzen und Ihre Schulter locker nach unten hängen zu lassen.	security
+Ja ja.	<System wartet 60 Sekunden>	sys_wait
+<SILENCE>	Das haben Sie gut gemacht!	closing
+
+start	Wir machen jetzt eine Übung aus dem Tai Chi. Sie sollen so tun, als würden Sie etwas nach unten drücken.	intro_taichi_druecken
+Okay.	Sind Sie bereit?	ask_ready
+Ja.	Führen Sie langsam Ihre Hände nach oben, atmen Sie dabei langsam ein. Die Handflächen sind nach unten gedreht. Wenn Sie auf Stirnhöhe angekommen sind, lassen Sie ihre Arme langsam hinab und atmen Sie dabei aus.	general_description
+Sind die Arme jetzt gestreckt oder angewinkelt? 0111P	Achten Sie darauf, aufrecht zu sitzen und Ihre Schulter locker nach unten hängen zu lassen. 0011S	security
+Das hilft mir nicht weiter.	Soll ich die Anweisungen noch einmal vorlesen?	ask_description
+Ja, vielleicht.	Führen Sie langsam Ihre Hände nach oben.	part_description_1
+<SILENCE>	Atmen Sie dabei langsam ein.	part_description_2
+<SILENCE>	Die Handflächen sind nach unten gedreht.	part_description_3
+Ich verstehe das nicht!	Wenn Sie auf Stirnhöhe angekommen sind, lassen Sie ihre Arme langsam hinab und atmen Sie dabei aus. 0111S	part_description_4
+Hallo? Kann mir jemand die Übung erklären?	Wiederholen Sie die Übung zehn mal im eigenen Tempo.	part_description_5
+Ich weiß immer noch nicht, was gemeint ist.	Achten Sie darauf, aufrecht zu sitzen und Ihre Schulter locker nach unten hängen zu lassen. 0111S	security
+Na toll.	<System wartet 60 Sekunden>	sys_wait
+<SILENCE>	Das haben Sie gut gemacht!	closing
+
+start	Dies ist eine Übung aus dem Tai Chi. Sie sollen so tun, als würden Sie fliegen.	intro_taichi_fliegen
+<SILENCE>	Sind Sie bereit?	ask_ready
+Ja.	Heben Sie Ihre Arme etwas an und führen Sie die Hände vor Ihrem Körper zusammen. Nun öffnen Sie Ihre Arme nach außen wie bei einem Flügelschlag eines Vogels. Atmen Sie dabei ein. Wenn Ihre Arme maximal ausgebreitet sind, schließen Sie diese wieder langsam und lassen Sie Ihre Hände wieder vor sich zusammenkommen.	general_description
+Bitte langsamer!	Heben Sie Ihre Arme etwas an.	part_description_1
+<SILENCE>	Führen Sie die Hände vor Ihrem Körper zusammen.	part_description_2
+<SILENCE>	Nun öffnen Sie Ihre Arme nach außen wie bei einem Flügelschlag eines Vogels.	part_description_3
+<SILENCE>	Atmen Sie dabei ein.	part_description_4
+<SILENCE>	Wenn Ihre Arme maximal ausgebreitet sind, schließen Sie diese wieder langsam und lassen Sie Ihre Hände wieder vor sich zusammenkommen.	part_description_5
+<SILENCE>	Sie atmen aus, wenn Sie die Hände wieder zum Körper führen.	part_description_6
+Dankeschön.	Wiederholen Sie die Übung zehn mal im eigenen Tempo.	part_description_7
+<SILENCE>	Lassen Sie Ihre Schultern locker vom Körper hängen und achten Sie auf eine aufrechte Haltung.	security
+Ja klar.	<System wartet 60 Sekunden>	sys_wait
+<SILENCE>	Glückwunsch! Sie haben die Übungsreihe geschafft!	closing
+
+start	Wir machen jetzt eine Übung aus dem Tai Chi. Sie sollen so tun, als würden Sie etwas nach unten drücken.	intro_taichi_druecken
+<SILENCE>	Sind Sie bereit?	ask_ready
+Ja ja.	Führen Sie langsam Ihre Hände nach oben, atmen Sie dabei langsam ein. Die Handflächen sind nach unten gedreht. Wenn Sie auf Stirnhöhe angekommen sind, lassen Sie ihre Arme langsam hinab und atmen Sie dabei aus.	general_description
+<SILENCE>	Soll ich die Anweisung noch einmal vorlesen?	ask_description
+Nein.	Wiederholen Sie die Übung zehn mal im eigenen Tempo.	part_description_5
+<SILENCE>	Achten Sie darauf, aufrecht zu sitzen und Ihre Schulter locker nach unten hängen zu lassen.	security
+Stimmt ja.	<System wartet 60 Sekunden>	sys_wait
+<SILENCE>	Das haben Sie gut gemacht!	closing
+
+start	Dies ist eine Übung aus dem Tai Chi. Sie sollen so tun, als würden Sie fliegen.	intro_taichi_fliegen
+<SILENCE>	Sind Sie bereit?	ask_ready
+Ja.	Heben Sie Ihre Arme etwas an und führen Sie die Hände vor Ihrem Körper zusammen. Nun öffnen Sie Ihre Arme nach außen wie bei einem Flügelschlag eines Vogels. Atmen Sie dabei ein. Wenn Ihre Arme maximal ausgebreitet sind, schließen Sie diese wieder langsam und lassen Sie Ihre Hände wieder vor sich zusammenkommen.	general_description
+<SILENCE>	Soll ich die Anweisungen noch einmal vorlesen?	ask_description
+Nein.	Sie atmen aus, wenn Sie die Hände wieder zum Körper führen.	part_description_6
+<SILENCE>	Wiederholen Sie die Übung zehn mal im eigenen Tempo.	part_description_7
+<SILENCE>	Lassen Sie Ihre Schultern locker vom Körper hängen und achten Sie auf eine aufrechte Haltung.	security
+Okay.	<System wartet 60 Sekunden>	sys_wait
+<SILENCE>	Glückwunsch! Sie haben die Übungsreihe geschafft!	closing
+
+start	Dies ist eine Übung aus dem Tai Chi. Sie sollen so tun, als würden Sie fliegen.	intro_taichi_fliegen
+Okay.	Sind Sie bereit?	ask_ready
+Ich brauche erstmal eine Pause!	Sagen Sie Bescheid, wenn Sie bereit sind.	request_ready
+<SILENCE>	<System wartet 30 Sekunden>	sys_wait_rest
+<SILENCE>	Sind Sie bereit?	ask_ready
+Jetzt ja.	Heben Sie Ihre Arme etwas an und führen Sie die Hände vor Ihrem Körper zusammen. Nun öffnen Sie Ihre Arme nach außen wie bei einem Flügelschlag eines Vogels. Atmen Sie dabei ein. Wenn Ihre Arme maximal ausgebreitet sind, schließen Sie diese wieder langsam und lassen Sie Ihre Hände wieder vor sich zusammenkommen.	general_description
+Ich verstehe.	Sie atmen aus, wenn Sie die Hände wieder zum Körper führen.	part_description_6
+<SILENCE>	Wiederholen Sie die Übung zehn mal im eigenen Tempo.	part_description_7
+<SILENCE>	Lassen Sie Ihre Schultern locker vom Körper hängen und achten Sie auf eine aufrechte Haltung.	security
+Aufrechte Haltung, immer aufrechte Haltung...	<System wartet 60 Sekunden>	sys_wait
+<SILENCE>	Glückwunsch! Sie haben die Übungsreihe geschafft!	closing
+
+start	Dies ist eine Übung aus dem Tai Chi. Sie sollen so tun, als würden Sie fliegen.	intro_taichi_fliegen
+Okay.	Sind Sie bereit?	ask_ready
+Nein.	Heben Sie Ihre Arme etwas an und führen Sie die Hände vor Ihrem Körper zusammen. Nun öffnen Sie Ihre Arme nach außen wie bei einem Flügelschlag eines Vogels. Atmen Sie dabei ein. Wenn Ihre Arme maximal ausgebreitet sind, schließen Sie diese wieder langsam und lassen Sie Ihre Hände wieder vor sich zusammenkommen. 0011S	general_description
+Ich habe nein gesagt!	Sie atmen aus, wenn Sie die Hände wieder zum Körper führen.	part_description_6
+<SILENCE>	Wiederholen Sie die Übung zehn mal im eigenen Tempo.	part_description_7
+Toll, jetzt muss ich wieder mitzählen.	Lassen Sie Ihre Schultern locker vom Körper hängen und achten Sie auf eine aufrechte Haltung.	security
+<SILENCE>	<System wartet 60 Sekunden>	sys_wait
+<SILENCE>	Glückwunsch! Sie haben die Übungsreihe geschafft!	closing
+
+start	Ok, nun eine Übung aus dem Tai Chi, bei der Sie so tun, als würden Sie mit Ihrer rechten Hand über eine Fensterscheibe wischen.	intro_taichi_fenster_rechts
+In Ordnung.	Sind Sie bereit?	ask_ready
+Ich möchte weitermachen.	Machen Sie große Kreisbewegungen im Uhrzeigersinn mit der rechten Hand. Halten Sie Ihre Hand zunächst rechts vom Körper, in etwa so, als würden Sie winken. Bei den Kreisbewegungen können Sie sich vorstellen, dass Sie über eine Fensterscheibe wischen. Nach zehn Wiederholungen wechseln Sie die Richtung.	general_description
+Können Sie das bitte langsamer erklären?	Machen Sie große Kreisbewegungen im Uhrzeigersinn mit der rechten Hand.	part_description_1
+<SILENCE>	Halten Sie Ihre Hand zunächst rechts vom Körper, in etwa so, als würden Sie winken.	part_description_2
+<SILENCE>	Bei den Kreisbewegungen können Sie sich vorstellen, dass Sie über eine Fensterscheibe wischen.	part_description_3
+<SILENCE>	Nach zehn Wiederholungen wechseln Sie die Richtung.	part_description_4
+Achso, vielen Dank.	Wiederholen Sie die Übung zehn mal im Uhrzeigersinn und zehn mal gegen den Uhrzeigersinn.	part_description_5
+<SILENCE>	Lassen Sie Ihre Schultern locker vom Körper hängen und achten Sie auf eine aufrechte Haltung.	security
+<SILENCE>	<System wartet 60 Sekunden>	sys_wait
+<SILENCE>	Das haben Sie gut gemacht!	closing
+
+start	Ok, nun eine Übung aus dem Tai Chi, bei der Sie so tun, als würden Sie mit Ihrer rechten Hand über eine Fensterscheibe wischen.	intro_taichi_fenster_rechts
+In Ordnung.	Sind Sie bereit?	ask_ready
+Ich möchte weitermachen.	Sagen Sie Bescheid, wenn Sie bereit sind. 0011S	request_ready
+<SILENCE>	<System wartet 30 Sekunden>	sys_wait_rest
+Hab ich doch.	Sind Sie bereit? 0011S	ask_ready
+Ja jetzt!	Machen Sie große Kreisbewegungen im Uhrzeigersinn mit der rechten Hand. Halten Sie Ihre Hand zunächst rechts vom Körper, in etwa so, als würden Sie winken. Bei den Kreisbewegungen können Sie sich vorstellen, dass Sie über eine Fensterscheibe wischen. Nach zehn Wiederholungen wechseln Sie die Richtung.	general_description
+Wie soll ich die Hand halten? 0111P	Halten Sie Ihre Hand zunächst rechts vom Körper, in etwa so, als würden Sie winken.	part_description_2
+<SILENCE>	Bei den Kreisbewegungen können Sie sich vorstellen, dass Sie über eine Fensterscheibe wischen.	part_description_3
+Achso, danke.	Wiederholen Sie die Übung zehn mal im Uhrzeigersinn und zehn mal gegen den Uhrzeigersinn.	part_description_5
+<SILENCE>	Lassen Sie Ihre Schultern locker vom Körper hängen und achten Sie auf eine aufrechte Haltung.	security
+<SILENCE>	<System wartet 60 Sekunden>	sys_wait
+So, ich bin fertig.	Das haben Sie gut gemacht!	closing
+
+start	Ok, nun eine Übung aus dem Tai Chi, bei der Sie so tun, als würden Sie mit Ihrer rechten Hand über eine Fensterscheibe wischen.	intro_taichi_fenster_rechts
+<SILENCE>	Sind Sie bereit?	ask_ready
+Erstmal ne Pause.	Sagen Sie Bescheid, wenn Sie bereit sind.	request_ready
+<SILENCE>	<System wartet 30 Sekunden>	sys_wait_rest
+<SILENCE>	Sind Sie bereit?	ask_ready
+Ja.	Machen Sie große Kreisbewegungen im Uhrzeigersinn mit der rechten Hand. Halten Sie Ihre Hand zunächst rechts vom Körper, in etwa so, als würden Sie winken. Bei den Kreisbewegungen können Sie sich vorstellen, dass Sie über eine Fensterscheibe wischen. Nach zehn Wiederholungen wechseln Sie die Richtung.	general_description
+Hä was? Ich hab nicht zugehört. 0111P	Machen Sie große Kreisbewegungen im Uhrzeigersinn mit der rechten Hand.	part_description_1
+<SILENCE>	Halten Sie Ihre Hand zunächst rechts vom Körper, in etwa so, als würden Sie winken.	part_description_2
+<SILENCE>	Bei den Kreisbewegungen können Sie sich vorstellen, dass Sie über eine Fensterscheibe wischen.	part_description_3
+<SILENCE>	Nach zehn Wiederholungen wechseln Sie die Richtung.	part_description_4
+Okay, danke.	Wiederholen Sie die Übung zehn mal im Uhrzeigersinn und zehn mal gegen den Uhrzeigersinn.	part_description_5
+<SILENCE>	Lassen Sie Ihre Schultern locker vom Körper hängen und achten Sie auf eine aufrechte Haltung.	security
+Okay.	<System wartet 60 Sekunden>	sys_wait
+<SILENCE>	Das haben Sie gut gemacht!	closing
+
+start	Ok, nun eine Übung aus dem Tai Chi, bei der Sie so tun, als würden Sie mit Ihrer rechten Hand über eine Fensterscheibe wischen.	intro_taichi_fenster_rechts
+In Ordnung.	Sind Sie bereit?	ask_ready
+Ja, ich möchte weitermachen.	Machen Sie große Kreisbewegungen im Uhrzeigersinn mit der rechten Hand. Halten Sie Ihre Hand zunächst rechts vom Körper, in etwa so, als würden Sie winken. Bei den Kreisbewegungen können Sie sich vorstellen, dass Sie über eine Fensterscheibe wischen. Nach zehn Wiederholungen wechseln Sie die Richtung.	general_description
+<SILENCE>	Soll ich die Anweisungen noch einmal vorlesen?	ask_description
+Nein.	Wiederholen Sie die Übung zehn mal im Uhrzeigersinn und zehn mal gegen den Uhrzeigersinn.	part_description_5
+<SILENCE>	Lassen Sie Ihre Schultern locker vom Körper hängen und achten Sie auf eine aufrechte Haltung.	security
+<SILENCE>	<System wartet 60 Sekunden>	sys_wait
+<SILENCE>	Das haben Sie gut gemacht!	closing
+
+start	Ok, nun eine Übung aus dem Tai Chi, bei der Sie so tun, als würden Sie mit Ihrer linken Hand über eine Fensterscheibe wischen.	intro_taichi_fenster_links
+<SILENCE>	Sind Sie bereit?	ask_ready
+Ja klar.	Machen Sie große Kreisbewegungen im Uhrzeigersinn mit der linken Hand. Halten Sie Ihre Hand zunächst links vom Körper, in etwa so, als würden Sie winken. Bei den Kreisbewegungen können Sie sich vorstellen, dass Sie über eine Fensterscheibe wischen. Nach zehn Wiederholungen wechseln Sie die Richtung.	general_description	
+<SILENCE>	Soll ich die Anweisungen noch einmal vorlesen?	ask_description
+Ja.	Machen Sie große Kreisbewegungen im Uhrzeigersinn mit der linken Hand.	part_description_1
+<SILENCE>	Halten Sie Ihre Hand zunächst links vom Körper, in etwa so, als würden Sie winken.	part_description_2
+<SILENCE>	Bei den Kreisbewegungen können Sie sich vorstellen, dass Sie über eine Fensterscheibe wischen.	part_description_3
+<SILENCE>	Nach zehn Wiederholungen wechseln Sie die Richtung.	part_description_4
+Achso, verstehe.	Wiederholen Sie die Übung zehn mal im Uhrzeigersinn und zehn mal gegen den Uhrzeigersinn.	part_description_5
+Okay.	Achten Sie darauf, aufrecht zu sitzen und Ihre Schulter locker nach unten hängen zu lassen.	security
+<SILENCE>	<System wartet 60 Sekunden>	sys_wait
+<SILENCE>	Gut gemacht!	closing
+
+start	Ok, nun eine Übung aus dem Tai Chi, bei der Sie so tun, als würden Sie mit Ihrer linken Hand über eine Fensterscheibe wischen.	intro_taichi_fenster_links
+<SILENCE>	Sind Sie bereit?	ask_ready
+Ja klar.	Machen Sie große Kreisbewegungen im Uhrzeigersinn mit der linken Hand. Halten Sie Ihre Hand zunächst links vom Körper, in etwa so, als würden Sie winken. Bei den Kreisbewegungen können Sie sich vorstellen, dass Sie über eine Fensterscheibe wischen. Nach zehn Wiederholungen wechseln Sie die Richtung.	general_description
+<SILENCE>	Soll ich die Anweisungen noch einmal vorlesen?	ask_description
+Nein.	Wiederholen Sie die Übung zehn mal im Uhrzeigersinn und zehn mal gegen den Uhrzeigersinn.	part_description_5
+<SILENCE>	Achten Sie darauf, aufrecht zu sitzen und Ihre Schulter locker nach unten hängen zu lassen.	security
+Okay.	<System wartet 60 Sekunden>	sys_wait
+<SILENCE>	Gut gemacht!	closing
+
+start	Ok, nun eine Übung aus dem Tai Chi, bei der Sie so tun, als würden Sie mit Ihrer linken Hand über eine Fensterscheibe wischen.	intro_taichi_fenster_links
+<SILENCE>	Sind Sie bereit?	ask_ready
+Ja, bin ich.	Machen Sie große Kreisbewegungen im Uhrzeigersinn mit der linken Hand. Halten Sie Ihre Hand zunächst links vom Körper, in etwa so, als würden Sie winken. Bei den Kreisbewegungen können Sie sich vorstellen, dass Sie über eine Fensterscheibe wischen. Nach zehn Wiederholungen wechseln Sie die Richtung.	general_description
+<SILENCE>	Soll ich die Anweisungen noch einmal vorlesen?	ask_description
+Ähm... was war jetzt mit dem Fenster?	Halten Sie Ihre Hand zunächst links vom Körper, in etwa so, als würden Sie winken. Bei den Kreisbewegungen können Sie sich vorstellen, dass Sie über eine Fensterscheibe wischen.	summary
+Achso, danke.	Wiederholen Sie die Übung zehn mal im Uhrzeigersinn und zehn mal gegen den Uhrzeigersinn.	part_description_5
+<SILENCE>	Achten Sie darauf, aufrecht zu sitzen und Ihre Schulter locker nach unten hängen zu lassen.	security
+<SILENCE>	<System wartet 60 Sekunden>	sys_wait
+Okay, fertig!	Gut gemacht!	closing
+
+start	Ok, nun eine Übung aus dem Tai Chi, bei der Sie so tun, als würden Sie mit Ihrer linken Hand über eine Fensterscheibe wischen.	intro_taichi_fenster_links
+<SILENCE>	Sind Sie bereit?	ask_ready
+Nein, diese Übung ist so lang.	Machen Sie große Kreisbewegungen im Uhrzeigersinn mit der linken Hand. Halten Sie Ihre Hand zunächst links vom Körper, in etwa so, als würden Sie winken. Bei den Kreisbewegungen können Sie sich vorstellen, dass Sie über eine Fensterscheibe wischen. Nach zehn Wiederholungen wechseln Sie die Richtung. 0011S	general_description
+Ich möchte noch kurz Pause machen.	Sagen Sie Bescheid, wenn Sie bereit sind.	request_ready
+<SILENCE>	<System wartet 30 Sekunden>	sys_wait_rest
+<SILENCE>	Sind Sie bereit?	ask_ready
+Ja, ich möchte weitermachen.	Möchten Sie die Übung abbrechen? 0011S	ask_finish
+Nein!	Soll ich die Anweisungen noch einmal vorlesen?	ask_description
+Ja, die brauche ich nochmal.	Machen Sie große Kreisbewegungen im Uhrzeigersinn mit der linken Hand.	part_description_1
+<SILENCE>	Halten Sie Ihre Hand zunächst links vom Körper, in etwa so, als würden Sie winken.	part_description_2
+Okay...	Bei den Kreisbewegungen können Sie sich vorstellen, dass Sie über eine Fensterscheibe wischen.	part_description_3
+Achso.	Nach zehn Wiederholungen wechseln Sie die Richtung.	part_description_4
+<SILENCE>	Wiederholen Sie die Übung zehn mal im Uhrzeigersinn und zehn mal gegen den Uhrzeigersinn.	part_description_5
+Okay.	Achten Sie darauf, aufrecht zu sitzen und Ihre Schulter locker nach unten hängen zu lassen.	security
+<SILENCE>	<System wartet 60 Sekunden>	sys_wait
+<SILENCE>	Gut gemacht!	closing

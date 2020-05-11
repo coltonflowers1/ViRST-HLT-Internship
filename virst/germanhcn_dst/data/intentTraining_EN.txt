@@ -1,0 +1,298 @@
+﻿200	200
+100	100
+start	intro
+oh thanks	backchannel
+ahh thank you	backchannel
+oh thank you	backchannel
+oh thanks so much	backchannel
+ok	backchannel
+i am	backchannel
+got it	backchannel
+uh-huh	backchannel
+alright	backchannel
+yeah, ok	backchannel
+that's fair	backchannel
+mhm	backchannel
+ok i'll do that now	backchannel
+that's ok	backchannel
+<Silence>	backchannel
+makes sense	backchannel
+<SILENCE>	backchannel
+i know	backchannel
+i have already done that	backchannel
+aha	backchannel
+clear	backchannel
+ahh	backchannel
+all clear	backchannel
+done	backchannel
+great	backchannel
+fine	backchannel
+understood	backchannel
+i understand	backchannel
+oki doki	backchannel
+i've done that	backchannel
+i'm doing that	backchannel
+i already know	backchannel
+i've already done that	backchannel
+great	backchannel
+beautiful	backchannel
+better	backchannel
+aha	backchannel
+that's better	backchannel
+that's fair	backchannel
+you got it	backchannel
+i think so	affirm
+yes i am	affirm
+Yes now!	affirm
+yes now	affirm
+yes	affirm
+well	affirm
+yes i am	affirm
+yea	affirm
+we can	affirm
+we can do that	affirm
+Gladly	affirm
+very well	affirm
+well	affirm
+yes please	affirm
+please	affirm
+exactly	affirm
+that would be good	affirm
+yes if that is so	affirm
+i can	affirm
+yes exactly	affirm
+ok that would be very good	affirm
+ok that would be great	affirm
+that would be good	affirm
+that would help	affirm
+ok yes please	affirm
+yes super	affirm
+yes definitely	affirm
+definitely	affirm
+correct	affirm
+yep	affirm
+absolutely	affirm
+you're right	affirm
+affirmative	affirm
+uh-huh	affirm
+no	negate
+that isn't it	negate
+not that	negate
+no way	negate
+i don't want that	negate
+i don't want to	negate
+that's not necessary	negate
+you don't need to	negate
+you don't have to	negate
+i don't think so	negate
+no no	negate
+nope	negate
+uh-uh	negate
+no thank you	negate
+i don't want to	negate
+No i have no desire to	negate
+absolutely not	negate
+definitely not	negate
+what	non_specific
+what did you say	non_specific
+what should i do	non_specific
+what's going on	non_specific
+i should do something	non_specific
+what	non_specific
+what is it	non_specific
+i don't know what to do	non_specific
+i didn't hear that	non_specific
+i didn't understand that	non_specific
+i just didn't understand that	non_specific
+i just didn't hear what you said	non_specific
+i just didn't listen	non_specific
+what do you want	non_specific
+what's happening	non_specific
+i am so confused	non_specific
+what is going on	non_specific
+what should i do with my hands 	specific
+what should i do with my hands	specific
+how should i keep my hands	specific
+how should i hold my hands	specific
+how should i move my feet	specific
+how should i move the feet	specific
+how should i move my foot	specific
+how should i move the foot	specific
+i forgot what i should do with the shoulders	specific
+i forgot what to do with my shoulders	specific
+i have no idea what i should do with my hands	specific
+i just don't remember what i should do with my hands	specific
+what was that again with the shoulders	specific
+what was that shoulder thing you said	specific
+the shoulder part again please	specific
+the shoulders move how	specific
+the hands move how	specific
+how do i hold the hands	specific
+how should i hold my hand	specific
+how should i hold the hand	specific
+how do i hold my shoulders	specific
+how do the shoulders move	specific
+what did you say about the feet	specific
+what did you say about the feet	specific
+i don't remember what to do with my head	specific
+i don't remember what my head does	specific
+Can you please repeat what you said about the hands	specific
+Can you tell me again how to hold my hands	specific
+which hand is it now	specific
+Both hands or just one	specific
+what about the feet	specific
+what is again with the feet	specific
+how was it with the hands	specific
+i should hold my hands up	specific
+i should stretch out my feet	specific
+again please	repeat
+again from the beginning please	repeat
+can you please repeat the instructions again	repeat
+can you repeat the instructions again	repeat
+can we repeat the exercise	repeat
+i want to do that again	repeat
+i have to do that again	repeat
+i just did not go ahead let's do that again	repeat
+again	repeat
+ok i have to do that again	repeat
+repeat the exercise	repeat
+let's repeat the exercise	repeat
+can we do that again please	repeat
+can we do that again	repeat
+Let's do that again	repeat
+please repeat again	repeat
+Please go again	repeat
+stop	protest
+wait	protest
+halt	protest
+hold up	protest
+slow down	protest
+fuck off	protest
+you suck	protest
+i'm in pain	protest
+ouch	protest
+ow	protest
+that hurts	protest
+i can't	protest
+never	protest
+stop it	protest
+motherfucker	protest
+this sucks	protest
+this stinks	protest
+this is the worst	protest
+please stop	protest
+please hold on	protest
+please wait for me	protest
+i can't keep up	protest
+You are going too fast	protest
+please don't go so fast	protest
+please slower	protest
+i can not go so fast	protest
+You have to go slower	protest
+that is far too fast	protest
+i can not move that fast	protest
+i can't if we go too fast	protest
+no please wait	protest
+please wait for me	protest
+you can't do that	protest
+oh you	protest
+i can't keep up if you go so fast	protest
+ok i'm ready	ready
+ok it can start	ready
+i want to continue	ready
+let's go	ready
+Now i am ready	ready
+ok ready	ready
+well i'm ready	ready
+oki doki we can go now	ready
+we can start	ready
+go now	ready
+ready to go	ready
+now	ready
+Now i'm ready	ready
+i'm all set	ready
+i'm ready	ready
+we can start	ready
+go ahead	ready
+ok	ready
+ok please start	ready
+i've been ready	ready
+go	ready
+ok start now	ready
+we can start	ready
+Let's start with	ready
+Let's get started	ready
+let's start	ready
+i cannot go anymore	rest
+we can rest for a short while	rest
+i want to	rest
+that is just too exhausting	rest
+i am totally out of breath	rest
+we can rest for a while	rest
+Let's rest for a moment	rest
+Let's rest	rest
+i want to take a break please	rest
+i need to rest	rest
+i need a break	rest
+i need to stop exercising	rest
+we have to stop the exercise for a moment	rest
+i have to stop for a little	rest
+let's rest for a moment	rest
+ok that's enough now	finish
+that's enough	finish
+i'm done	finish
+Let's stop	finish
+i don't want to keep going	finish
+i want to stop the exercise	finish
+i want to stop	finish
+please stop	finish
+i don't want to keep going	finish
+i'm finished	finish
+no more	finish
+let's stop	finish
+we can stop the exercise	finish
+i don't want to do the exercise	finish
+i don't want to exercise anymore	finish
+i'm tired of training	finish
+Let's stop training	finish
+let's stop it	finish
+that's good enough	finish
+that's enough for me now	finish
+hm i don't understand	nonunderstanding
+that's a bit complicated	nonunderstanding
+i just did not understand that	nonunderstanding
+i don't get it	nonunderstanding
+i don't get you	nonunderstanding
+i don't understand	nonunderstanding
+i'm confused	nonunderstanding
+that is confusing	nonunderstanding
+that's not simple	nonunderstanding
+i find that quite complicated	nonunderstanding
+i just don't find it that easy	nonunderstanding
+oh God oh god that's super difficult	nonunderstanding
+oh that's so difficult	nonunderstanding
+oh god oh god that's super complicated	nonunderstanding
+oh that's so complicated	nonunderstanding
+i don't get it	nonunderstanding
+that's so confusing	nonunderstanding
+ahhh i don't understand	nonunderstanding
+huh	nonunderstanding
+ahh man	nonunderstanding
+ahh geeze that is difficult	nonunderstanding
+oh that's difficult	nonunderstanding
+Should i raise my knees	yesno
+should i circle my shoulder	yesno
+should i imagine that my left leg is very heavy	yesno
+should i imagine that my left leg is very heavy	yesno
+i lift my knees right	yesno
+i lift the knee as high as it goes right	yesno
+i'm supposed to march on the spot	yesno
+should i march on the spot	yesno
+now lean my upper body to the left right	yesno
+now lean my upper body to the right correct	yesno
+i should tilt the torso to the right side right	yesno
+this is a stretching exercise yeah	yesno
+i should march even faster right	yesno
+oh god i should march even faster	yesno
+oh even faster	yesno
+oh i should go faster right	yesno

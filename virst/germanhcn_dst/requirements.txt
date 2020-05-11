@@ -1,0 +1,11 @@
+gensim
+tensorflow
+python-aiml
+spacy
+nltk
+pandas
+matplotlib
+sklearn
+pyzmq
+bert-serving-server
+bert-serving-client

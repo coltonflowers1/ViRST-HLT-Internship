@@ -1,0 +1,14 @@
+<start>	Als Nächstes werden wir Arme und Beine ausschütteln.	intro_ausschütteln
+<SILENCE>	Sind Sie bereit? ask_ready
+Ja	Schütteln Sie Ihre Arme aus und bewegen Sie dabei auch die Finger.	general_description
+Oh was?	Schütteln Sie ihre Arme aus und bewegen Sie dabei auch die Finger. Schütteln Sie auch Ihre Beine im Sitzen, indem Sie iIhre Oberschenkel hin und her bewegen.	general_description
+P: Ok, jetzt verstehe ich. confirm_understanding
+S: Soll ich Ihnen die Anweisungen noch einmal vorlesen? 0111S ask_understanding_status
+P: Nein Danke, das ist nicht nötig. confirm_understanding
+S: Gut! Schütteln sie weiter. 
+P: Achso, jetzt schon!
+S: Wir waren gerade dabei die Übung durchzuführen. Schütteln Sie schon?
+P: Jetzt ja.
+S: Gut, machen Sie weiter.
+P: [Pause]
+S: Wir sind mit der Übung fertig.

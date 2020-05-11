@@ -1,0 +1,268 @@
+200	200
+100	100
+start	intro
+Achso, danke.	backchannel
+achso danke	backchannel
+Achso, vielen Dank.	backchannel
+achso vielen dank	backchannel
+ok	backchannel
+mache ich	backchannel
+bin dabei	backchannel
+mhm	backchannel
+ok ich mache das jetzt	backchannel
+das ist ja einfach 	backchannel
+<silence>	backchannel
+<SILENCE>	backchannel
+kenne ich 	backchannel
+habe ich schon mal gemacht	backchannel
+aha	backchannel
+klar	backchannel
+achso	backchannel
+alles klar	backchannel
+wird gemacht 	backchannel
+super 	backchannel
+toll	backchannel
+fein 	backchannel
+verstanden	backchannel
+verstehe	backchannel
+oki doki	backchannel
+ich mache ja schon	backchannel
+ich bin dabei	backchannel
+kenne ich schon	backchannel
+schon mal gemacht	backchannel
+super 	backchannel
+schön	backchannel
+so ist es besser	backchannel
+achso	backchannel
+das ist schon besser	backchannel
+finde ich gut	affirm
+ja mache ich	affirm
+Ja jetzt!	affirm
+ja jetzt	affirm
+au ja	affirm
+na gut	affirm
+ja bin ich	affirm
+von mir aus	affirm
+von mir aus gerne	affirm
+können wir machen	affirm
+das können wir gerne machen	affirm
+gerne	affirm
+jawohl	affirm
+gut	affirm
+ja, bitte	affirm
+bitte	affirm
+genau	affirm
+das wäre gut	affirm
+ja falls das geht	affirm
+kannst du das machen	affirm
+ja genau	affirm
+ok das wäre sehr gut	affirm
+ok das wäre super	affirm
+das wäre gut	affirm
+das würde helfen	affirm
+ok ja bitte	affirm
+ja super	affirm
+ja auf jeden fall	affirm
+auf jeden fall	affirm
+gut	affirm
+nein	negate
+das nicht nein	negate
+nicht das	negate
+auf keinen fall 	negate
+das will ich nicht	negate
+will ich nicht	negate
+ist nicht nötig	negate
+brauchst du nicht	negate
+musst du nicht	negate
+finde ich nicht	negate
+nein nein	negate
+nö	negate
+nee	negate
+keine lust	negate
+ich habe keine lust darauf	negate
+nein darauf habe ich keine lust	negate
+was	non_specific
+was hast du gesagt	non_specific
+was soll ich machen	non_specific
+was ist gerade los	non_specific
+ich soll was machen	non_specific
+wat	non_specific
+was ist	non_specific
+ich weiss gerade nicht was ich machen soll	non_specific
+das habe ich nicht gehört	non_specific
+das habe ich nicht verstanden	non_specific
+das habe ich gerade nicht verstanden	non_specific
+ich habe gerade nicht gehör was du gesagt hast	non_specific
+ich habe gerade weggehört	non_specific
+ich habe gerade nicht zugehört	non_specific
+was willst du	non_specific
+wie war das nochmal	non_specific
+was soll ich mit den händen machen	specific
+was soll ich mit den Händen machen	specific
+wie soll ich die hände halten	specific
+wie soll ich die Hände halten	specific
+wie soll ich die füße bewegen	specific
+wie soll ich die Füße bewegen	specific
+wie soll ich den Fuß bewegen	specific
+wie soll ich die Fuß bewegen	specific
+ich habe vergessen was ich mit den schultern machen soll	specific
+ich habe vergessen was ich mit den Schultern machen soll	specific
+ich habe gerade nicht mehr im kopf was ich mit den händen machen sollte	specific
+ich habe gerade nicht mehr im Kopf was ich mit den Händen machen sollte	specific
+was war das nochmal mit den schultern	specific
+was war das nochmal mit den Schultern	specific
+die Schultern wie bewegen	specific
+die schultern wie bewegen	specific
+wie die hände halten	specific
+wie die Hände halten	specific
+Wie soll ich die Hand halten?	specific
+wie soll ich die hand halten	specific
+wie die Schultern bewegen	specific
+wie die schultern bewegen	specific
+was hast du über die füße gesagt	specific
+was hast du über die Füße gesagt	specific
+ich weiß gerade nicht mehr wie ich den kopf halten sollte	specific
+ich weiß gerade nicht mehr wie ich den Kopf halten sollte	specific
+kannst du das mit den händen wiederholen bitte	specific
+kannst du mir noch einmal sagen wie ich die hände halten soll	specific
+welche hand jetzt	specific
+beide hände oder nur die eine	specific
+was ist mit den füßen	specific
+was ist nochmal mit den füßen	specific
+wie war das mit den händen	specific
+ich soll die hände hochhalten	specific
+ich soll die füße ausstrecken	specific
+noch mal bitte	repeat
+noch einmal von vorne bitte	repeat
+kannst du die anweisungen bitte noch einmal wiederholen	repeat
+kannst du die anweisungen noch einmal wiederholen	repeat
+können wir die übung wiederholen	repeat
+ich will das nochmal machen	repeat
+ich muss das noch einmal machen	repeat
+ich habe gerade nicht mitgemacht lass uns das noch einmal machen	repeat
+nochmal	repeat
+ok das muss ich nochmal machen	repeat
+wiederhole die übung	repeat
+lass und die übung wiederholen	repeat
+können wir das noche einmal machen bitte	repeat
+können wir das noch einmal machen	repeat
+lass uns das bitte noch einmal machen	repeat
+achso bitte nochmal	repeat
+entschuldige bitte noch einmal	repeat
+stop	protest
+warte	protest
+halt	protest
+bitte stop	protest
+anhalten bitte	protest
+warte bitte	protest
+ich komme nicht mit	protest
+das geht zu schnell	protest
+bitte nicht so schnell	protest
+bitte langsamer	protest
+ich kann nicht so schnell	protest
+das muss langsammer gehen	protest
+das geht viel zu schnell	protest
+so schnell kann ich das nicht machen	protest
+wenn das so schnell geht komme ich nicht mit	protest
+nein warte bitte	protest
+warte bitte	protest
+man das geht so nicht	protest
+oh man 	protest
+wenn das so schnell geht kann ich nicht mitkommen	protest
+ok ich bin bereit	ready
+ok es kann losgehen	ready
+ich möchte weitermachen	ready
+Ich möchte weitermachen	ready
+jetzt bin ich bereit	ready
+ok bereit	ready
+ok fertig	ready
+gut ich bein bereit	ready
+oki doki wir können jetzt	ready
+wir können	ready
+los jetzt	ready
+jetzt los	ready
+jetzt	ready
+jetzt bin ich so weit	ready
+ich bin so weit	ready
+bin so weit	ready
+es kann losgehen	ready
+los	ready
+ok los	ready
+ok anfangen bitte	ready
+ok jetzt anfangen	ready
+wir können anfangen	ready
+fangen wir an	ready
+lass uns loslegen	ready
+lass uns anfangen	ready
+ich kann nicht mehr	rest
+können wir kurz pause machen	rest
+ich will pause machen	rest
+das ist gerade zu anstrengend	rest
+ich bin völlig außer atem	rest
+können wir mal pause machen	rest
+lass uns kurz pause machen	rest
+lass uns pause machen	rest
+ich will bitte pause machen	rest
+ich brauche eine verschnaufpause	rest
+ich brauche eine pause	rest
+wür müssen die übung kurz abbrechen ich brauche eine pause	rest
+wir müssen die übung kurz abbrechen	rest
+ich muss kurz abbrechen	rest
+lass und für einen moment verschnaufen	rest
+ok das reicht jetzt	finish
+das reicht	finish
+ich habe keine lut mehr	finish
+lass uns aufhören	finish
+ich will jetzt nicht mehr	finish
+ich will aufhören	finish
+ich will abbrechen	finish
+abbrechen bitte	finish
+ich habe keine lust mehr	finish
+keine lust mehr	finish
+lass uns abbrechen	finish
+können wir die übung lassen	finish
+ich will die übung nicht machen	finish
+ich will nicht mehr trainieren	finish
+ich habe keine lust mehr zu trainieren	finish
+lass uns aufhören zu trainieren	finish
+hören wir auf	finish
+lass gut sein	finish
+das reicht mir jetzt	finish
+hm das verstehe ich nicht	nonunderstanding
+das ist ein bisschen kompliziert	nonunderstanding
+das habe ich gerade gar nicht verstanden	nonunderstanding
+ich kapiere das nicht	nonunderstanding
+verste ich nicht	nonunderstanding
+kapiere ich nicht	nonunderstanding
+das ist ja schwierig	nonunderstanding
+das ist schwierig	nonunderstanding
+das ist ja nicht sehr einfach	nonunderstanding
+das finde ich gerade ziemlich kompliziert	nonunderstanding
+das finde ich gerade nicht so einfach	nonunderstanding
+ach gott ach gott das ist ja super schwierig	nonunderstanding
+oh je das ist ja so schwierig	nonunderstanding
+man man das ist aber schwierig	nonunderstanding
+ach gott ach gott das ist ja super kompliziert	nonunderstanding
+oh je das ist ja so kompliziert	nonunderstanding
+man man das ist aber kompliziert	nonunderstanding
+hä das verstehe ich nicht	nonunderstanding
+hä	nonunderstanding
+au weia	nonunderstanding
+au weia ist das schwierig	nonunderstanding
+oh weh ist das schwierig	nonunderstanding
+soll ich die knie hoch heben	yesno
+soll ich die arme kreisen	yesno
+soll ich mir vorstellen dass mein linkes bein ganz schwer wird	yesno
+ich soll mir vorstellen dass mein linkes bein ganz schwer wird	yesno
+ich soll die knie hoch heben	yesno
+ich soll die knie so hoch heben wie es geht	yesno
+ich soll auf der stelle marschieren	yesno
+soll ich auf der stelle marschieren	yesno
+den oberkörper jetzt nach links neigen	yesno
+den oberkörper jetzt nach rechts neigen	yesno
+ich soll den oberkörper nach rechts neigen	yesno
+ist das eine dehnübung	yesno
+ich soll noch schneller marschieren	yesno
+oh gott ich soll noch schneller marschieren	yesno
+oh man noch schneller	yesno
+achso ich soll	yesno
