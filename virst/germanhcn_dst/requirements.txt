@@ -1,5 +1,5 @@
 gensim
-tensorflow
+tensorflow==1.14
 python-aiml
 spacy
 nltk
