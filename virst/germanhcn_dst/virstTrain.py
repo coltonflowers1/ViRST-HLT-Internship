@@ -53,7 +53,7 @@ class Trainer():
                         self.bow_enc = BoW_encoder()
                         self.emb = UtteranceEmbed()
                         #HIER numfeats
-                        obs_size = self.emb.dim + self.bow_enc.vocab_size       + self.action_size# + self.et.size_context_features
+                        obs_size = self.emb.dim + self.bow_enc.vocab_size + self.action_size# + self.et.size_context_features
                         nb_hidden = 128
                         self.net = LSTM_net(obs_size,
                                                                         self.action_size,

@@ -22,10 +22,7 @@ modules/backups/
 data/glove_de_model.bin.zip
 __pycache__
 /.idea
-/uncased_L-12_H-768_A-12/model.ckpt-41.data-00000-of-00001
-/uncased_L-12_H-768_A-12/bert_model.ckpt.data-00000-of-00001
-/germanhcn_dst/uncased_L-12_H-768_A-12/model.ckpt-41.index
-/germanhcn_dst/uncased_L-12_H-768_A-12/bert_model.ckpt.meta
+
 /data/glove_en_model.bin
 /germanhcn_dst/summaries/first/
 /bert_model.ckpt.data-00000-of-00001
@@ -33,5 +30,11 @@ __pycache__
 /glove_en_model.bin
 /model.ckpt-41.data-00000-of-00001
 /model.ckpt-41.data-00000-of-00001.zip
-/germanhcn_dst/uncased_L-12_H-768_A-12/
 /germanhcn_dst/ckpt/
+/germanhcn_dst/uncased_L-12_H-768_A-12/bert_model.ckpt.data-00000-of-00001.README.md
+/germanhcn_dst/uncased_L-12_H-768_A-12/bert_model.ckpt.index
+/germanhcn_dst/uncased_L-12_H-768_A-12/bert_model.ckpt.meta
+/germanhcn_dst/uncased_L-12_H-768_A-12/model.ckpt-41.data-00000-of-00001.README.md
+/germanhcn_dst/uncased_L-12_H-768_A-12/model.ckpt-41.index
+/germanhcn_dst/uncased_L-12_H-768_A-12/model.ckpt-41.meta
+/germanhcn_dst/uncased_L-12_H-768_A-12/vocab.txt
